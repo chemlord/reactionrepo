@@ -1,17 +1,119 @@
 ---
-title: My Site
+title: Reaction Repo
+layout: hextra-home
 toc: false
 ---
 
-This is the landing page.
+{{< hextra/hero-container
+  image="images/logoroundedsquare.png"
+  imageClass="hx-block hx-overflow-hidden hx-rounded-3xl"
+  imageWidth="360" imageHeight="310"
+  imageTitle="REACTIONREPO"
+>}}
 
-## Explore
+{{< hextra/hero-badge >}}
+  <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
+  <span>Free, open source</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
 
-{{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
-{{< /cards >}}
+<div class="hx-mt-6 hx-mb-6">
+{{< hextra/hero-headline >}}
+  Build modern websites&nbsp;<br class="sm:hx-block hx-hidden" />with Markdown and Hugo
+{{< /hextra/hero-headline >}}
+</div>
 
-## Documentation
+<div class="hx-mb-12">
+{{< hextra/hero-subtitle >}}
+  Fast, batteries-included Hugo theme&nbsp;<br class="sm:hx-block hx-hidden" />for creating beautiful static websites
+{{< /hextra/hero-subtitle >}}
+</div>
 
-For more information, visit [Hextra](https://imfing.github.io/hextra).
+<div class="hx-mb-6">
+{{< hextra/hero-button text="Get Started" link="docs" >}}
+</div>
+
+<div class="hx-mt-6"></div>
+{{< /hextra/hero-container >}}
+
+<div class="hx-mt-6 hx-mb-6">
+{{< hextra/hero-section >}}
+  Latest Projects
+{{< /hextra/hero-section >}}
+</div>
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="K3s Cluster"
+    subtitle="High Availability cluster deployed with Ansible."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="/images/test5.png"
+    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="/k3s-cluster/"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="K3s Applications"
+    subtitle="Project for applications deployed with ArgoCD."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="/images/test12.png"
+    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="/k3s-cluster/tutorials/handbook/argocd/"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="K3s Cluster"
+    subtitle="High Availability cluster deployed with Ansible."
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
+    image="/images/logoroundedsquare.png"
+    imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    link="/k3s-cluster/"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+  >}}
+
+  {{< feature-card
+    title="Steps by Steps Guides"
+    subtitle="Find detailed tutorials to deploy your favorite framework on Clever Cloud"
+    link="/guides"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
+  >}}
+  
+  {{< feature-card
+    title="Deploy an application"
+    subtitle="See supported languages and how to configure your app to deploy successfully"
+    link="/doc/applications"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< feature-card
+    title="Connect your application to dependencies"
+    subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
+    link="/doc/addons"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
+  >}}
+   {{< feature-card
+    title="Connect your application to dependencies"
+    subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
+    link="/doc/addons"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
+  >}}
+
+{{< /hextra/feature-grid >}}
+
+<div class="hx-mt-6 hx-mb-6">
+{{< hextra/hero-section >}}
+  Latest Projects
+{{< /hextra/hero-section >}}
+</div>
+
+<div class="hx-mb-12">
+{{< hextra/hero-subtitle >}}
+  Fast, batteries-included Hugo theme beautiful static websites beautiful static websites beautiful static websites&nbsp;<br class="sm:hx-block hx-hidden" />for creating beautiful static websites
+{{< /hextra/hero-subtitle >}}
+</div>
+
+
+
+
+
+
+

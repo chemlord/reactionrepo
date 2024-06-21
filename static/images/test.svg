@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Light mode styles */
+    @media (prefers-color-scheme: light) {
+      .dark-mode-image {
+        display: none;
+      }
+      .light-mode-image {
+        display: block;
+      }
+    }
+
+    /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+      .light-mode-image {
+        display: none;
+      }
+      .dark-mode-image {
+        display: block;
+      }
+    }
+  </style>
+
+  <!-- Light mode image -->
+  <image href="https://chemlord.github.io/reactionrepo/image-test/dark.png" width="200" height="200" class="light-mode-image"/>
+
+  <!-- Dark mode image -->
+  <image href="https://chemlord.github.io/reactionrepo/image-test/dark.png" width="200" height="200" class="dark-mode-image"/>
+</svg>
