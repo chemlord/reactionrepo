@@ -1,5 +1,6 @@
 ---
 title: Help & FAQs
+linktree: "Help Centre"
 type: docs
 toc: true
 pager: true
