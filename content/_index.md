@@ -5,7 +5,7 @@ toc: false
 ---
 
 {{< hextra/hero-container
-  image="images/logoroundedsquare.png"
+  image="images/logodarkk.png"
   imageClass="hx-block hx-overflow-hidden hx-rounded-3xl"
   imageWidth="360" imageHeight="310"
   imageTitle="REACTIONREPO"
@@ -13,34 +13,27 @@ toc: false
 
 {{< hextra/hero-badge >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>Free, open source</span>
+  <span>Showcasing our new Dess Martin Oxidation Entry</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
-  Build modern websites&nbsp;<br class="sm:hx-block hx-hidden" />with Markdown and Hugo
+  Chemistry Simplified&nbsp;<br class="sm:hx-block hx-hidden" />Mastery Amplified
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  Fast, batteries-included Hugo theme&nbsp;<br class="sm:hx-block hx-hidden" />for creating beautiful static websites
+  Your Chemistry Companion.&nbsp;<br class="sm:hx-block hx-hidden" />Ace your Next Exam with Us.
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="hx-mb-6">
-{{< hextra/hero-button text="Get Started" link="docs" >}}
+{{< hextra/hero-button text="Browse Reactions" link="docs" icon="academic-cap" >}}
 </div>
 
-<div class="hx-mt-6"></div>
 {{< /hextra/hero-container >}}
-
-<div class="hx-mt-6 hx-mb-6">
-{{< hextra/hero-section >}}
-  Latest Projects
-{{< /hextra/hero-section >}}
-</div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -91,6 +84,18 @@ toc: false
     style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
   >}}
    {{< feature-card
+    title="Connect your application to dependencies"
+    subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
+    link="/doc/addons"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< feature-card
+    title="Connect your application to dependencies"
+    subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
+    link="/doc/addons"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< feature-card
     title="Connect your application to dependencies"
     subtitle="See available add-ons such as MySQL, PostgreSQL, Redis, Mongo, Elastic..."
     link="/doc/addons"

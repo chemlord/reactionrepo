@@ -18,22 +18,25 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: Reaction Catalog
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: Help & FAQs
+      pageRef: /help-faqs
       weight: 2
+    - name: Contact Us
+      pageRef: /contact-us
+      weight: 3
     - name: Contact Me ↗
       url: "https://chemlord.github.io/devthechemistt/"
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 6
+      url: "https://github.com/chemlord/reactionrepo"
       params:
         icon: github
 
@@ -52,11 +55,11 @@ params:
       # width: 40
       # height: 30
       # link: /
-    width: wide
+    width: full
 
   page:
     # full (100%), wide (90rem), normal (1280px)
-    width: normal
+    width: full
 
   theme:
     # light | dark | system
@@ -67,7 +70,7 @@ params:
     enable: true
     displayCopyright: true
     displayPoweredBy: true
-    width: normal
+    width: full
 
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
@@ -112,3 +115,22 @@ params:
       # emitMetadata: 0
       # inputPosition: top
       # lang: en
+
+sidebar:
+  - identifier: more
+    name: Need Help?
+    params:
+      type: separator
+    weight: 1
+  - identifier: help
+    name: "Help & FAQ"
+    url: "/help-faqs"
+    weight: 2
+  - identifier: hugoDocs
+    name: "More Resources"
+    url: "/additional-resources"
+    weight: 3
+  - identifier: contactus
+    name: "Contact Us ↗"
+    url: "/contact-us"
+    weight: 4
