@@ -21,7 +21,7 @@ menu:
     - name: Reaction Catalog
       pageRef: /docs
       weight: 1
-    - name: Help & FAQs
+    - name: FAQs
       pageRef: /help-faqs
       weight: 2
     - name: Contact Us

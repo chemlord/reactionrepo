@@ -1,6 +1,6 @@
 ---
 title: Help & FAQs
-linktree: "Help Centre"
+linkTitle: "Help Centre"
 type: docs
 toc: true
 pager: true
