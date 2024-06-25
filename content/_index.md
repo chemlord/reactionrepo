@@ -14,14 +14,14 @@ toc: false
 /* Light mode background */
 @media (prefers-color-scheme: light) {
   body {
-    background-image: url('/image-test/hexagonlight2.svg');
+    background-image: url('https://chemlord.github.io/reactionrepo/image-test/hexagonlight2.svg');
   }
 }
 
 /* Dark mode background */
 @media (prefers-color-scheme: dark) {
   body {
-    background-image: url('/image-test/hexagonlight2.svg');
+    background-image: url('https://chemlord.github.io/reactionrepo/image-test/hexagonlight2.svg');
   }
 }
 
@@ -39,7 +39,7 @@ toc: false
   imageTitle="REACTIONREPO"
 >}}
 
-{{< hextra/hero-badge link="/docs/oxidation-reactions/dess-martin-oxidation/">}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/">}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
   <span>Showcasing our new Dess Martin Oxidation Entry</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
@@ -67,7 +67,7 @@ toc: false
   {{< feature-card
     title="Steps by Steps Guides"
     subtitle="Detailed tutorials to master complex reactions with ease. Comprehensive summaries of essential organic reactions. Sorted and Curated Meticulously for Users."
-    link="/guides"
+    link="/reactionrepo/docs"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
   >}}
   

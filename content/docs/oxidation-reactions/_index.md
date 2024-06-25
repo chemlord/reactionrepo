@@ -299,7 +299,7 @@ a.card-link {
 </style>
 
 <div class="hextra-cards">
-  <a href="/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
+  <a href="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
