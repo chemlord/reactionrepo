@@ -36,23 +36,23 @@ weight: 1
   }
 </style>
 
-Welcome to the **FAQs Catalog**. Here we provide support for <mark class="highlight2">site-wide technical support</mark> and questions regarding the <mark class="highlight2">content</mark> such as referencing and formatting for curious users, educators and experts. For questions regarding **chemistry concepts** themselves, please refer to our detailed entries and the references at the **end of every entry**. If you need further assistance, feel free to contact us [directly](https://cat-bounce.com/)
+Welcome to the **FAQs Catalog**. Here we provide support for <mark class="highlight2">site-wide technical issues</mark> and questions regarding the <mark class="highlight2">chemistry content</mark> such as referencing and formatting for curious users, educators and experts. For questions regarding **chemistry concepts** themselves, please refer to our detailed entries and the references at the **end of every entry**. If you need further assistance, feel free to contact us [directly](https://cat-bounce.com/)
 
 
 ## Sort by General Topics
 
 {{< cards >}}
-  {{< card link="/help-faqs/themes" title="References and Formatting" icon="academic-cap" >}}
-  {{< card link="/help-faqs/themes" title="Themes" icon="sun" >}}
-  {{< card link="/help-faqs/privacy" title="Privacy" icon="eye-off" >}}
+  {{< card link="/reactionrepo/faqs/themes" title="References and Formatting" icon="academic-cap" >}}
+  {{< card link="/reactionrepo/faqs/themes" title="Themes" icon="sun" >}}
+  {{< card link="/reactionrepo/faqs/privacy" title="Privacy" icon="eye-off" >}}
 {{< /cards >}}
 
 ## Sort by Most Searched Inquiries
 
 {{< cards >}}
-  {{< card link="/faqs/references-formatting/#referencing" title="What citation style do you use for your references?" icon="academic-cap" >}}
-  {{< card link="/faqs/references-formatting/#formatting" title="How do you handle formatting entries?" icon="document-report" >}}
-  {{< card link="/faqs/themes/#lightdark-mode" title="How do I change my Theme?" icon="sun" >}}
-  {{< card link="/faqs/privacy/#data-tracking" title="Will my Data be tracked?" icon="eye-off" >}}
+  {{< card link="/reactionrepo/faqs/references-formatting/#referencing" title="What citation style do you use for your references?" icon="academic-cap" >}}
+  {{< card link="/reactionrepo/faqs/references-formatting/#formatting" title="How do you handle formatting entries?" icon="document-report" >}}
+  {{< card link="/reactionrepo/faqs/themes/#lightdark-mode" title="How do I change my Theme?" icon="sun" >}}
+  {{< card link="/reactionrepo/faqs/privacy/#data-tracking" title="Will my Data be tracked?" icon="eye-off" >}}
 {{< /cards >}}
 

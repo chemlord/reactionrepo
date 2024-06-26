@@ -33,29 +33,36 @@ width: normal
 
 .highlight {
   background-color: #bdd4f4; /* Adjust the highlight color as needed */
-  border-radius: 15px; /* Make the corners slightly rounded */
-  padding: 0.1em -0.2em; /* Fine-tune padding to match text bounds */
-  display: inline; /* Ensures the highlight only covers the text */
-  line-height: 1.4; /* Adjust line-height to ensure vertical alignment */
-  margin: 0; /* Remove any default margin */
+  border-radius: 35px; /* Make the corners slightly rounded */
+  padding: 0.1em 0.2em; /* Fine-tune padding to match text bounds */
+  display: inline-block; /* Ensures the highlight only covers the text */
+  line-height: 1.2; /* Adjust line-height to ensure vertical alignment */
+  margin-top: 0.2em; /* Add margin to create space above */
   color: #1a73e8; /* Set the text color to match */
+  font-weight: bold; /* Make the text bold */
+  font-size: 0.9em; /* Slightly smaller font size */
 }
 
 .highlight2 {
   background-color: #bdd4f4; /* Adjust the highlight color as needed */
   border-radius: 10px; /* Make the corners slightly rounded */
   padding: 0.1em 0.2em; /* Fine-tune padding to match text bounds */
-  display: inline; /* Ensures the highlight only covers the text */
-  line-height: 1.4; /* Adjust line-height to ensure vertical alignment */
+  display: inline-block; /* Ensures the highlight only covers the text */
+  line-height: 1.2; /* Adjust line-height to ensure vertical alignment */
   margin: 0; /* Remove any default margin */
   color: #1a73e8; /* Set the text color to match */
+  font-weight: bold; /* Make the text bold */
 }
 
-.custom-image-class {
-  margin-top: 20px; /* Adjust as needed */
-  margin-bottom: 20px; /* Adjust as needed */
-  margin-right: 150px;
-  /* Additional styling */
+.highlight3 {
+  background-color: #bdd4f4; /* Adjust the highlight color as needed */
+  border-radius: 35px; /* Make the corners slightly rounded */
+  padding: 0.1em 0.2em; /* Fine-tune padding to match text bounds */
+  display: inline-block; /* Ensures the highlight only covers the text */
+  line-height: 1.2; /* Adjust line-height to ensure vertical alignment */
+  margin-top: 0.2em; /* Add margin to create space above */
+  color: #1a73e8; /* Set the text color to match */
+  font-weight: bold; /* Make the text bold */
 }
 
 .hx-wide {
@@ -63,12 +70,13 @@ width: normal
   max-width: 100%; /* Ensure it doesn't exceed the container */
 }
 
+
   </style>
 
 {{< hextra/hero-container
   image="/images/process.png"
   imageClass="hx-block hx-overflow-hidden hx-wide"
-  imageWidth="595" imageHeight="800"
+  imageWidth="580" imageHeight="800"
   imageTitle="REACTIONREPO"
 >}}
 
@@ -78,17 +86,16 @@ width: normal
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
-<div class="hx-mt-6 hx-mb-6">
-  {{< hero-headline >}}
-Discover ⌕&nbsp;<br class="sm:hx-block hx-hidden" />
-Learn ✎<br />
-<mark class="highlight">Master 🕮</mark>
-{{< /hero-headline >}}
+<div class="hx-mt-6 hx-mb-4">
+{{< hextra/hero-headline >}}
+  Access Reaction Guides and Learn With
+  <mark class="highlight"> ✔ Ease </mark>
+{{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mb-4">
+<div class="hx-mb-6">
 {{< hextra/hero-subtitle >}}
-  Here to Make Mastery <mark class="highlight2">easy ✔</mark>
+  Your Organic Chemistry Companion.&nbsp;<br class="sm:hx-block hx-hidden" />Discover ⌕. Learn ✎. <mark class="highlight3"><strong>Master 🕮</strong></mark>
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -102,20 +109,17 @@ Learn ✎<br />
   {{< feature-card
     title="Steps by Steps Guides" icon="search"
     subtitle="Detailed tutorials to master complex reactions with ease. Comprehensive summaries of essential organic reactions. Sorted and Curated Meticulously for Users."
-    link="/reactionrepo/docs"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.15),hsla(0,0%,100%,0));"
   >}}
   
   {{< feature-card
     title="Open Source and Free" icon="book-open"
     subtitle="Access a plethora of free resources and quizzes to solidify your learning."
-    link="/doc/applications"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< feature-card
     title="Interactive Visuals" icon="cursor-click"
     subtitle="Resources to help you visualize and understand reactions better."
-    link="/doc/addons"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
    {{< hextra/feature-card
@@ -142,7 +146,7 @@ Learn ✎<br />
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/logoroundedsquare.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/k3s-cluster/"
+    link="/reactionrepo/k3s-cluster/"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
 
