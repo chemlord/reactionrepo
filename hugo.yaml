@@ -22,7 +22,7 @@ menu:
       pageRef: /docs
       weight: 1
     - name: FAQs
-      pageRef: /help-faqs
+      pageRef: /faqs
       weight: 2
     - name: Contact Us
       pageRef: /contact-us
@@ -69,7 +69,7 @@ params:
   footer:
     enable: true
     displayCopyright: true
-    displayPoweredBy: true
+    displayPoweredBy: false
     width: full
 
   displayUpdatedDate: true

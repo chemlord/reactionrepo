@@ -1,12 +1,12 @@
 ---
-title: Theme Troubleshooting
+title: Themes
 type: docs
 toc: true
 pager: true
 weight: 2
 ---
 
-## Light/Dark Mode
+## Light and Dark Mode
 
 {{% details title="How do I update the theme on Desktop/PC?" %}}
 

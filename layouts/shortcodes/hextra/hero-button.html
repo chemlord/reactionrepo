@@ -5,11 +5,104 @@
 {{- $external := hasPrefix $link "http" -}}
 {{- $href := cond (hasPrefix $link "/") ($link | relURL) $link -}}
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
+.custom-hero-button {
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  background: black; /* Solid black background */
+  transition: all 0.3s ease-in-out;
+  padding: 12px 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 9999px;
+  color: white;
+  border: 2px solid rgba(45, 175, 233, 0.6); /* More visible outline */
+}
+
+.custom-hero-button:hover {
+  background: black; /* Keep solid black on hover */
+  border: 2px solid rgba(45, 175, 233, 0.8); /* Darker outline on hover */
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.custom-hero-button:hover span,
+.custom-hero-button:hover svg {
+  animation: colorHighlight 0.4s ease-in-out forwards; /* More subtle animation for text and icon color */
+}
+
+@keyframes colorHighlight {
+  to {
+    color: rgba(45, 175, 233, 0.8);
+    stroke: rgba(45, 175, 233, 0.8);
+  }
+}
+
+/* Light mode specific styles */
+@media (prefers-color-scheme: light) {
+  .custom-hero-button {
+    color: black; /* Ensure text color changes to black in light mode */
+    border: 2px solid rgba(0, 0, 0, 0.8); /* More prominent outline for light mode */
+  }
+
+  .custom-hero-button:hover {
+    background: black; /* Keep solid black on hover */
+    border: 2px solid rgba(0, 0, 0, 1); /* Darker outline on hover for light mode */
+  }
+
+  .custom-hero-button:hover span,
+  .custom-hero-button:hover svg {
+    animation: colorHighlightLight 0.4s ease-in-out forwards; /* More subtle animation for text and icon color in light mode */
+  }
+
+  @keyframes colorHighlightLight {
+    to {
+      color: rgba(0, 0, 0, 0.8);
+      stroke: rgba(0, 0, 0, 0.8);
+    }
+  }
+}
+
+/* Dark mode specific styles */
+@media (prefers-color-scheme: dark) {
+  .custom-hero-button {
+    color: white;
+    border: 2px solid rgba(45, 175, 233, 0.6);
+  }
+
+  .custom-hero-button:hover {
+    background: black; /* Keep solid black on hover */
+    border: 2px solid rgba(45, 175, 233, 0.8);
+  }
+
+  .custom-hero-button:hover span,
+  .custom-hero-button:hover svg {
+    animation: colorHighlightDark 0.4s ease-in-out forwards; /* More subtle animation for text and icon color in dark mode */
+  }
+
+  @keyframes colorHighlightDark {
+    to {
+      color: rgba(45, 175, 233, 0.8);
+      stroke: rgba(45, 175, 233, 0.8);
+    }
+  }
+}
+</style>
+
 <a
   href="{{ $href }}"
-  class="not-prose hx-font-medium hx-cursor-pointer hx-px-6 hx-py-3 hx-rounded-full hx-text-center hx-text-white hx-inline-block hx-bg-primary-600 hover:hx-bg-primary-700 focus:hx-outline-none focus:hx-ring-4 focus:hx-ring-primary-300 dark:hx-bg-primary-600 dark:hover:hx-bg-primary-700 dark:focus:hx-ring-primary-800 hx-transition-all hx-ease-in hx-duration-200"
+  class="custom-hero-button"
   {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
   {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
 >
-  {{- $text -}}
+  {{- with "academic-cap" -}}
+    <span class="hx-pr-2">
+      {{- partial "utils/icon.html" (dict "name" . "attributes" "height=1.5rem") -}}
+    </span>
+  {{- end -}}
+  <span>{{ $text }}</span>
 </a>

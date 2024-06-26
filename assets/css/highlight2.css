@@ -1,0 +1,9 @@
+.highlight2 {
+    background-color: #bdd4f4; /* Adjust the highlight color as needed */
+    border-radius: 15px; /* Make the corners slightly rounded */
+    padding: 0.1em 0.2em; /* Fine-tune padding to match text bounds */
+    display: inline; /* Ensures the highlight only covers the text */
+    line-height: 1.4; /* Adjust line-height to ensure vertical alignment */
+    margin: 0; /* Remove any default margin */
+    color: #1a73e8; /* Set the text color to match */
+  }
