@@ -52,15 +52,15 @@ Chemistry Steps is a comprehensive platform designed to support students through
 
 ### Key Features
 
-**Extensive Articles**: Chemistry Steps boasts a vast collection of articles covering a wide range of topics from Organic Chemistry 1 and 2. These articles are freely accessible and provide detailed explanations of various concepts and mechanisms.
+- **Extensive Articles**: Chemistry Steps boasts a vast collection of articles covering a wide range of topics from Organic Chemistry 1 and 2. These articles are freely accessible and provide detailed explanations of various concepts and mechanisms.
 
-**Study Guides**: The site offers structured study guides that are designed to help students navigate through their coursework efficiently.
+- **Study Guides**: The site offers structured study guides that are designed to help students navigate through their coursework efficiently.
 
-**Practice Problems and Quizzes**: To reinforce learning, Chemistry Steps provides numerous practice problems and quizzes, allowing students to test their understanding and improve their problem-solving skills.
+- **Practice Problems and Quizzes**: To reinforce learning, Chemistry Steps provides numerous practice problems and quizzes, allowing students to test their understanding and improve their problem-solving skills.
 
-**Expert Guidance**: The content on Chemistry Steps is curated by Gevorg Sargsyan, whose academic and professional background ensures high-quality and reliable information.
+- **Expert Guidance**: The content on Chemistry Steps is curated by Gevorg Sargsyan, whose academic and professional background ensures high-quality and reliable information.
 
-**Premium Subscription Plans**: While many resources are available for free, Chemistry Steps also offers premium subscription plans <mark class="highlight2">(CS Monthly for $39 and CS Prime for $79 for four months)</mark>. These plans provide access to additional practice problems, puzzles, and quizzes.
+- **Premium Subscription Plans**: While many resources are available for free, Chemistry Steps also offers premium subscription plans <mark class="highlight2">(CS Monthly for $39 and CS Prime for $79 for four months)</mark>. These plans provide access to additional practice problems, puzzles, and quizzes.
 
 {{<figure-dynamic-toggle
     dark-src="cspaymentplan.png" 
@@ -75,25 +75,25 @@ Reaction Repo, on the other hand, is a free and trusted platform designed to pro
 
 ### Key Features
 
-**Free Access**: All resources on Reaction Repo are available for free, ensuring that financial constraints do not hinder access to quality education.
+- **Free Access**: All resources on Reaction Repo are available for free, ensuring that financial constraints do not hinder access to quality education.
 
-**Comprehensive Content**: Reaction Repo offers a wide range of content, including reaction mechanisms, detailed examples, and explanations. The examples and reactions are pulled from various reputable papers and reformulated in the site's unique style.
+- **Comprehensive Content**: Reaction Repo offers a wide range of content, including reaction mechanisms, detailed examples, and explanations. The examples and reactions are pulled from various reputable papers and reformulated in the site's unique style.
 
-**No Registration Required**: Users can access all the content without the need to create an account, ensuring a hassle-free experience.
+- **No Registration Required**: Users can access all the content without the need to create an account, ensuring a hassle-free experience.
 
-**Trusted Sources**: All examples and content are properly cited, giving credit to the original sources and maintaining academic integrity.
+- **Trusted Sources**: All examples and content are properly cited, giving credit to the original sources and maintaining academic integrity.
 
-**User-Friendly Interface**: The site is designed to be clean, organized, and easy to navigate, making it an ideal resource for students looking for specific reactions or mechanisms. Also includes Light and Dark Mode.
+- **User-Friendly Interface**: The site is designed to be clean, organized, and easy to navigate, making it an ideal resource for students looking for specific reactions or mechanisms. Also includes Light and Dark Mode.
 
 ## Comparison
 
-**Accessibility**: Reaction Repo stands out for its open-access model, allowing users to freely access all content without any registration or payment. In contrast, Chemistry Steps offers a mix of free and premium content, with additional resources available through subscription plans.
+- **Accessibility**: Reaction Repo stands out for its open-access model, allowing users to freely access all content without any registration or payment. In contrast, Chemistry Steps offers a mix of free and premium content, with additional resources available through subscription plans.
 
-**Content Depth**: Both platforms offer comprehensive content, but Chemistry Steps provides structured study guides and more interactive elements like quizzes and puzzles, which can be particularly beneficial for students seeking a more guided learning experience.
+- **Content Depth**: Both platforms offer comprehensive content, but Chemistry Steps provides structured study guides and more interactive elements like quizzes and puzzles, which can be particularly beneficial for students seeking a more guided learning experience.
 
-**Cost**: Reaction Repo is entirely free, making it an excellent resource for students on a budget. Chemistry Steps, while offering free articles, requires a subscription for full access to all practice problems and study materials.
+- **Cost**: Reaction Repo is entirely free, making it an excellent resource for students on a budget. Chemistry Steps, while offering free articles, requires a subscription for full access to all practice problems and study materials.
 
-**User Experience**: Reaction Repo's no-login policy and straightforward design make it very user-friendly. Chemistry Steps, with its extensive resources and expert guidance, is also highly valuable but may be more suitable for students willing to invest in a premium experience.
+- **User Experience**: Reaction Repo's no-login policy and straightforward design make it very user-friendly. Chemistry Steps, with its extensive resources and expert guidance, is also highly valuable but may be more suitable for students willing to invest in a premium experience.
 
 ## Conclusion
 

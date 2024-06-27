@@ -50,8 +50,8 @@ Welcome to the **FAQs Catalog**. Here we provide support for <mark class="highli
 ## Sort by Most Searched Inquiries
 
 {{< cards >}}
-  {{< card link="/reactionrepo/faqs/references-formatting/#referencing" title="What citation style do you use for your references?" icon="academic-cap" >}}
-  {{< card link="/reactionrepo/faqs/references-formatting/#formatting" title="How do you handle formatting entries?" icon="document-report" >}}
+  {{< card link="/reactionrepo/faqs/references-formatting/#referencing" title="What citation style do you use?" icon="academic-cap" >}}
+  {{< card link="/reactionrepo/faqs/references-formatting/#formatting" title="How are entries formatted?" icon="document-report" >}}
   {{< card link="/reactionrepo/faqs/themes/#lightdark-mode" title="How do I change my Theme?" icon="sun" >}}
   {{< card link="/reactionrepo/faqs/privacy/#data-tracking" title="Will my Data be tracked?" icon="eye-off" >}}
 {{< /cards >}}
