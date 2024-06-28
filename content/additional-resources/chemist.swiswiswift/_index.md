@@ -5,62 +5,86 @@ pager: true
 type: docs
 weight: 2
 ---
+
 {{<figure-dynamic-toggle
-    dark-src="chemswi.png" 
-    light-src="chemswi.png"  
-    title="Chemist.swiswiswift Landing Page"
+    dark-src="image2.png" 
+    light-src="image2.png"  
+    title="Chemist.swiswiswift Swern Oxidation Section Preview"
+    caption="General Formula and Mechanisn"
     link="https://chemist.swiswiswift.com/"
 >}}
 
-## Introduction
+## Overview
 
-The Swiswiswift Reaction Repository is an exceptional free online resource dedicated to organic chemistry reactions. This site features a comprehensive collection of reactions, each detailed with mechanisms and occasional practice questions. Despite some organizational and referencing issues, the content is highly accurate and beneficial for students and professionals in the field.
+Chemist.swiswiswift was a reaction repository riginally created in Japanese and was recently translated into English for international usage. It has become an invaluable tool for chemistry students and professionals. The site features detailed mechanisms of hundreds of organic chemistry reactions, mirroring content from a mobile database app with over 500 downloads. This site fascinated me, as seemingly, no one had claimed credit nor provided any information as to where or who procured the information for content this rich and detailed.
 
-## Author Mystery
+## Website Content and Features
 
-The author of this repository is confirmed to be located in Kanagawa, Japan. Despite numerous attempts to uncover the individual behind this resource, no clear information has surfaced. Speculations suggest that the author could be affiliated with a university in Kanagawa, possibly a faculty member or a student. Our interest in finding the author stems from a desire to express gratitude for their valuable contributions and to acknowledge their efforts in creating such an outstanding resource. While the mystery surrounding the author adds an intriguing element, our intention is purely to offer thanks and recognition.
+- **Extensive Reaction Database**: The site includes hundreds of organic chemistry reactions, each with detailed mechanisms.
+- **Practice Questions**: While not abundant, some reactions are accompanied by practice questions to enhance learning.
+- **Hugo Theme Inkblotty**: The site employs a minimalist layout, providing a clean and straightforward presentation of chemical reactions.
 
-## Content and Features
+**Links**
 
-The site’s content is exceptional, featuring:
+Incase any of the viewers wish to create a site using this theme. This theme is no longer officially listed in the Hugo Theme directory.
 
-- **Hundreds of Organic Chemistry Reactions**: Each reaction is accompanied by clear, step-by-step mechanisms.
-- **Practice Questions**: Some reactions include practice questions, though these are sparse.
-- **Simple HTML with Hugo and JS**: The site employs a basic HTML structure powered by the Hugo framework and includes JavaScript for loading animations.
+{{< cards >}}
+  {{< card link="https://github.com/tosi29/inkblotty" title="Inkblotty Theme (EN)" icon="github" >}}
+  {{< card link="github.com/takoikatakotako/swiswiswift.com" title="Inkblotty Theme (JP)" icon="github" >}}
+{{< /cards >}}
 
-### Site Design and Technology
+- **Recent Updates**: Although the site was created in 2016, most updates occurred in 2021 according to the Wayback Machine. The latest updates indicate ongoing maintenance and content addition.
 
-- **Hugo Theme Inkblotty**: The website uses the Inkblotty theme, which provides a clean and minimalist layout ideal for displaying chemical reactions. The theme can be found at github.com/takoikatakotako/swiswiswift.com.
+### Mobile App
+The site is a ported version of an organic chemistry mobile database app, which has been downloaded over 500 times. The app serves as a portable reference for students and professionals, featuring the same high-quality content found on the website.
+
+{{< cards >}}
+  {{< card link="https://play.google.com/store/apps/details?id=com.swiswiswift.chemist" title="シン反応機構" icon="beaker" >}}
+{{< /cards >}}
+
+### Site Drawbacks
+
 - **No Theme Switching**: The site does not offer a light mode, which may not suit all users.
 - **Outdated HTML Design**: The design is rudimentary and lacks modern web development features.
 - **Lack of Organization and Referencing**: The content, though accurate, is not well-organized and lacks proper referencing, which could impact the user experience and content reliability.
-- **Use of ChemDraw 12.0 Ultra or Below**: It is certain that the diagrams and mechanisms on the site were created using ChemDraw 12.0 Ultra or an earlier version, contributing to their clarity and precision.
+- **Hard to See**: Some colours used in the mechanisms to indicate side chains or certain bonds of the molecules were very difficult to see.
+
+## Author Identity
+
+### About Him
+
+The elusive author behind this exceptional repository is known by the pseudonym sin有機化学. Sin有機化学 (SinOrganicChemistry), is Japanese youtuber and Organic Chemist responsible for the comprehensive online resource Chemist.swiswiswift which is dedicated to organic chemistry reactions. Sin actively engages with the chemistry community through various platforms, including Twitter, Google Play, and YouTube. Despite extensive searching, the real identity of sin有機化学 remains unknown. However, their contributions to the field are significant, offering well-organized and accurate chemical reactions and mechanisms.
 
 {{<figure-dynamic-toggle
     dark-src="image.png" 
-    light-src="image.png"  
-    title="Swern Oxidation General Formula and Mechanism"
-    caption="Cropped for Convenience as this page was wide"
-    link="https://chemist.swiswiswift.com/reaction/swern-oxidation"
+    light-src="image.png"
+    title="sin有機化学"
 >}}
 
-## Theories on Author's Identity
+**Author’s Personal Life**
 
-Considering the high-quality content and the detailed understanding of organic chemistry, the author could be:
-- **A University Faculty Member**: Likely from one of the universities in Kanagawa, specializing in organic chemistry.
-- **A Dedicated Student or Enthusiast**: Possibly a graduate student with a passion for organic chemistry.
-- **An Industry Professional**: Someone with practical and academic experience in the field.
+Sin有機化学 has openly shared his personal struggles, including financial hardships and a challenging journey through academia and industry. These experiences have shaped his commitment to providing accessible educational resources.
 
-## Personal Impact and Adaptation
+- **Financial Struggles**: Sin faced the bankruptcy of his family home and accrued significant debt. He worked multiple part-time jobs to support himself and his family.
+- **Academic Challenges**: Sin had to drop out of graduate school due to these financial pressures.
+- **Living as a NEET (Hikkikomori)**: For a period, Sin lived as a NEET (Not in Education, Employment, or Training) and engaged in playing Mahjong as a way to cope with his circumstances.
+- **Overcoming Adversity**: Despite these hardships, Sin overcame his struggles through resilience and determination. He channeled his experiences into creating educational resources to help others in the field of organic chemistry.
 
-As an admirer of this site, you have drawn inspiration from its layout and formatting for your own chemistry database. This highlights the influence and value of Swiswiswift in the academic community.
+<div style="margin-bottom: 25px;"></div>
 
-## Conclusion
+{{< youtube ndlQywX4gh8 >}}
 
-The Swiswiswift Chemistry Repository is a hidden gem in the realm of online educational resources. Despite the anonymity of its creator, the site's content quality and presentation have earned it significant recognition and admiration. The author, truly an unsung hero, continues to contribute to the field of organic chemistry, providing an invaluable resource for learners worldwide. Our aim in identifying the author is to express our gratitude and acknowledge their exceptional contribution.
+## Collaborations and Contributions
 
-## Relevant Links
+Sin posts videos and content related to reaction mechanisms and regularly engages with the Japanese chemistry community, following students and professionals. Sin is also close to other prominent Japanese chemists such as Morofuji Tatsuya (moropi) whom he shares a deep respect and friendship for. 
+
+### Social Media
 
 {{< cards >}}
+  {{< card link="https://x.com/sinOrganicChem" title="sin有機化学" icon="x-twitter" >}}
+  {{< card link="https://www.youtube.com/@sinOrganicChem" title="sin有機化学" icon="youtube" >}}
   {{< card link="https://chemist.swiswiswift.com/" title="Visit chemist.swiswiswift" icon="academic-cap" >}}
 {{< /cards >}}
+
+
+

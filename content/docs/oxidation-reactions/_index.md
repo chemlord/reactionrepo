@@ -303,8 +303,8 @@ a.card-link {
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
-          dark-src="dmoreactionoverviewdark.png"
-          light-src="dmoreactionoverviewlight.png"
+          dark-src="DMPOverviewDarkFix.png"
+          light-src="DMPOverviewLightFix.png"
           title=""
           width="300"
           height="150"
@@ -621,8 +621,8 @@ a.card-link {
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
-          dark-src="dmoreactionoverviewdark.png"
-          light-src="dmoreactionoverviewlight.png"
+          dark-src="DMPOverviewDarkFix.png"
+          light-src="DMPOverviewLightFix.png"
           title=""
           width="300"
           height="150"
