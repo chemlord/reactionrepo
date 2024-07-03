@@ -13,7 +13,7 @@ This page is a directory containing Dess-Martin Oxidation Variations, reagent de
 
 ## Dess Martin Oxidation Variation Overviews
 
-{{< tabs items="Original Oxidation Method, Oxidation Method with Water or Wet DCM" >}}
+{{< tabs items="Without Water, With Water or Wet DCM, With IBX in DMSO/Other Solvents" defaultindex="1" >}}
 
   {{< tab >}}
   
@@ -39,19 +39,31 @@ This article is a stub. Currently at the moment, we have not created a section o
 
 {{< /tab >}}
 
+{{< tab >}}
+  
+ {{<figure-dynamic-toggle
+    dark-src="DMPOverviewDarkFix.png"
+    light-src="DMPOverviewLightFix.png"
+    title="General Scheme of Dess Martin Oxidation"
+    link="https://pubs.acs.org/doi/10.1021/jo00170a070">}}
+
+<p>In the original paper "Readily Accessible 12-I-51 Oxidant for the Conversion of Primary and Secondary Alcohols to Aldehydes and Ketones." by Dess & Martin (1983), they discovered a novel and efficient reagent, periodinane 2 (DMP), used to convert primary alcohols to aldehydes and secondary alcohols to ketones.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+
+{{< /tab >}}
+
 {{< /tabs >}}
 
 ### Full Articles on the Variations
 
 <style>
-.hextra-cards {
+.hextra-container .hextra-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem; /* Add margin to create space between the header and the cards */
 }
 
-.hextra-card {
+.hextra-container .hextra-card {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
@@ -63,22 +75,22 @@ This article is a stub. Currently at the moment, we have not created a section o
   cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
 }
 
-.hextra-card:hover {
+.hextra-container .hextra-card:hover {
   transform: scale(1.03); /* Slightly reduced scale to avoid large shadows */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Less intense shadow */
   background-color: rgba(0, 0, 0, 0.03); /* Subtle highlight effect for light mode */
 }
 
-.dark .hextra-card {
+.dark .hextra-container .hextra-card {
   border-color: #4c4c4c; /* More visible outline color for dark mode */
 }
 
-.dark .hextra-card:hover {
+.dark .hextra-container .hextra-card:hover {
   background-color: rgba(255, 255, 255, 0.05); /* Subtle highlight effect for dark mode */
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15); /* Consistent shadow effect for dark mode */
 }
 
-.hextra-card img {
+.hextra-container .hextra-card img {
   user-select: none;
   width: 100%;
   height: auto;
@@ -86,55 +98,71 @@ This article is a stub. Currently at the moment, we have not created a section o
   margin-bottom: 0.5rem; /* Adjust spacing below the image */
 }
 
-.hextra-card:hover img {
+.hextra-container .hextra-card:hover img {
   transform: scale(1.03); /* Consistent scale with card */
   box-shadow: none; /* Remove shadow from the image */
 }
 
-.card-title {
+.hextra-container .card-title {
   margin: 0.5rem 0 0; /* Adjust spacing for the title */
   transition: color 0.3s ease;
   color: #000; /* Title color in light mode */
 }
 
-.dark .card-title {
+.dark .hextra-container .card-title {
   color: #3498db; /* Title color in dark mode */
 }
 
-.card-body {
+.hextra-container .card-body {
   padding-top: 0; /* Remove top padding */
 }
 
-.dark .hextra-card svg {
+.dark .hextra-container .hextra-card svg {
   color: #ffffff66;
 }
 
-.dark .hextra-card:hover svg {
+.dark .hextra-container .hextra-card:hover svg {
   color: currentColor;
 }
 
-a.card-link {
+.hextra-container a.card-link {
   text-decoration: none;
   color: inherit;
   display: block;
 }
 </style>
 
-<div class="hextra-cards">
-  <a href="/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="FULLMECHdmpdark.png"
-          light-src="FULLMECHdmplight.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Original Oxidation Method</h5>
+<div class="hextra-container">
+  <div class="hextra-cards">
+    <a href="/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
+      <div class="hextra-card">
+        <div class="card-body">
+          {{<figure-dynamic-toggle
+            dark-src="FULLMECHdmpdark.png"
+            light-src="FULLMECHdmplight.png"
+            title=""
+            width="300"
+            height="150"
+          >}}
+          <h5 class="card-title">Oxidation without Water</h5>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
+    <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Dess-Martin-periodinane" class="card-link">
+      <div class="hextra-card">
+        <div class="card-body">
+          {{<figure-dynamic-toggle
+            dark-src="FULLMECHdmpdark.png"
+            light-src="FULLMECHdmplight.png"
+            title=""
+            width="300"
+            height="150"
+          >}}
+          <h5 class="card-title">Oxidation w/ Water or wet DCM</h5>
+        </div>
+      </div>
+    </a>
+  </div>
 </div>
 
 ## Dess-Martin Periodinane
@@ -158,14 +186,14 @@ a.card-link {
 If you would like more information on this Reagent, here are some additional resources:
 
 <style>
-.hextra-cards {
+.hextra-container .hextra-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
   margin-top: 1.5rem; /* Add margin to create space between the header and the cards */
 }
 
-.hextra-card {
+.hextra-container .hextra-card {
   position: relative;
   border-radius: 15px;
   overflow: hidden;
@@ -177,22 +205,22 @@ If you would like more information on this Reagent, here are some additional res
   cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
 }
 
-.hextra-card:hover {
+.hextra-container .hextra-card:hover {
   transform: scale(1.03); /* Slightly reduced scale to avoid large shadows */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Less intense shadow */
   background-color: rgba(0, 0, 0, 0.03); /* Subtle highlight effect for light mode */
 }
 
-.dark .hextra-card {
+.dark .hextra-container .hextra-card {
   border-color: #4c4c4c; /* More visible outline color for dark mode */
 }
 
-.dark .hextra-card:hover {
+.dark .hextra-container .hextra-card:hover {
   background-color: rgba(255, 255, 255, 0.05); /* Subtle highlight effect for dark mode */
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15); /* Consistent shadow effect for dark mode */
 }
 
-.hextra-card img {
+.hextra-container .hextra-card img {
   user-select: none;
   width: 100%;
   height: auto;
@@ -200,55 +228,76 @@ If you would like more information on this Reagent, here are some additional res
   margin-bottom: 0.5rem; /* Adjust spacing below the image */
 }
 
-.hextra-card:hover img {
+.hextra-container .hextra-card:hover img {
   transform: scale(1.03); /* Consistent scale with card */
   box-shadow: none; /* Remove shadow from the image */
 }
 
-.card-title {
+.hextra-container .card-title {
   margin: 0.5rem 0 0; /* Adjust spacing for the title */
   transition: color 0.3s ease;
   color: #000; /* Title color in light mode */
 }
 
-.dark .card-title {
-  color: #3498db; /* Title color in dark mode */
+.dark .hextra-container .card-title {
+  color: #fff; /* Title color in dark mode */
 }
 
-.card-body {
+.hextra-container .card-body {
   padding-top: 0; /* Remove top padding */
+  color: #000; /* Body text color in light mode */
 }
 
-.dark .hextra-card svg {
+.dark .hextra-container .card-body {
+  color: #fff; /* Body text color in dark mode */
+}
+
+.dark .hextra-container .hextra-card svg {
   color: #ffffff66;
 }
 
-.dark .hextra-card:hover svg {
+.dark .hextra-container .hextra-card:hover svg {
   color: currentColor;
 }
 
-a.card-link {
+.hextra-container a.card-link {
   text-decoration: none;
   color: inherit;
   display: block;
 }
 </style>
 
-<div class="hextra-cards">
-  <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Dess-Martin-periodinane" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="pubchem1.png"
-          light-src="pubchemlight.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Dess-Martin Periodinane PubChem Database Entry</h5>
+<div class="hextra-container">
+  <div class="hextra-cards">
+    <a href="/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
+      <div class="hextra-card">
+        <div class="card-body">
+          {{<figure-dynamic-toggle
+            dark-src="pubchem1.png"
+            light-src="pubchemlight.png"
+            title=""
+            width="300"
+            height="150"
+          >}}
+          <h5 class="card-title">ChemSpider Database Entry</h5>
+        </div>
       </div>
-    </div>
-  </a>
+    </a>
+    <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Dess-Martin-periodinane" class="card-link">
+      <div class="hextra-card">
+        <div class="card-body">
+          {{<figure-dynamic-toggle
+            dark-src="pubchem1.png"
+            light-src="pubchemlight.png"
+            title=""
+            width="300"
+            height="150"
+          >}}
+          <h5 class="card-title">PubChem Database Entry</h5>
+        </div>
+      </div>
+    </a>
+  </div>
 </div>
 
 ## Tribute to a Great Chemist
@@ -346,8 +395,8 @@ Dr. J.C Martin
 <div>
     <a id="fn1" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="DMPPaperDark.png" 
-        light-src="DMPPaperLight.png"
+        dark-src="darkcitation.png" 
+        light-src="lightcitation.png"
         link="https://doi.org/10.1021/jo00356a052"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">1.</span> Dess, D. B.; Martin, J. C. Readily Accessible 12-I-51 Oxidant for the Conversion of Primary and Secondary Alcohols to Aldehydes and Ketones. <i>J. Org. Chem.</i> <b>1983</b>, <i>48</i>, 4155–4156. DOI: <a href="https://doi.org/10.1021/jo00356a052">10.1021/jo00356a052</a>. <a href="#ref1-anchor">↩</a></span></p>

@@ -1,6 +1,6 @@
 ---
-title: Original Dess Martin Oxidation
-linkTitle: Original Dess Martin Oxidation
+title: Oxidation without Water
+linkTitle: Oxidation without Water
 prev: /docs/guide/shortcodes
 ---
 
@@ -21,11 +21,29 @@ prev: /docs/guide/shortcodes
     caption="We must find out how the product was formed and the steps to form it."
     link="https://doi.org/10.1021/ja8071918">}}
 
-<p>(+)-Cortistatin A, a potent inhibitor of endothelial cell proliferation, was synthesized using enantiomerically pure Hajos-Parrish ketone as the starting material. The synthesis involved converting the Hajos-Parrish ketone to a known enone and then to a silyloxydiene intermediate.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+{{% details title="Where did this Reaction come from?" %}}
 
-<p>A crucial step in this multi-step process, as depicted in the image, was the oxidation of a primary alcohol intermediate to an aldehyde using Dess-Martin periodinane (DMP) (1.2 equiv) in dichloromethane (DCM) at room temperature for 1 hour. This transformation played a vital role in advancing the synthesis.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+{{<figure-dynamic-toggle
+    dark-src="cortinoboxdark.png"
+    light-src="cortinoboxlight.png"
+    title="Condensed Synthesis Overview of (+)-Cortistatin A from Hajos-Parrish Ketone."
+    caption="The overall synthesis of (+)-Cortistatin A started with an enantiomerically pure Hajos-Parrish ketone undergoing key reactions such as diastereoselective hydrogenation, Rubottom oxidation, the Dess-Martin oxidation and other types of reactions to eventually form the target compound (+)-Cortistatin A. This occurs over a 26 step synthesis pathway."
+    link="https://doi.org/10.1021/ja8071918">}}
 
-The resulting aldehyde intermediate was then further utilized in subsequent steps towards the total synthesis of (+)-Cortistatin A.
+{{% callout type="info" %}}
+For simplicity, this image summarizes the start and end products of the synthesis in the original paper by Lee et al. (2008), highlighting the step count and the key reagent and product. The full pathway is not shown to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
+{{% /callout %}}
+
+<p>This reaction showing the Dess-Martin oxidation of this alcohol intermediate was part of the overall synthesis pathway of the formation of (+)-Cortistatin A. (+)-Cortistatin A is a potent inhibitor of endothelial cell proliferation, which was synthesized through the conversion of an enantiomerically pure Hajos-Parrish ketone to a known enone and then to a silyloxydiene intermediate.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+
+{{<figure-dynamic-toggle
+    dark-src="cortioxidationdark.png"
+    light-src="cortioxidationlight.png"
+    link="https://doi.org/10.1021/ja8071918">}}
+
+<p>A crucial step in this multi-step process, as depicted above, was the oxidation of a primary alcohol intermediate (14e) formed in the overall synthesis pathway to an aldehyde using Dess-Martin periodinane (DMP) (1.2 equiv) in dichloromethane (DCM) at room temperature for 1 hour. The resulting aldehyde intermediate (14f) was then further utilized in subsequent steps towards the total synthesis of (+)-Cortistatin A.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+
+{{< /details >}}
 
 {{% steps %}}
 
@@ -36,7 +54,7 @@ The resulting aldehyde intermediate was then further utilized in subsequent step
     light-src="ReagentsDMP.png"
 >}}
 
-Often times, Dess Martin Oxidation is always performed with DMP and some kind of a solvent. Usually DCM is preferred due to its high solubility in DMP.
+Often times, Dess Martin Oxidation is always performed with DMP and solvent. Usually DCM is preferred due to its high solubility in DMP.
 
 ### Identify the Key Features of the Compound
 
@@ -47,47 +65,32 @@ Often times, Dess Martin Oxidation is always performed with DMP and some kind of
     light-src="alcoholslight.png"
 >}}
 
-These are the 3 main types of alcohols: Primary, Secondary and Tertiary.
+These are the 3 main types of alcohols: **Primary**, **Secondary** and **Tertiary**.
 
 {{% callout type="warning" %}}
 Tertiary alcohols **cannot** go through Dess-Martin oxidation.
 {{% /callout %}}
 
-- Secondary alcohols can go through Dess-Martin Oxidation to become a **Ketone**.
 - Primary alcohols can go through Dess-Martin Oxidation to become an **Aldehyde**.
 
-By Identifying the Alcohol Type, you now know the <mark>product</mark> to expect.
+By Identifying the Alcohol Type, you now know the **product** to expect.
 
 #### Identifying Side Chains and Alcohol Conversion
 
 {{<figure-dynamic-toggle
     dark-src="DMPPrimaryExampleQ1DarkHighlighted.png"
     light-src="DMPPrimaryExampleQ1LightHighlighted.png"
-    title="Tracking Side Chains and Alcohol Conversion in Dess-Martin Oxidation"
-    caption="In Dess-Martin oxidation of primary alcohols, the process involves assigning one side chain (R) to understand the reaction better. The colored side chain represents an R group that remains unchanged during the reaction. The alcohol group is selectively oxidized to form an aldehyde. For educational purposes, we conceptually assign the non-alcohol group as R to visualize the changes and reconstruct the molecule post-reaction."
+    title="Tracking Side Chains and Alcohol Conversion"
+    caption="In Dess-Martin oxidation of primary alcohols, the process involves assigning one side chain (R) to understand the reaction better. The colored side chain represents an R group that remains unchanged during the reaction. The alcohol group is selectively oxidized to form an aldehyde. For educational purposes, we conceptually assign the non-alcohol group as R (Side chain) to visualize the changes and reconstruct the molecule post-reaction."
 >}}
 
 {{% callout type="warning" %}}
  The molecule isn’t taken apart during the reaction, but for understanding the process, we conceptually take it apart to visualize the changes. This allows for easy reconstruction of the molecule after oxidation, emphasizing the selective nature of the reaction for educational purposes.
  {{% /callout %}}
 
-##### Steps
+##### Guide to Side Chains
 
-1. **Assign the Side Chain (R)**: Identify the non-alcohol part of the molecule as the placeholder R.
-
-**Lets Assign the Side Chains Together!**
-
-{{% details title="For Dark Mode Users" %}}
-
-R = Yellow Side Chain
-
-{{% /details %}}
-
-{{% details title="For Light Mode Users" %}}
-
-R = Pink Side Chain
-
-{{% /details %}}
+1. **Assign the Side Chain (R)**: Identify the non-alcohol part of the molecule and assign it as the placeholder 'R' or side chain.
 
 2. **Understand Its Role**: This placeholder helps track the unchanged part of the molecule, aiding in visualizing the structure before and after the reaction.
 
@@ -102,7 +105,7 @@ R = Pink Side Chain
 {{<figure-dynamic-toggle
     dark-src="allthesamedark.png" 
     light-src="allthesamelight.png"  
-    title="Aldehydes and Ketones Presentation"
+    title="Aldehyde Presentation"
     caption="They may be differently presented in different questions as shown in the image, however they are the same structure"
 >}}
 
@@ -177,13 +180,32 @@ This visual demonstrates the reconstruction process of the target intermediate, 
     dark-src="DMPSecondaryQ1Dark.png"
     light-src="DMPSecondaryQ1Light.png"
     title="Propose a Mechanism for this Reaction."
+    caption="Oxidation of a secondary alcohol intermediate to an ketone. The groundwork to determine the product is similar to how a primary alcohol is converted."
     link="https://doi.org/10.1021/ja044123l">}}
 
-<p>Ingenol, the parent compound of several naturally occurring ingenanes with varied peripheral functionalities, was synthesized through a series of steps. These ingenanes display a range of interesting biological profiles, from tumor-promoting to anti-leukemic and anti-HIV activities.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
+{{% details title="Where did this Reaction come from?" %}}
 
-<p>One key step in the synthesis involved the oxidation of a secondary alcohol intermediate to an ketone using Dess-Martin periodinane (DMP) in dichloromethane (DCM). This transformation was achieved with a 74% yield and was crucial in advancing the synthesis.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
+{{<figure-dynamic-toggle
+    dark-src="Ingenolnoboxdark.png"
+    light-src="Ingenolnoboxlight.png"
+    title="Synthesis Overview of the Total Synthesis of Ingenol"
+    caption="𝛽-ketoester (2) is subjected through 32 steps to form the target compound Ingenol (1)."
+    link="https://doi.org/10.1021/ja044123l">}}
 
-The resulting ketone intermediate was further utilized in the total synthesis of Ingenol to form additional intermediates.
+{{% callout type="info" %}}
+For simplicity, this image summarizes the start and end products of the synthesis in the original paper by Nickel et al. (2004), showing the starting material and the overall product. The full pathway is not shown. This is to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
+{{% /callout %}}
+
+<p>This reaction showing the Dess-Martin oxidation of the alcohol intermediate was part of the overall synthesis pathway of the formation of Ingenol. Ingenol is the parent compound of several naturally occurring ingenanes with varied peripheral functionalities, was synthesized through a series of steps. These ingenanes display a range of interesting biological profiles, from tumor-promoting to anti-leukemic and anti-HIV activities.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
+
+{{<figure-dynamic-toggle
+    dark-src="ingenoloxdark.png"
+    light-src="ingenoloxlight.png"
+    link="https://doi.org/10.1021/ja044123l">}}
+
+<p>One key step in the synthesis involved the oxidation of a secondary alcohol intermediate (8) to an ketone (8f) intermediate using Dess-Martin periodinane (DMP) in dichloromethane (DCM). This transformation was achieved with a 74% yield and was crucial in advancing the synthesis.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
+
+{{< /details >}}
 
 {{% steps %}}
 
@@ -212,9 +234,8 @@ Tertiary alcohols **cannot** go through Dess-Martin oxidation.
 {{% /callout %}}
 
 - Secondary alcohols can go through Dess-Martin Oxidation to become a **Ketone**.
-- Primary alcohols can go through Dess-Martin Oxidation to become an **Aldehyde**.
 
-By Identifying the Alcohol Type, you now know the <mark>product</mark> to expect.
+By Identifying the Alcohol Type, you now know the **product** to expect.
 
 ### Identifying Side Chains and Alcohol Conversion
 
@@ -266,7 +287,7 @@ R¹ = Dark Green/Blue Side Chain; R² =  Pink Side Chain for Dark Mode
     caption="The mechanism follows the same steps as the primary alcohol oxidation but includes an additional side chain."
 >}}
 
-In this step, the secondary alcohol group (-OH) reacts with the Dess-Martin Periodinane (DMP), similar to the primary alcohol mechanism. The difference lies in the presence of an additional side chain (R2) attached to the carbon bearing the hydroxyl group.
+In this step, the secondary alcohol group (-OH) reacts with the Dess-Martin Periodinane (DMP), similar to the primary alcohol mechanism. The difference lies in the presence of an additional side chain (R²) attached to the carbon bearing the hydroxyl group.
 
 ### Stabilization of Reactive Intermediate
 
@@ -326,7 +347,10 @@ This visual demonstrates the reconstruction process of the target intermediate, 
     link="https://doi.org/10.1038/ncomms7445"
 >}}
 
-<p>Clostrubin, a potent antibiotic against methicillin- and vancomycin-resistant bacteria, was synthesized through a series of steps, including the desilylation of a silylated intermediate during acid workup, resulting in the formation of a secondary alcohol intermediate.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+{{% callout type="info" %}}
+You do not need to calculate yield for this question.
+{{% /callout %}}
+
 
 {{% details title="Reveal the Answer." %}}
 
@@ -336,15 +360,52 @@ This visual demonstrates the reconstruction process of the target intermediate, 
     title="This compound had a secondary alcohol that was oxidized to a Ketone"
 >}}
 
-<p>This alcohol intermediate, as depicted in the image, was then oxidized to a ketone using Dess-Martin periodinane (DMP) in dichloromethane (DCM).<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+<p>As depicted in the image, the alcohol intermediate was oxidized to a ketone using Dess-Martin periodinane (DMP) in dichloromethane (DCM).<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
 
-<p>This transformation was achieved with an 83% yield and preserved the sulfur-containing functionalities.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+<p>This transformation was achieved with an 83% yield and preserved the sulfur-containing functionalities<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
 
-The resulting ketone intermediate was further utilized in the total synthesis of clostrubin to form additional intermediates.
+{{% callout type="info" %}}
+The **83%** was reported in the [paper](https://doi.org/10.1038/ncomms7445) where this reaction came from, you do did not need to calculate this.
+{{% /callout %}}
 
 {{< /details >}}
 
-<hr>
+{{% details title="Where did this Reaction come from?" %}}
+
+{{<figure-dynamic-toggle
+    dark-src="DMPSecondarydarknoBox3.png" 
+    light-src="DMPSecondarylightnoBox3.png"
+    title="Completion of the synthesis of clostrubin"
+    caption="The completion of the clostrubin (1) synthesis using a stabilized diazo compound and a thioester with several conditions. This caused the formation of a metal-carbenoid intermediate, which was reduced to an episulfide intermediate to a tetrasubstituted olefin, followed by ultraviolet light-induced electrocyclization and final global deprotection, which yielded the desired natural product efficiently."
+    link="https://doi.org/10.1038/ncomms7445"
+>}}
+
+{{% callout type="info" %}}
+For simplicity, this image summarizes the start and end products of the synthesis in the original paper by Yang et al. (2015), highlighting key reactions and the overall product. The full pathway is not shown to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
+{{% /callout %}}
+
+<p>This reaction showing the Dess-Martin oxidation of this alcohol intermediate was part of the overall synthesis pathway of the formation of Clostrubin. Clostrubin is a potent antibiotic against methicillin- and vancomycin-resistant bacteria, which was synthesized through a series of steps, including the desilylation of a silylated intermediate during acid workup, which ultmately resulted in the formation of a secondary alcohol intermediate.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+
+One main reagent used to form clostrubin was the thioester compound (4)
+
+{{<figure-dynamic-toggle
+        dark-src="clos7to4dark.png" 
+        light-src="clos7to4light.png"
+        title="Formation of the Thioester"
+        link="https://doi.org/10.1038/ncomms7445"
+    >}}
+
+<p>2-Iodophenol undergoes a 7-step synthesis to form the needed thioester required to form clostrubin.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+
+{{<figure-dynamic-toggle
+        dark-src="clos20to21darkk.png" 
+        light-src="clos20to21light.png"
+        link="https://doi.org/10.1038/ncomms7445"
+    >}}
+
+<p>A crucial step in this multi-step process to form the thioester was the oxidation of a secondary alcohol intermediate (20) formed in the synthesis pathway to an ketone intermediate (21) using Dess-Martin periodinane (DMP) in dichloromethane (DCM) at room temperature for 1 minute. The resulting ketone intermediate was then further utilized in subsequent steps to form the needed thioester required to synthesize Clostrubin<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+
+{{< /details >}}
 
 {{< cards >}}
   {{< card url="/chemdatabase/dmp-mechanisms-1/" title="Want more problems? Click here!" icon="academic-cap" >}}
@@ -378,8 +439,6 @@ The resulting aldehyde intermediate was then further utilized in subsequent step
     light-src="FULLMECHdmplight.png"
 >}}
 
-<hr>
-
 **Form the Overall Product**
 
 {{<figure-dynamic-toggle
@@ -390,8 +449,6 @@ The resulting aldehyde intermediate was then further utilized in subsequent step
 This should form the expected Ketone product as a result of oxidation of the primary alcohol on this compound.
 
 {{< /details >}}
-
-<hr>
 
 {{< cards >}}
   {{< card url="/chemdatabase/dmp-mechanisms-1/" title="Want more Mechanisms? Click here!" icon="academic-cap" >}}
@@ -432,8 +489,8 @@ This should form the expected Ketone product as a result of oxidation of the pri
 <div>
     <a id="fn1" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="DMPPaperDark.png" 
-        light-src="DMPPaperLight.png"
+        dark-src="darkcitation.png" 
+        light-src="lightcitation.png"
         link="https://doi.org/10.1021/jo00356a052"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">1.</span> Dess, D. B.; Martin, J. C. Readily Accessible 12-I-51 Oxidant for the Conversion of Primary and Secondary Alcohols to Aldehydes and Ketones. <i>J. Org. Chem.</i> <b>1983</b>, <i>48</i>, 4155–4156. DOI: <a href="https://doi.org/10.1021/jo00356a052">10.1021/jo00356a052</a>. <a href="#ref1-anchor">↩</a></span></p>
@@ -449,8 +506,8 @@ This should form the expected Ketone product as a result of oxidation of the pri
 <div>
     <a id="fn2" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="DMPPrimaryExampleQ1DarkBox.png" 
-        light-src="DMPPrimaryExampleQ1LightBox.png"
+        dark-src="cortiboxdark.png" 
+        light-src="cortiboxlight.png"
         link="https://doi.org/10.1021/ja8071918"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">2.</span> Lee, H. M.; Nieto-Oberhuber, C.; Shair, M. D. Enantioselective synthesis of (+)-cortistatin A, a potent and selective inhibitor of endothelial cell proliferation. <i>J. Am. Chem. Soc.</i> <b>2008</b>, <i>130</i> (50), 16864–16866. DOI: <a href="https://doi.org/10.1021/ja8071918">10.1021/ja8071918</a>. <a href="#ref2-anchor">↩</a></span></p>
@@ -466,8 +523,8 @@ This should form the expected Ketone product as a result of oxidation of the pri
 <div>
     <a id="fn3" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="DMPSecondaryQ1DarkBox.png" 
-        light-src="DMPSecondaryQ1LightBox.png"
+        dark-src="ingenolboxdark.png" 
+        light-src="ingenolboxlight.png"
         link="https://doi.org/10.1021/ja044123l"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">3.</span> Nickel, A.; Maruyama, T.; Tang, H.; Murphy, P. D.; Greene, B.; Yusuff, N.; Wood, J. L. Total synthesis of ingenol. <i>J. Am. Chem. Soc.</i> <b>2004</b>, <i>126</i> (50), 16300–16301. DOI: <a href="https://doi.org/10.1021/ja044123l">10.1021/ja044123l</a>. <a href="#ref3-anchor">↩</a></span></p>
@@ -482,8 +539,8 @@ This should form the expected Ketone product as a result of oxidation of the pri
 <div>
     <a id="fn4" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="DMPSecondaryQ2DarkBoxGuess.png" 
-        light-src="DMPMechanismQ1DarkBox.png"
+        dark-src="DMPSecondaryguessboxd.png" 
+        light-src="DMPSecondaryguessboxl.png"
         link="https://doi.org/10.1038/ncomms7445"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">4.</span> Yang, M.; Li, J.; Li, A. Total synthesis of clostrubin. <i>Nat. Commun.</i> <b>2015</b>, <i>6</i>, 6445. DOI: <a href="https://doi.org/10.1038/ncomms7445">10.1038/ncomms7445</a>. <a href="#ref4-anchor">↩</a></span></p>
