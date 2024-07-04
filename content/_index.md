@@ -100,7 +100,7 @@ width: normal
 </div>
 
 <div class="hx-mb-8">
-{{< hextra/hero-button text="Browse Reactions" link="/docs/" >}}
+{{< hextra/hero-button text="Browse Reactions" link="/reactionrepo/docs/" >}}
 </div>
 
 {{< /hextra/hero-container >}}
