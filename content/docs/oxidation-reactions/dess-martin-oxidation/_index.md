@@ -32,12 +32,12 @@ This was performed without the usage of water which was reported to accelerate t
 {{< tab >}}
   
  {{<figure-dynamic-toggle
-    dark-src="dmpwaterdark.png"
-    light-src="dmpwaterlight.png"
+    dark-src="waterd.png"
+    light-src="waterl.png"
     title="General Scheme of Dess Martin Oxidation when water is introduced."
     link="">}}
 
-<p>When water is introduced, the rate of oxidation increases which accelerates the reaction. However, in comparison to the oxidation with water, the mechanism is slightly different.<a href="#fn2" id="ref2-anchor" class="superscript"></a></p>
+<p>When water is introduced, the rate of oxidation increases which accelerates the reaction. However, in comparison to the oxidation with water, the mechanism is slightly different.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
 
 {{< /tab >}}
 
@@ -141,7 +141,7 @@ This was performed without the usage of water which was reported to accelerate t
       <div class="hextra-card">
         <div class="card-body">
           {{<figure-dynamic-toggle
-            dark-src="fullprimmechd.png"
+            dark-src="primsdfull.png"
             light-src="fullprimmechl.png"
             title=""
             width="300"
@@ -155,7 +155,7 @@ This was performed without the usage of water which was reported to accelerate t
       <div class="hextra-card">
         <div class="card-body">
           {{<figure-dynamic-toggle
-            dark-src="fullprimmechd.png"
+            dark-src="primsdfull.png"
             light-src="fullprimmechl.png"
             title=""
             width="300"

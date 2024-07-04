@@ -128,7 +128,7 @@ width: normal
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/ref2.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/k3s-cluster/"
+    link="/reactionrepo/docs/"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -137,7 +137,7 @@ width: normal
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/references.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/k3s-cluster/tutorials/handbook/argocd/"
+    link="/reactionrepo/docs/"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -146,7 +146,7 @@ width: normal
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
     image="/images/ref3.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    link="/reactionrepo/k3s-cluster/"
+    link="/reactionrepo/docs/"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
 

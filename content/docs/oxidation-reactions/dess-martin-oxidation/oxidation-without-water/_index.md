@@ -497,7 +497,7 @@ One main reagent used to form clostrubin was the thioester compound (4)
 >}}
 
 {{<figure-dynamic-toggle
-    dark-src="fullprimmechd.png" 
+    dark-src="primsdfull.png" 
     light-src="fullprimmechl.png"
 >}}
 
