@@ -1,7 +1,7 @@
 ---
 title: Oxidation without Water
 linkTitle: Oxidation without Water
-prev: /docs/guide/shortcodes
+prev: /docs/oxidation-reactions/dess-martin-oxidation
 ---
 
 {{<figure-dynamic-toggle
@@ -31,17 +31,17 @@ prev: /docs/guide/shortcodes
     link="https://doi.org/10.1021/ja8071918">}}
 
 {{% callout type="info" %}}
-For simplicity, this image summarizes the start and end products of the synthesis in the original paper by Lee et al. (2008), highlighting the step count and the key reagent and product. The full pathway is not shown to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
+For simplicity, this image summarizes the start and end products of the synthesis in the original paper by [Lee et al. (2008)](https://doi.org/10.1021/ja8071918), highlighting the step count and reaction materials. The full pathway is not shown to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
 {{% /callout %}}
 
-<p>This reaction showing the Dess-Martin oxidation of this alcohol intermediate was part of the overall synthesis pathway of the formation of (+)-Cortistatin A. (+)-Cortistatin A is a potent inhibitor of endothelial cell proliferation, which was synthesized through the conversion of an enantiomerically pure Hajos-Parrish ketone to a known enone and then to a silyloxydiene intermediate.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+<p>This reaction showing the Dess-Martin oxidation of this alcohol intermediate was part of the overall synthesis pathway of the formation of (+)-Cortistatin A. (+)-Cortistatin A is a potent inhibitor of endothelial cell proliferation. This compound was synthesized through the conversion of an enantiomerically pure Hajos-Parrish ketone to a known enone and then to a silyloxydiene intermediate.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
 
 {{<figure-dynamic-toggle
     dark-src="cortioxidationdark.png"
     light-src="cortioxidationlight.png"
     link="https://doi.org/10.1021/ja8071918">}}
 
-<p>A crucial step in this multi-step process, as depicted above, was the oxidation of a primary alcohol intermediate (14e) formed in the overall synthesis pathway to an aldehyde using Dess-Martin periodinane (DMP) (1.2 equiv) in dichloromethane (DCM) at room temperature for 1 hour. The resulting aldehyde intermediate (14f) was then further utilized in subsequent steps towards the total synthesis of (+)-Cortistatin A.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+<p>A crucial step in this multi-step process, as depicted above, was the oxidation of a primary alcohol intermediate (14e) formed in the overall synthesis pathway. The alcohol intermediate was converted to an aldehyde intermediate using Dess-Martin periodinane (DMP) (1.2 equiv) in dichloromethane (DCM) at room temperature for 1 hour. The resulting aldehyde intermediate (14f) was then further utilized in subsequent steps towards the total synthesis of (+)-Cortistatin A.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
 
 {{< /details >}}
 
@@ -54,7 +54,25 @@ For simplicity, this image summarizes the start and end products of the synthesi
     light-src="ReagentsDMP.png"
 >}}
 
-Often times, Dess Martin Oxidation is always performed with DMP and solvent. Usually DCM is preferred due to its high solubility in DMP.
+Often times, Dess Martin Oxidation is always performed with DMP and a solvent. Usually DCM as a solvent is preferred due to its high solubility in DMP.
+
+#### Reagent Variations you might see
+
+You may see different variations on how DMP is written out. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
+
+{{<figure-dynamic-toggle
+    dark-src="shortdred.png"
+    light-src="shortlred.png"
+    title="Variations of the Dess-Martin Periodinane"
+    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
+    >}}
+
+{{<figure-dynamic-toggle
+    dark-src="dmpd.png"
+    light-src="dmpl.png"
+    title="Acetoxy group highlighted in the full-form version of DMP alongside the hypervalent Iodine centre."
+    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
+    >}}
 
 ### Identify the Key Features of the Compound
 
@@ -73,7 +91,7 @@ Tertiary alcohols **cannot** go through Dess-Martin oxidation.
 
 - Primary alcohols can go through Dess-Martin Oxidation to become an **Aldehyde**.
 
-By Identifying the Alcohol Type, you now know the **product** to expect.
+By identifying the Alcohol Type, you now know the **product** to expect.
 
 #### Identifying Side Chains and Alcohol Conversion
 
@@ -105,8 +123,8 @@ By Identifying the Alcohol Type, you now know the **product** to expect.
 {{<figure-dynamic-toggle
     dark-src="allthesamedark.png" 
     light-src="allthesamelight.png"  
-    title="Aldehyde Presentation"
-    caption="They may be differently presented in different questions as shown in the image, however they are the same structure"
+    title="Variations on how Aldehydes may appear"
+    caption="They may be differently presented in different questions as shown in the image, however they are the same structure."
 >}}
 
 {{% callout type="info" %}}
@@ -125,39 +143,40 @@ Once you've identified the correct reaction and product, you can now proceed to 
     dark-src="dmpstep1dark.png" 
     light-src="dmpstep1light.png"
     title="Formation of Reactive Intermediate"
-    caption="Alcohol group (-OH) performs a nucleophilic attack on the iodine center of the DMP molecule, forming a complex with the iodine."
+    caption="Alcohol group (-OH) performs a nucleophilic attack on the iodine center of the DMP molecule, forming a complex with the iodine. Acetoxy group is expelled and acts as a good leaving group that leaves with an extra electron pair."
 >}}
 
-This step involves the alcohol group attacking the iodine center of the Dess-Martin Periodinane (DMP), resulting in a complex where the alcohol is temporarily bonded to the iodine. During this reaction, an -OAc group is expelled from the compound, setting up the formation of the reactive intermediate.
+This step involves the alcohol group attacking the iodine center of the Dess-Martin Periodinane (DMP), resulting in a complex where the alcohol is temporarily bonded to the iodine. During this reaction, an -OAc group is expelled from the compound. The -OAc group that is expelled is initially an acetoxy group (CH₃COOR). However, once it is expelled, it becomes an negatively charged acetate ion (CH₃COO⁻) due to its stability as a good leaving group with an extra electron pair.
 
-### Stabilization with Carboxylate Ion
+### Stabilization with Acetate Ion
 
 {{<figure-dynamic-toggle
-    dark-src="dmpstep2dark.png" 
-    light-src="dmpstep2light.png"
-    title="Charge Stabilization Using a Carboxylate Ion"
-    caption="The newly formed intermediate is stabilized by the expelled -OAc group (carboxylate ion)."
+    dark-src="priml2.png" 
+    light-src="primd2.png"
+    title="Charge Stabilization using a Acetate Ion"
+    caption="The newly formed intermediate is stabilized by the previously expelled -OAc (Acetoxy) group (now an acetate ion)."
 >}}
 
-The stabilization of the intermediate occurs when the expelled carboxylate ion (-OAc) interacts with the intermediate, ensuring the reaction progresses smoothly by stabilizing the charge.
+The stabilization of the intermediate occurs when the acetate ion interacts with the intermediate, ensuring the reaction progresses smoothly by stabilizing the charge.
 
 ### Product Formation and Acetic Acid Recovery
 
 {{<figure-dynamic-toggle
-    dark-src="dmpstep3dark.png" 
-    light-src="dmpstep3light.png"
+    dark-src="priml3.png" 
+    light-src="primd3.png"
     title="Acetic Acid Recovery and Product Formation"
-    caption="Acetic acid is recovered, and the intermediate undergoes proton transfer initiated by another carboxylate ion to form the aldehyde product."
+    caption="Acetic acid is recovered, and the intermediate undergoes proton transfer initiated by another acetate ion to form the aldehyde product."
 >}}
 
-In the final steps, one mole of acetic acid is recovered. The intermediate then undergoes a proton transfer, initiated by another carboxylate ion, leading to the formation of the aldehyde product.
+In the final steps, one mole of acetic acid is recovered. The intermediate then undergoes a proton transfer, initiated by another acetate ion, leading to the formation of the aldehyde product.
 
 ### Overview of Final Products
 
 {{<figure-dynamic-toggle
     dark-src="dmpproductsdark.png" 
     light-src="dmpproductslight.png"
-    title="Formation of aldehyde, iodinane by-product, and recovery of acetic acid post-oxidation."
+    title="Overall Products recovered post-oxidation"
+    caption="Formation of the aldehyde product and iodinane and acetic acid as by-products."
 >}}
 
 The overall products of the Dess-Martin oxidation include the aldehyde formed from the primary alcohol, iodinane as a by-product, and the recovery of two moles of acetic acid.
@@ -179,7 +198,7 @@ This visual demonstrates the reconstruction process of the target intermediate, 
 {{<figure-dynamic-toggle
     dark-src="DMPSecondaryQ1Dark.png"
     light-src="DMPSecondaryQ1Light.png"
-    title="Propose a Mechanism for this Reaction."
+    title="Propose a Mechanism for this Reaction"
     caption="Oxidation of a secondary alcohol intermediate to an ketone. The groundwork to determine the product is similar to how a primary alcohol is converted."
     link="https://doi.org/10.1021/ja044123l">}}
 
@@ -189,21 +208,21 @@ This visual demonstrates the reconstruction process of the target intermediate, 
     dark-src="Ingenolnoboxdark.png"
     light-src="Ingenolnoboxlight.png"
     title="Synthesis Overview of the Total Synthesis of Ingenol"
-    caption="𝛽-ketoester (2) is subjected through 32 steps to form the target compound Ingenol (1)."
+    caption="𝛽-ketoester (2) is subjected through a 32 steps synthesis path to form the target compound Ingenol (1)."
     link="https://doi.org/10.1021/ja044123l">}}
 
 {{% callout type="info" %}}
-For simplicity, this image summarizes the start and end products of the synthesis in the original paper by Nickel et al. (2004), showing the starting material and the overall product. The full pathway is not shown. This is to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
+For simplicity, this image summarizes the start and end products of the synthesis in the original paper by [Nickel et al. (2004)](https://doi.org/10.1021/ja044123l), showing the starting material and the overall product. The full pathway is not shown. This is to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
 {{% /callout %}}
 
-<p>This reaction showing the Dess-Martin oxidation of the alcohol intermediate was part of the overall synthesis pathway of the formation of Ingenol. Ingenol is the parent compound of several naturally occurring ingenanes with varied peripheral functionalities, was synthesized through a series of steps. These ingenanes display a range of interesting biological profiles, from tumor-promoting to anti-leukemic and anti-HIV activities.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
+<p>This reaction showing the Dess-Martin oxidation of the alcohol intermediate was part of the overall synthesis pathway of the formation of Ingenol. Ingenol is the parent compound of several naturally occurring ingenanes with varied peripheral functionalities. These ingenanes display a range of interesting biological profiles, from tumor-promoting to anti-leukemic and anti-HIV activities.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
 
 {{<figure-dynamic-toggle
     dark-src="ingenoloxdark.png"
     light-src="ingenoloxlight.png"
     link="https://doi.org/10.1021/ja044123l">}}
 
-<p>One key step in the synthesis involved the oxidation of a secondary alcohol intermediate (8) to an ketone (8f) intermediate using Dess-Martin periodinane (DMP) in dichloromethane (DCM). This transformation was achieved with a 74% yield and was crucial in advancing the synthesis.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
+<p>One key step in the synthesis involved the oxidation of a secondary alcohol intermediate (8) to a ketone intermediate (8f) using Dess-Martin periodinane (DMP) in dichloromethane (DCM). This transformation was achieved with a 74% yield and was crucial in advancing the synthesis.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
 
 {{< /details >}}
 
@@ -216,7 +235,25 @@ For simplicity, this image summarizes the start and end products of the synthesi
     light-src="ReagentsDMP.png"
 >}}
 
-Often times, Dess Martin Oxidation is always performed with DMP and some kind of a solvent. Usually DCM is preferred due to its high solubility in DMP.
+Often times, Dess Martin Oxidation is always performed with DMP and a solvent. Usually DCM is preferred due to its high solubility in DMP. This applies to both primary and secondary alcohol oxidations.
+
+#### Reagent Variations Reminder
+
+Once again different variations on how DMP is written out may be encountered. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
+
+{{<figure-dynamic-toggle
+    dark-src="shortformd.png"
+    light-src="shortforml.png"
+    title="Variations of the Dess-Martin Periodinane"
+    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
+    >}}
+
+{{<figure-dynamic-toggle
+    dark-src="dmpd.png"
+    light-src="dmpl.png"
+    title="Acetoxy group highlighted in the full-form version of DMP alongside the hypervalent Iodine centre"
+    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
+    >}}
 
 ### Identify the Key Features of the Compound
 
@@ -235,20 +272,22 @@ Tertiary alcohols **cannot** go through Dess-Martin oxidation.
 
 - Secondary alcohols can go through Dess-Martin Oxidation to become a **Ketone**.
 
-By Identifying the Alcohol Type, you now know the **product** to expect.
+By identifying the Alcohol Type, you now know the **product** to expect.
 
 ### Identifying Side Chains and Alcohol Conversion
 
 {{<figure-dynamic-toggle
     dark-src="DMPSecondaryQ1DarkHighlighted.png" 
     light-src="DMPSecondaryQ1LightHighlighted.png"
-    title="Tracking Side Chains and Alcohol Conversion in Dess-Martin Oxidation."
+    title="Tracking Side Chains and Alcohol Conversion in Dess-Martin Oxidation"
     caption="In Dess-Martin oxidation of secondary alcohols, the colored side chains represent R groups that remain unchanged during the reaction. The alcohol group is selectively oxidized to form a ketone. For educational purposes,parts of the molecule are assigned and used as placeholders to demonstrate the reaction. Students! Please use parts of the molecule as placeholders: R¹ can be one part of the molecule on one side of the molecule and R² can be the remainder of the full molecule (except the secondary alcohol and the first side chain of course). This allows for easy reconstruction of the molecule after oxidation, to visually see the selective nature of the reaction."
 >}}
 
 {{% callout type="warning" %}}
 The molecule isn't taken apart during the reaction, but for understanding the process, we conceptually take it apart to visualize the changes.
 {{% /callout %}}
+
+##### Guide to Side Chains
 
 1. **Identify Side Chains (R¹ and R²)**: Use parts of the molecule as placeholders (R¹ and R²), representing parts of the molecule flanking the alcohol group.
 
@@ -289,27 +328,54 @@ R¹ = Dark Green/Blue Side Chain; R² =  Pink Side Chain for Dark Mode
 
 In this step, the secondary alcohol group (-OH) reacts with the Dess-Martin Periodinane (DMP), similar to the primary alcohol mechanism. The difference lies in the presence of an additional side chain (R²) attached to the carbon bearing the hydroxyl group.
 
+{{% details title="See the Shortform Version of this step." %}}
+
+{{<figure-dynamic-toggle
+    dark-src="darkshort1sec.png"
+    light-src="lightshort1sec.png"
+    >}}
+
+{{< /details >}}
+
 ### Stabilization of Reactive Intermediate
 
 {{<figure-dynamic-toggle
-    dark-src="dark2.png" 
-    light-src="light2.png"
-    title="Stabilization of Reactive Intermediate Using Carboxylate Ion"
-    caption="The intermediate is stabilized by the expelled -OAc group (carboxylate ion)."
+    dark-src="secdarkmech2.png" 
+    light-src="seclightmech2.png"
+    title="Stabilization of Reactive Intermediate Using an Acetate Ion"
+    caption="The intermediate is stabilized by the expelled -OAc group (Acetoxy group).The expelled acetoxy group becomes an acetate ion (CH₃COO⁻)."
 >}}
 
-After the initial reaction, the intermediate is stabilized by the expelled carboxylate ion (-OAc). This stabilization is crucial for the reaction to proceed smoothly, maintaining the integrity of the molecule's structure.
+After the initial reaction, the intermediate is stabilized by the expelled acetoxy ion (-OAc). The -OAc group that is expelled is initially an acetoxy group (CH₃COO-). However, once it is expelled, it becomes an acetate ion (CH₃COO⁻) because it is a good leaving group that leaves with an extra electron pair, resulting in a stable, negatively charged ion.
+
+{{% details title="See the Shortform Version of this step." %}}
+
+{{<figure-dynamic-toggle
+    dark-src="darkshort2sec2.png"
+    light-src="lightshort2sec2.png"
+    >}}
+
+{{< /details >}}
 
 ### Ketone Formation and Acetic Acid Recovery
 
 {{<figure-dynamic-toggle
-    dark-src="dark3.png" 
-    light-src="light3.png"
+    dark-src="secdarkmech3.png" 
+    light-src="seclighmecht3.png"
     title="Formation of Ketone Product and Recovery of Acetic Acid"
-    caption="Acetic acid is recovered, and the intermediate undergoes proton transfer initiated by another carboxylate ion to form a ketone."
+    caption="Acetic acid is recovered, and the intermediate becomes a ketone after proton transfer."
 >}}
 
-In this step, one mole of acetic acid is recovered. The intermediate undergoes a proton transfer, initiated by another carboxylate ion, resulting in the formation of the ketone product.
+In this step, one mole of acetic acid is recovered. The intermediate undergoes a proton transfer, initiated by another acetate ion, resulting in the formation of the ketone product and acetic acid as a by-product.
+
+{{% details title="See the Shortform Version of this step." %}}
+
+{{<figure-dynamic-toggle
+    dark-src="darkshort3sec2.png"
+    light-src="lightshort3sec2.png"
+    >}}
+
+{{< /details >}}
 
 ### Final Overall Products
 
@@ -343,7 +409,7 @@ This visual demonstrates the reconstruction process of the target intermediate, 
 {{<figure-dynamic-toggle
     dark-src="DMPSecondaryQ2DarkQuestion.png" 
     light-src="DMPSecondaryQ2LightQuestion.png"
-    title="Guess the Product."
+    title="Guess the Product"
     link="https://doi.org/10.1038/ncomms7445"
 >}}
 
@@ -357,10 +423,11 @@ You do not need to calculate yield for this question.
 {{<figure-dynamic-toggle
     dark-src="DMPMechanismQ1Dark.png" 
     light-src="DMPSecondaryQ2Light.png"
-    title="This compound had a secondary alcohol that was oxidized to a Ketone"
+    title="This compound was a secondary alcohol"
+    caption="It was oxidized to a ketone."
 >}}
 
-<p>As depicted in the image, the alcohol intermediate was oxidized to a ketone using Dess-Martin periodinane (DMP) in dichloromethane (DCM).<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+<p>As depicted in the image, the alcohol intermediate was oxidized to a ketone using Dess-Martin periodinane (DMP) in dichloromethane (DCM) in room temperature (RT) for 1 minute.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
 
 <p>This transformation was achieved with an 83% yield and preserved the sulfur-containing functionalities<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
 
@@ -373,7 +440,7 @@ The **83%** was reported in the [paper](https://doi.org/10.1038/ncomms7445) wher
 {{% details title="Where did this Reaction come from?" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="DMPSecondarydarknoBox3.png" 
+    dark-src="DMPSecondaryDarknoBox3.png" 
     light-src="DMPSecondarylightnoBox3.png"
     title="Completion of the synthesis of clostrubin"
     caption="The completion of the clostrubin (1) synthesis using a stabilized diazo compound and a thioester with several conditions. This caused the formation of a metal-carbenoid intermediate, which was reduced to an episulfide intermediate to a tetrasubstituted olefin, followed by ultraviolet light-induced electrocyclization and final global deprotection, which yielded the desired natural product efficiently."
@@ -395,7 +462,7 @@ One main reagent used to form clostrubin was the thioester compound (4)
         link="https://doi.org/10.1038/ncomms7445"
     >}}
 
-<p>2-Iodophenol undergoes a 7-step synthesis to form the needed thioester required to form clostrubin.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+<p>2-Iodophenol underwent a 7-step synthesis to form the needed thioester required to form clostrubin.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
 
 {{<figure-dynamic-toggle
         dark-src="clos20to21darkk.png" 
@@ -403,7 +470,7 @@ One main reagent used to form clostrubin was the thioester compound (4)
         link="https://doi.org/10.1038/ncomms7445"
     >}}
 
-<p>A crucial step in this multi-step process to form the thioester was the oxidation of a secondary alcohol intermediate (20) formed in the synthesis pathway to an ketone intermediate (21) using Dess-Martin periodinane (DMP) in dichloromethane (DCM) at room temperature for 1 minute. The resulting ketone intermediate was then further utilized in subsequent steps to form the needed thioester required to synthesize Clostrubin<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
+<p>A crucial step in this multi-step process to form the thioester was the oxidation of a secondary alcohol intermediate (20) formed in the synthesis pathway to a ketone intermediate (21) using Dess-Martin periodinane (DMP) in dichloromethane (DCM) at room temperature for 1 minute. The resulting ketone intermediate was then further utilized in subsequent steps to form the needed thioester required to synthesize Clostrubin<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
 
 {{< /details >}}
 
@@ -420,23 +487,18 @@ One main reagent used to form clostrubin was the thioester compound (4)
     link="https://doi.org/10.1021/ol000289p"
 >}}
 
-<p>(+)-Preussin, a potent antifungal agent, is synthesized using protected L-N-benzoyl phenylalaninol as a starting material.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
-
-<p>This alcohol intermediate underwent oxidation using Dess-Martin periodinane (DMP) in dichloromethane (DCM) to yield the corresponding aldehyde without racemization. This transformation was achieved with a specific yield that was unreported in the paper and was a crucial step towards advancing the synthesis.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
-
-The resulting aldehyde intermediate was then further utilized in subsequent steps towards the total synthesis of (+)-Preussin.
-
 {{% details title="Reveal the Answer." %}}
 
 {{<figure-dynamic-toggle
     dark-src="DMPMechanismQ1DarkHighlighted.png" 
     light-src="DMPMechanismQ1LightHighlighted.png"
-    title="Colored side chains in these diagrams represent constant R groups. Focus on the central alcohol, which transforms into a ketone or aldehyde. Use the colored chains to track and restore these groups post-reaction, highlighting the selective oxidation process."
+    title="Start by identifying the non-alcohol portion of the molecule and determine the product"
+    caption="Colored side chains in these diagrams represent constant R groups. Focus on the central alcohol, which transforms into a ketone or aldehyde. Use the colored chains to track and restore these groups post-reaction, highlighting the selective oxidation process. Once you have done this proceed to the mechanism."
 >}}
 
 {{<figure-dynamic-toggle
-    dark-src="FULLMECHdmpdark.png" 
-    light-src="FULLMECHdmplight.png"
+    dark-src="fullprimmechd.png" 
+    light-src="fullprimmechl.png"
 >}}
 
 **Form the Overall Product**
@@ -447,6 +509,32 @@ The resulting aldehyde intermediate was then further utilized in subsequent step
 >}}
 
 This should form the expected Ketone product as a result of oxidation of the primary alcohol on this compound.
+
+{{< /details >}}
+
+{{% details title="Where did this Reaction come from?" %}}
+
+{{<figure-dynamic-toggle
+    dark-src="preu6to1dark4.png" 
+    light-src="preu6to1light4.png"
+    title="Completion of the synthesis of (+)-Preussin"
+    caption="Scheme for the enantioselective total synthesis of (+)-Preussin (1) from protected L-N-benzoylphenylalaninol (6) over 10 steps."
+    link="https://doi.org/10.1021/ol000289p"
+>}}
+
+{{% callout type="info" %}}
+For simplicity, this image summarizes the start and end products of the synthesis in the original paper by [Lee et al. (2000)](https://doi.org/10.1021/ol000289p), highlighting the starting and the end product. The full pathway is not shown to maintain clarity and focus on building towards when Dess-Martin oxidation is used.
+{{% /callout %}}
+
+<p>This reaction showing the Dess-Martin oxidation of this alcohol intermediate was part of the overall synthesis pathway of the formation of (+)-Preussin, a potent antifungal agent, which was synthesized using protected L-N-benzoyl phenylalaninol as a starting material.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
+
+{{<figure-dynamic-toggle
+        dark-src="preu6to6aboxd.png" 
+        light-src="preu6to6aboxl.png"
+        link="https://doi.org/10.1021/ol000289p"
+    >}}
+
+<p>A crucial step in this synthesis was the oxidation of the primary alcohol compound: protected L-N-benzoyl phenylalaninol (6). It was subsequently was converted to a aldehyde intermediate (6a) using Dess-Martin periodinane (DMP) in dichloromethane (DCM). The resulting aldehyde intermediate was then further utilized in the synthesis pathway to synthesize (+)-Preussin<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
 
 {{< /details >}}
 
@@ -556,8 +644,8 @@ This should form the expected Ketone product as a result of oxidation of the pri
 <div>
     <a id="fn5" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="DMPRealMechanismQ1LightBox.png" 
-        light-src="DMPMechanismQ1LightBox.png"
+        dark-src="preuboxdark.png" 
+        light-src="preuboxlight.png"
         link="https://doi.org/10.1021/ol000289p"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">5.</span> Lee, K.-Y.; Kim, Y.-H.; Oh, C.-Y.; Ham, W.-H. Facile and efficient total synthesis of (+)-preussin. <i>Org. Lett.</i> <b>2000</b>, <i>2</i> (25), 4041–4042. DOI: <a href="https://doi.org/10.1021/ol000289p">10.1021/ol000289p</a>. <a href="#ref5-anchor">↩</a></span></p>
