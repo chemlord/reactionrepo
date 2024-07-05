@@ -187,8 +187,8 @@ This was performed without the usage of water which was reported to accelerate t
 DMP is written in a shortform and in the long form as seen above. It is good to be familarized with how every variation looks as others prefer one over the other. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
 
 {{<figure-dynamic-toggle
-    dark-src="shortd.png"
-    light-src="shortl.png"
+    dark-src="plaindark1.png"
+    light-src="plaindark2.png"
     title="Variations of the Dess-Martin Periodinane"
     caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
     >}}

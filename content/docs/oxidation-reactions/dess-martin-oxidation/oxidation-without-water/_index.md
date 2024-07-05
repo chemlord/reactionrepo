@@ -61,8 +61,8 @@ Often times, Dess Martin Oxidation is always performed with DMP and a solvent. U
 You may see different variations on how DMP is written out. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
 
 {{<figure-dynamic-toggle
-    dark-src="shortdred.png"
-    light-src="shortlred.png"
+    dark-src="dmpvariationdarknew.png"
+    light-src="dmpvariationlightnew.png"
     title="Variations of the Dess-Martin Periodinane"
     caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
     >}}
@@ -242,8 +242,8 @@ Often times, Dess Martin Oxidation is always performed with DMP and a solvent. U
 Once again different variations on how DMP is written out may be encountered. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
 
 {{<figure-dynamic-toggle
-    dark-src="shortformd.png"
-    light-src="shortforml.png"
+    dark-src="dmpvariationdarknew.png"
+    light-src="dmpvariationlightnew.png"
     title="Variations of the Dess-Martin Periodinane"
     caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
     >}}
