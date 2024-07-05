@@ -26,17 +26,13 @@ Click on the footnote to be directed to the specific reference. Alternatively, y
 
 {{% details title="Why are there no step numbers included in the reaction diagrams to indicate its location on the paper's reaction pathway?" %}}
 
-Our approach prioritizes simplicity and clarity to enhance effective learning, particularly for beginners. Although scientific publications often include reaction step numbers, we have chosen not to include them to maintain clarity and avoid confusing readers, especially when presenting yields alongside the reaction. This approach aligns with the practices in textbooks and other educational resources where reaction step numbers are typically not displayed.
+We provide step numbers from the original paper in the "Where did the reaction come from?" sections but omit them in tutorials for simplicity and clarity.
 
-By focusing on the essential details—such as reagents, conditions, and yields—we prevent information overload and ensure that the key information is easily accessible. Detailed descriptions of the reaction steps and additional context are provided in the accompanying text, offering a comprehensive understanding without cluttering the diagrams.
-
-Including reaction step numbers might lead to questions about the entire synthesis pathway, which is not our intention. Our goal is to highlight specific reactions occurring in papers and explore them in detail, rather than presenting the entire synthesis process. This focused approach allows readers to quickly grasp the main points of each reaction while providing the option to delve deeper into the details as needed.
-
-Our objective is to create a resource that is both informative and user-friendly, catering to learners at all levels by emphasizing clarity and relevance in presenting chemical reactions.
+To enhance learning, especially for beginners, we exclude step numbers to avoid confusion and maintain clarity, similar to textbook practices. We focus on essential details like reagents, conditions, and yields to prevent information overload and make key points accessible. Detailed descriptions are provided in the "Where did this Reaction come from" section under every question for comprehensive understanding without cluttering diagrams.
 
 {{% /details %}}
 
-{{% details title="Why is the yield percentage included in the diagram?" %}}
+{{% details title="Why is the yield percentage included in some reaction schemes/questions?" %}}
 
 Including the yield percentage directly in the diagram (usually below the product) provides immediate insight into the efficiency of the reaction, which is a critical aspect of chemical synthesis. This information is valuable for understanding the practical outcomes of the reactions and aligns with common practices in academic publications.
 
@@ -44,17 +40,13 @@ Including the yield percentage directly in the diagram (usually below the produc
 
 {{% details title="How do you handle complex multi-step reactions in the papers?" %}}
 
-Simply put, we isolate the specific step in the synthesis where the specific reaction takes place, cite it, and illustrate the mechanism to reach the product as described in the paper. We do not provide the entire synthesis of the paper but rather focus on the key step that showcases the specific article topic’s reaction. This approach ensures clarity and relevance, allowing readers to focus on the specific transformation of interest without being overwhelmed by the entire synthetic pathway.
+We isolate and illustrate the key step in the synthesis where the specific reaction occurs, as described in the paper. Rather than detailing the entire synthesis, we focus on the critical transformation relevant to the article's topic. This approach ensures clarity and allows readers to concentrate on the important reaction without being overwhelmed by the full synthetic pathway.
 
-By focusing on the most relevant aspects of the reactions, we aim to provide a clear and concise educational resource that caters to learners at all levels. We appreciate feedback and are open to constructive suggestions on how to enhance the clarity and educational value of our content.
-
+Our goal is to provide a clear and concise educational resource for learners at all levels. Feedback is welcome to help improve the clarity and educational value of our content.
 {{% /details %}}
 
-{{% details title="Why does Reaction Repo use 'R' instead of 'R¹', 'R²', etc., for substituents?" %}}
+{{% details title="Why does Reaction Repo use 'R' only instead of 'R¹', 'R²', etc., for some entries?" %}}
 
-We use "R" to denote substituents in our diagrams to maintain simplicity and clarity, especially for educational purposes. This approach is common in many textbooks and educational resources, including "Organic Chemistry" by Clayden, Greeves, and Warren. The goal is to make the information accessible and easy to understand for learners without overwhelming them with too much detail. Detailed notations like "R¹", "R²" are used in more specific contexts where the identity of the substituents significantly impacts the reaction mechanism or outcome. By using a single "R", we ensure that the core concepts are communicated clearly, aligning with educational practices rather than the detailed specificity required in official journal publications.
-
-Citation:
-Clayden, J.; Greeves, N.; Warren, S. Organic Chemistry, 2nd ed.; Oxford University Press: Oxford, 2012.
+Reaction Repo uses 'R' only when there is a single substituent involved in the reaction. This simplifies notation, ensuring clarity and generalization, as it indicates that any alkyl or aryl group can be present without specifying different substituents.
 
 {{% /details %}}

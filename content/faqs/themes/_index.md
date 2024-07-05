@@ -10,11 +10,17 @@ weight: 2
 
 {{% details title="How do I update the theme on Desktop/PC?" %}}
 
-The steps to change your theme (Ver.1: Currently only support Light and Dark Mode) are performed in very simple steps
+The steps to change your theme (Ver.1: Currently only support Light and Dark Mode) are performed in very simple steps:
 
 {{% steps %}}
 
 ### Locate the Light/Dark Toggle Button
+
+{{<figure-dynamic-toggle
+    dark-src="dumdum.png"
+    light-src="fordummiesdark.png"
+    title="You can find the Toggle Button at the Top Right of the Page or the Bottom Left of the Page"
+>}}
 
 ### Click on it
 
@@ -39,6 +45,8 @@ The steps to change your theme (Light and Dark) are performed in very simple ste
 >}}
 
 ### Click on the Button
+
+There you have it, you should have a changed theme!
 
 {{% /steps %}}
 
