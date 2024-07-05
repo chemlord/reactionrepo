@@ -54,25 +54,11 @@ For simplicity, this image summarizes the start and end products of the synthesi
     light-src="ReagentsDMP.png"
 >}}
 
-Often times, Dess Martin Oxidation is always performed with DMP and a solvent. Usually DCM as a solvent is preferred due to its high solubility in DMP.
+Often times, Dess Martin Oxidation is always performed with DMP and a solvent. Usually DMP prefers DCM as a solvent it is highly soluble in DCM. This applies to both primary and secondary alcohol oxidations.
 
-#### Reagent Variations you might see
-
-You may see different variations on how DMP is written out. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
-
-{{<figure-dynamic-toggle
-    dark-src="dmpvariationdarknew.png"
-    light-src="dmpvariationlightnew.png"
-    title="Variations of the Dess-Martin Periodinane"
-    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
-    >}}
-
-{{<figure-dynamic-toggle
-    dark-src="dmpd.png"
-    light-src="dmpl.png"
-    title="Acetoxy group highlighted in the full-form version of DMP alongside the hypervalent Iodine centre."
-    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
-    >}}
+{{% callout type="warning" %}}
+If you missed the [**Reagent Variations section**](/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/#reagent-variations) on the Dess-Martin oxidation landing page, please check it out. It's highly recommended to review the information as it covers the variations and key characteristics of key Dess-Martin periodinane (DMP).
+{{% /callout %}}
 
 ### Identify the Key Features of the Compound
 
@@ -146,7 +132,16 @@ Once you've identified the correct reaction and product, you can now proceed to 
     caption="Alcohol group (-OH) performs a nucleophilic attack on the iodine center of the DMP molecule, forming a complex with the iodine. Acetoxy group is expelled and acts as a good leaving group that leaves with an extra electron pair."
 >}}
 
-This step involves the alcohol group attacking the iodine center of the Dess-Martin Periodinane (DMP), resulting in a complex where the alcohol is temporarily bonded to the iodine. During this reaction, an -OAc group is expelled from the compound. The -OAc group that is expelled is initially an acetoxy group (CH₃COOR). However, once it is expelled, it becomes an negatively charged acetate ion (CH₃COO⁻) due to its stability as a good leaving group with an extra electron pair.
+This step involves the alcohol group attacking the iodine center of the Dess-Martin Periodinane (DMP), resulting in a complex where the alcohol is temporarily bonded to the iodine. During this reaction, an OAc group is expelled from the compound. The expelled OAc group, initially part of the molecule as an acetoxy group, becomes a negatively charged acetate ion (CH₃COO⁻) once it leaves. This transition occurs because the OAc group acts as a good leaving group, taking an extra electron pair with it, thereby gaining a negative charge and stabilizing as an acetate ion.
+
+{{% details title="See the Shortform Version of this step." %}}
+
+{{<figure-dynamic-toggle
+    dark-src="primmd1.png"
+    light-src="primml1.png"
+    >}}
+
+{{< /details >}}
 
 ### Stabilization with Acetate Ion
 
@@ -154,10 +149,19 @@ This step involves the alcohol group attacking the iodine center of the Dess-Mar
     dark-src="priml2.png" 
     light-src="primd2.png"
     title="Charge Stabilization using a Acetate Ion"
-    caption="The newly formed intermediate is stabilized by the previously expelled -OAc (Acetoxy) group (now an acetate ion)."
+    caption="The newly formed intermediate is stabilized by the previously expelled OAc (Acetoxy) group (now an acetate ion)."
 >}}
 
 The stabilization of the intermediate occurs when the acetate ion interacts with the intermediate, ensuring the reaction progresses smoothly by stabilizing the charge.
+
+{{% details title="See the Shortform Version of this step." %}}
+
+{{<figure-dynamic-toggle
+    dark-src="primmd2.png"
+    light-src="primml2.png"
+    >}}
+
+{{< /details >}}
 
 ### Product Formation and Acetic Acid Recovery
 
@@ -170,6 +174,15 @@ The stabilization of the intermediate occurs when the acetate ion interacts with
 
 In the final steps, one mole of acetic acid is recovered. The intermediate then undergoes a proton transfer, initiated by another acetate ion, leading to the formation of the aldehyde product.
 
+{{% details title="See the Shortform Version of this step." %}}
+
+{{<figure-dynamic-toggle
+    dark-src="primmd3.png"
+    light-src="primml3.png"
+    >}}
+
+{{< /details >}}
+
 ### Overview of Final Products
 
 {{<figure-dynamic-toggle
@@ -180,6 +193,15 @@ In the final steps, one mole of acetic acid is recovered. The intermediate then 
 >}}
 
 The overall products of the Dess-Martin oxidation include the aldehyde formed from the primary alcohol, iodinane as a by-product, and the recovery of two moles of acetic acid.
+
+{{% details title="See the Shortform Products" %}}
+
+{{<figure-dynamic-toggle
+    dark-src="proddarkp.png"
+    light-src="prodlightp.png"
+    >}}
+
+{{< /details >}}
 
 ### Reconstructing the Target Intermediate
 
@@ -235,25 +257,11 @@ For simplicity, this image summarizes the start and end products of the synthesi
     light-src="ReagentsDMP.png"
 >}}
 
-Often times, Dess Martin Oxidation is always performed with DMP and a solvent. Usually DCM is preferred due to its high solubility in DMP. This applies to both primary and secondary alcohol oxidations.
+Often times, Dess Martin Oxidation is always performed with DMP and a solvent. Usually DMP prefers DCM as a solvent it is highly soluble in DCM. This applies to both primary and secondary alcohol oxidations.
 
-#### Reagent Variations Reminder
-
-Once again different variations on how DMP is written out may be encountered. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
-
-{{<figure-dynamic-toggle
-    dark-src="dmpvariationdarknew.png"
-    light-src="dmpvariationlightnew.png"
-    title="Variations of the Dess-Martin Periodinane"
-    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
-    >}}
-
-{{<figure-dynamic-toggle
-    dark-src="dmpd.png"
-    light-src="dmpl.png"
-    title="Acetoxy group highlighted in the full-form version of DMP alongside the hypervalent Iodine centre"
-    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
-    >}}
+{{% callout type="warning" %}}
+If you missed the [**Reagent Variations section**](/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/#reagent-variations) on the Dess-Martin oxidation landing page, please check it out. It's highly recommended to review the information as it covers the variations and key characteristics of Dess-Martin periodinane (DMP).
+{{% /callout %}}
 
 ### Identify the Key Features of the Compound
 
@@ -290,8 +298,6 @@ The molecule isn't taken apart during the reaction, but for understanding the pr
 ##### Guide to Side Chains
 
 1. **Identify Side Chains (R¹ and R²)**: Use parts of the molecule as placeholders (R¹ and R²), representing parts of the molecule flanking the alcohol group.
-
-**Lets Assign the Side Chains Together!**
 
 {{% details title="For Dark Mode Users" %}}
 
@@ -343,10 +349,10 @@ In this step, the secondary alcohol group (-OH) reacts with the Dess-Martin Peri
     dark-src="secdarkmech2.png" 
     light-src="seclightmech2.png"
     title="Stabilization of Reactive Intermediate Using an Acetate Ion"
-    caption="The intermediate is stabilized by the expelled -OAc group (Acetoxy group).The expelled acetoxy group becomes an acetate ion (CH₃COO⁻)."
+    caption="The intermediate is stabilized by the expelled OAc group (Acetoxy group).The expelled acetoxy group becomes an acetate ion (CH₃COO⁻)."
 >}}
 
-After the initial reaction, the intermediate is stabilized by the expelled acetoxy ion (-OAc). The -OAc group that is expelled is initially an acetoxy group (CH₃COO-). However, once it is expelled, it becomes an acetate ion (CH₃COO⁻) because it is a good leaving group that leaves with an extra electron pair, resulting in a stable, negatively charged ion.
+After the initial reaction, the intermediate is stabilized by the expulsion of the acetoxy group (OAc). In the molecule, the OAc group is initially an acetoxy group (CH₃COO-). However, once it is expelled from the Dess-Martin Periodinane (DMP), it becomes an acetate ion (CH₃COO⁻). This occurs because the acetoxy group acts as a good leaving group, taking an extra electron pair with it and becoming a stable, negatively charged acetate ion.
 
 {{% details title="See the Shortform Version of this step." %}}
 
@@ -361,7 +367,7 @@ After the initial reaction, the intermediate is stabilized by the expelled aceto
 
 {{<figure-dynamic-toggle
     dark-src="secdarkmech3.png" 
-    light-src="seclighmecht3.png"
+    light-src="seclightmech3.png"
     title="Formation of Ketone Product and Recovery of Acetic Acid"
     caption="Acetic acid is recovered, and the intermediate becomes a ketone after proton transfer."
 >}}
@@ -387,6 +393,15 @@ In this step, one mole of acetic acid is recovered. The intermediate undergoes a
 >}}
 
 The final products of the Dess-Martin oxidation for secondary alcohols include the ketone formed from the secondary alcohol, iodinane as a by-product, and the recovery of two moles of acetic acid. 
+
+{{% details title="See the Shortform Products" %}}
+
+{{<figure-dynamic-toggle
+    dark-src="secprod1light.png"
+    light-src="seccdarkprod1.png"
+    >}}
+
+{{< /details >}}
 
 ### Reconstructing the Final Overall Product
 
@@ -541,6 +556,22 @@ For simplicity, this image summarizes the start and end products of the synthesi
 {{< cards >}}
   {{< card url="/chemdatabase/dmp-mechanisms-1/" title="Want more Mechanisms? Click here!" icon="academic-cap" >}}
 {{< /cards >}}
+
+## Summary
+
+- 1° Alcohols (Primary) get oxidized to **Aldehydes**.
+- 2° Alcohols (Secondary) get oxidized to **Ketones**.
+- 3° Alcohols (Tertiary) **do not** get oxidized at all.
+
+**Quick steps to finding the product for any alcohol**
+1. Identify the reagents.
+2. Assign side chains (non alcohol part).
+3. Selectively convert Alcohol to correct product based on alcohol type. Nothing else.
+4. Keep the side chains (non alcohol part) the same and piece together the full molecule together again.
+
+{{% callout type="info" %}}
+Always remember to repeatedly practice your mechanisms and getting your reagents correct. Take advantage of our materials and/or keep practicing on a whiteboard or paper until you get it right every single time.
+{{% /callout %}}
 
 ## References
 

@@ -8,7 +8,7 @@ next: /docs/guide/shortcodes/callout
 <p>The Dess-Martin oxidation is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using the Dess-Martin periodinane (DMP), a hypervalent iodine compound. This reagent is known for its mild conditions, high selectivity, and efficiency, making it a valuable tool in organic synthesis.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 {{< callout type="info">}}
-This page is a directory containing Dess-Martin Oxidation Variations, reagent details derived from publications and a tribute to the principal investigator Dr. J.C Martin.
+This page is a directory containing Dess-Martin Oxidation Variations, reagent details derived from publications and a tribute to the principal investigator Dr. J.C. Martin.
 {{< /callout >}}
 
 ## Dess Martin Oxidation Variation Overviews
@@ -180,18 +180,52 @@ This was performed without the usage of water which was reported to accelerate t
     dark-src="ReagentsDMPdark.png"
     light-src="ReagentsDMP.png"
     title="DMP and DCM"
+    caption="Dess-Martin Periodinane (DMP) has three acetoxy groups bonded to the central iodine atom. DMP is highly soluble in DCM which makes DCM, the ideal solvent to use."
     link="https://pubs.acs.org/doi/10.1021/jo00170a070">}}
 
 ### Reagent Variations
 
-DMP is written in a shortform and in the long form as seen above. It is good to be familarized with how every variation looks as others prefer one over the other. The -OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinanes are the same, simply written in shortform and with different rings.
+You may see different variations on how DMP is written out. The OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinane structures depicted here are the same compound, shown in different notations and with varying ring structures.
 
 {{<figure-dynamic-toggle
-    dark-src="plaindark1.png"
-    light-src="plaindark2.png"
+    dark-src="red2.png"
+    light-src="red3.png"
     title="Variations of the Dess-Martin Periodinane"
     caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
     >}}
+
+{{<figure-dynamic-toggle
+    dark-src="redhigh3.png"
+    light-src="redhigh1.png"
+    title="Acetoxy group highlighted in the full-form version of DMP alongside the hypervalent Iodine centre."
+    caption="Note: The Acetoxy group has been shortened. However an image reference has been provided to show what it looks like."
+    >}}
+
+#### Acetoxy Group vs Acetate Ion
+
+##### Why Compare Acetate Ion vs. Acetoxy Group?
+
+Understanding the distinction between the acetate ion and the acetoxy group is crucial in grasping the chemical behavior and reactivity of molecules like DMP. While the acetoxy group is part of the structure of DMP, it becomes an acetate ion upon leaving the molecule during the oxidation reaction, playing the as role as a good leaving group to become a stable, negatively charged ion.
+
+##### Comparison
+
+{{<figure-dynamic-toggle
+    dark-src="PURP2.png"
+    light-src="whygod.png"
+    title="Differences Between Acetoxy Group and Acetate Ion"
+    caption="Here are the essential distinctions to understand."
+>}}
+
+**Acetoxy Group (OAc)**:
+
+- **Definition**: The OAc group (acetoxy) is a familiar functional group consisting of an acetyl group (CH₃CO) bonded to an oxygen atom.
+- **Role in DMP**: In DMP, three acetoxy groups are bonded to the central iodine atom, making them part of the larger molecule.
+- **Example Notation**: R-OAc, where R represents the rest of the DMP molecule.
+
+**Acetate Ion (CH₃COO⁻)**:
+
+- **Definition**: The acetate ion is a charged particle with a negative electrical charge, formed when an acetoxy group is expelled and loses a hydrogen atom.
+- **Formation**: In reactions, when the OAc group is expelled from DMP, it becomes an acetate ion (CH₃COO⁻), carrying a negative charge as it takes an extra electron pair.
 
 ### Reagent Preparation
 
@@ -448,9 +482,11 @@ Martin's contributions to the field are significant, particularly his invention 
 
 ### Personal Life
 
-<p>Martin's personal life was as rich as his professional one. He was born on January 14, 1928, in Dover, Tennessee, and served in the US Army from 1946 to 1950. During his service, he spent time in Kyoto, Japan, as a cultural liaison after World War II. <p>He married June E. Martin, an occupational therapist, and together they had five children.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
+<p>Martin's personal life was as rich as his professional one. He was born on January 14, 1928, in Dover, Tennessee, and served in the US Army from 1946 to 1950. During his service, he spent time in Kyoto, Japan, as a cultural liaison after World War II. 
 
-Known for his gentle and generous character, Martin balanced his demanding career with a strong commitment to his family. <p>His son, Professor Joseph V. Martin, now at Rutgers University, recalls his father's dedication both at home and in his professional life. Martin passed away on April 20, 1999, in Tampa, Florida, but his legacy continues through his family and the countless chemists he inspired.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
+<p>Known for his gentle and generous character, Martin balanced his demanding career with a strong commitment to his family. He married June E. Martin, an occupational therapist, and together they had five children.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
+
+ <p>His son, Professor Joseph V. Martin, now at Rutgers University, recalls his father's dedication both at home and in his professional life. Martin passed away on April 20, 1999, in Tampa, Florida, but his legacy continues through his family and the countless chemists he inspired.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
 
 {{<figure-dynamic-toggle
     dark-src="family.png"
@@ -487,7 +523,7 @@ Sakiwai no ikanaru hito ka morokuni no kemisuto tudoi sennge kanashimu
 What a happy and beloved person he was! Hundreds of chemists from many countries gather to mourn him and admire his accomplishments in chemistry.
 
 Rest in Peace,<br>
-Dr. J.C Martin
+**Dr. J.C. Martin**
 
 ## References
 
