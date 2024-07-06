@@ -3,6 +3,20 @@
   {{- partial "head.html" . -}}
   <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
     {{- partial "navbar.html" . -}}
+
+    {{ if .IsHome }}
+    <!-- Announcement bar -->
+    <div class="announcement-bar" id="announcement-bar">
+        <div class="announcements" id="announcements">
+            <div class="announcement">☀️ Happy July Everyone! Hope everyone is having a good summer.</div>
+            <div class="announcement">⚠️ Please refresh your page if text does not load.</div>
+            <div class="announcement">🌐 Scheduled update on July 8th, 2024: Corey Schmidt Oxidation.</div>
+            <div class="announcement">📱 Any suggestions? <a href="/reactionrepo/contact-us/" style="color: #fff; text-decoration: underline;">Contact Us!</a></div>
+        </div>
+        <button onclick="closeAnnouncementBar()">×</button>
+    </div>
+    {{ end }}
+
     {{- block "main" . }}{{ end -}}
     {{- if or (eq .Site.Params.footer.enable nil) (.Site.Params.footer.enable) }}
       {{ partial "footer.html" . }}
@@ -11,5 +25,81 @@
 
     <!-- Include theme.js -->
     <script src="{{ "js/theme.js" | relURL }}" defer></script>
+
+    <!-- Announcement bar styles and script -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+
+        .announcement-bar {
+            background-color: #262626;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            height: 50px; /* Adjust height to ensure full visibility */
+        }
+
+        .announcement-bar .announcements {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .announcement-bar .announcement {
+            font-family: 'Arimo', sans-serif;
+            font-weight: bold;
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .announcement-bar .announcement.show {
+            opacity: 1;
+        }
+
+        .announcement-bar button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+    </style>
+
+    <script>
+        let currentAnnouncementIndex = 0;
+        const announcements = document.querySelectorAll('.announcement');
+
+        function showAnnouncement(index) {
+            announcements.forEach((announcement, i) => {
+                announcement.classList.toggle('show', i === index);
+            });
+        }
+
+        function nextAnnouncement() {
+            currentAnnouncementIndex = (currentAnnouncementIndex + 1) % announcements.length;
+            showAnnouncement(currentAnnouncementIndex);
+        }
+
+        function closeAnnouncementBar() {
+            document.getElementById('announcement-bar').style.display = 'none';
+        }
+
+        // Initial call to show the first announcement
+        showAnnouncement(currentAnnouncementIndex);
+
+        // Change announcement every 5 seconds
+        setInterval(nextAnnouncement, 5000);
+    </script>
   </body>
 </html>
