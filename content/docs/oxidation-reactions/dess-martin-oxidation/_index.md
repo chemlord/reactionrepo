@@ -1,7 +1,7 @@
 ---
 title: Dess-Martin Oxidation
 weight: 3
-prev: /docs/guide/diagrams
+prev: /docs/corey-schmidt-oxidation
 next: /docs/guide/shortcodes/callout
 ---
 

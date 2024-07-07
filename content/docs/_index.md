@@ -5,7 +5,7 @@ title: Reaction Catalog
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  Freely select the type of Reaction you wish to study.
+  Freely browse and select the type of Reaction you wish to study. 
 {{< /hextra/hero-subtitle >}}
 </div>
 
@@ -184,40 +184,3 @@ a.card-link {
 
 ### B
 
-## Features
-
-<div class="hx-mb-12">
-{{< hextra/hero-subtitle >}}
-  See our Step-By-Step Tutorials.
-{{< /hextra/hero-subtitle >}}
-</div>
-
-  {{< feature-grid >}}
-
-  {{< feature-card
-    title="Find your framework"
-    subtitle="Deploy your favorite framework with our step by step guides."
-    link="/guides"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< feature-card
-    title="Starter tutorials"
-    subtitle="Make a starter app and deploy it on Clever Cloud."
-    link="/guides/#starter-tutorials"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(58, 56, 113, 0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< feature-card
-    title="Add-ons guides"
-    subtitle="Take your dependencies management to the next level."
-    link="/guides/#level-up-your-add-ons"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(165, 16, 80, 0.15),hsla(0,0%,100%,0));"
-  >}}
-
-{{< /feature-grid >}}
-
-## Questions or Feedback?
-
-{{< callout icon="exclamation-circle">}}
-  Reaction Repo is still in active development.
-  Have a question or feedback? Feel free to [open an issue](https://chemlord.github.io/devthechemistt/)!
-{{< /callout >}}
