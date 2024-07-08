@@ -1,6 +1,6 @@
 ---
-linkTitle: "Reaction Catalog"
 title: Reaction Catalog
+linkTitle: "Reaction Catalog"
 ---
 
 <div class="hx-mb-12">

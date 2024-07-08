@@ -1,10 +1,7 @@
 ---
 title: Oxidation Reactions
+date: 2024-07-07
 weight: 2
-prev: /docs/getting-started
-next: /docs/oxidation-reactions/organize-files
-sidebar:
-  open: true
 ---
 {{<figure-dynamic-toggle
     dark-src="oxidationoverviewdark.png"

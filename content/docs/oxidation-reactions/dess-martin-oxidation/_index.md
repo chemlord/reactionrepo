@@ -1,9 +1,36 @@
 ---
 title: Dess-Martin Oxidation
 weight: 3
+date: 2024-07-05
 prev: /docs/corey-schmidt-oxidation
 next: /docs/guide/shortcodes/callout
+authors:
+  - name: Devraj Bagchi
+    link: https://chemlord.github.io/devthechemistt/
+    image: /contact-us/avatar.jpg
 ---
+
+<div style="text-align: left; margin-top: 1em;">
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/" >}}
+  <span>Dess-Martin Oxidation</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
+  <span>Oxidation Reaction</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
+  <span>Aldehyde</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
+  <span>Ketone</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/docs/oxidation-reactions/#mild" >}}
+  <span>Mild</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
 
 <p>The Dess-Martin oxidation is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using the Dess-Martin periodinane (DMP), a hypervalent iodine compound. This reagent is known for its mild conditions, high selectivity, and efficiency, making it a valuable tool in organic synthesis.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 

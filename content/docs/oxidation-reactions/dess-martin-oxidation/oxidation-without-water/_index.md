@@ -2,7 +2,33 @@
 title: Oxidation without Water
 linkTitle: Oxidation without Water
 prev: /docs/oxidation-reactions/dess-martin-oxidation
+date: 2024-07-05
+authors:
+  - name: Devraj Bagchi
+    link: https://chemlord.github.io/devthechemistt/
+    image: /contact-us/avatar.jpg
 ---
+<div style="text-align: left; margin-top: 1em;">
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/" >}}
+  <span>Dess-Martin Oxidation</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
+  <span>Oxidation Reaction</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
+  <span>Aldehyde</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
+  <span>Ketone</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/docs/oxidation-reactions/#mild" >}}
+  <span>Mild</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
 
 {{<figure-dynamic-toggle
     dark-src="DMPOverviewDarkFix.png"
