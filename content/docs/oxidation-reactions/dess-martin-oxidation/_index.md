@@ -10,28 +10,27 @@ authors:
     image: /contact-us/avatar.jpg
 ---
 
-<div style="text-align: left; margin-top: 1em;">
-  {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/" style="margin-right: 10px; margin-bottom: 10px;" >}}
-    <span>Dess-Martin Oxidation</span>
-    {{< icon name="beaker" attributes="height=14" >}}
-  {{< /hextra/hero-badge >}}
-  {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" style="margin-right: 10px; margin-bottom: 10px;" >}}
-    <span>Oxidation Reaction</span>
-    {{< icon name="beaker" attributes="height=14" >}}
-  {{< /hextra/hero-badge >}}
-  {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" style="margin-right: 10px; margin-bottom: 10px;" >}}
-    <span>Aldehyde</span>
-    {{< icon name="beaker" attributes="height=14" >}}
-  {{< /hextra/hero-badge >}}
-  {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" style="margin-right: 10px; margin-bottom: 10px;" >}}
-    <span>Ketone</span>
-    {{< icon name="beaker" attributes="height=14" >}}
-  {{< /hextra/hero-badge >}}
-  {{< hextra/hero-badge link="/docs/oxidation-reactions/#mild" style="margin-right: 10px; margin-bottom: 10px;" >}}
-    <span>Mild</span>
-    {{< icon name="beaker" attributes="height=14" >}}
-  {{< /hextra/hero-badge >}}
-</div>
+<div style="text-align: left; margin-top: 0.2em; display: flex; flex-wrap: wrap; gap: 10px;">
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/" >}}
+  <span>Dess-Martin Oxidation</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
+  <span>Oxidation Reaction</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
+  <span>Aldehyde</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
+  <span>Ketone</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="/docs/oxidation-reactions/#mild" >}}
+  <span>Mild</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
 
 <p>The Dess-Martin oxidation is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using the Dess-Martin periodinane (DMP), a hypervalent iodine compound. This reagent is known for its mild conditions, high selectivity, and efficiency, making it a valuable tool in organic synthesis.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 

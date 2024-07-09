@@ -4,9 +4,9 @@ weight: 3
 prev: /docs/oxidation-reactions/dess-martin-oxidation
 next: /docs/guide/shortcodes/callout
 authors:
-  - name: imfing
-    link: https://github.com/imfing
-    image: https://github.com/imfing.png
+  - name: Devraj Bagchi
+    link: https://chemlord.github.io/devthechemistt/
+    image: /contact-us/avatar.jpg
 ---
 <div class="hx-mb-2">
 {{< hextra/hero-subtitle >}}
