@@ -10,7 +10,7 @@ authors:
     image: /contact-us/avatar.jpg
 ---
 
-<div style="text-align: left; margin-top: 1em;">
+<div style="text-align: left; margin-top: 0.2em; display: flex; flex-wrap: wrap; gap: 5px;">
 {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
   <span>Oxidation</span>
   {{< icon name="beaker" attributes="height=14" >}}

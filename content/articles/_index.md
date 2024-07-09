@@ -5,7 +5,7 @@ type: blog
 toc: false
 ---
 
-<div style="text-align: center; margin-top: 1em;">
+<div style="text-align: left; margin-top: 0.2em; display: flex; flex-wrap: wrap; gap: 5px;">
 {{< hextra/hero-badge link="index.xml" >}}
   <span>RSS Feed</span>
   {{< icon name="rss" attributes="height=14" >}}
