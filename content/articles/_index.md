@@ -142,7 +142,7 @@ a.card-link {
 </style>
 
 <div class="hextra-cards">
-  <a href="/reactionrepo/article-repository/sheddling-light/" class="card-link">
+  <a href="/reactionrepo/article-repository/light-dark-mode-learning/" class="card-link">
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
