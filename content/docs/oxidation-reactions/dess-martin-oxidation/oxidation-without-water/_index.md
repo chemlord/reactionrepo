@@ -29,6 +29,7 @@ authors:
   <span>Mild</span>
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
+</div>
 
 {{<figure-dynamic-toggle
     dark-src="DMPOverviewDarkFix.png"

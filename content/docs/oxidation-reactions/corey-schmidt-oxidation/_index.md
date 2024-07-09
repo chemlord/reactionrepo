@@ -35,15 +35,14 @@ authors:
   <span>Mild</span>
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
+</div>
 
 <div style="text-align: left; margin-top: 0.4em;">
 {{< hextra/hero-badge link="/docs/oxidation-reactions/#mild" >}}
   <span>Harsh</span>
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
-
-<div style="text-align: left; margin-top: 1em;">
-  <p>
+</div>
 
 <p>The Corey-Schmidt oxidation is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using the pyridinium dichromate (PDC), also known as the Cornforth reagent. PDC is a salt soluble in halogenated organic solvents such as DCM which allows anhydrous reaction. It reacts similar to PCC and is more suited for acid sensitive compounds.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 

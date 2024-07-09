@@ -31,7 +31,7 @@ authors:
   <span>Mild</span>
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
-
+</div>
 
 
 <p>The Dess-Martin oxidation is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using the Dess-Martin periodinane (DMP), a hypervalent iodine compound. This reagent is known for its mild conditions, high selectivity, and efficiency, making it a valuable tool in organic synthesis.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
