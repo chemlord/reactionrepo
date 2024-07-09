@@ -39,7 +39,6 @@ breadcrumbs: false
 {{<figure-dynamic-toggle
     dark-src="diene.jpg"
     light-src="diene.jpg"
-    width="700"
     >}}
 
 ## What's the Problem?
