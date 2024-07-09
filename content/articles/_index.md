@@ -152,7 +152,7 @@ a.card-link {
           width="350"
           height="200"
         >}}
-        <h2 class="card-title">Shedding New Light on Learning - Embracing Visual Material</h2>
+        <h2 class="card-title">Light and Dark Mode Learning</h2>
         <p class="card-description">Should existing resources cater to students?</p>
         <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
       </div>

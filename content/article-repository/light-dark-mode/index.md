@@ -1,15 +1,15 @@
 ---
-title: Shedding New Light on Learning - Embracing Visual Material
+title: Light and Dark Mode Learning
 type: blog
 toc: true
-date: 2024-05-24
+date: 2024-07-03
 authors:
   - name: Devraj Bagchi
     link: https://chemlord.github.io/devthechemistt/
     image: /contact-us/avatar.jpg
 breadcrumbs: false
 ---
-<div style="text-align: left; margin-top: 0.2em;">
+<div style="text-align: left; margin-top: 0.5em;">
 {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
   <span>Oxidation</span>
   {{< icon name="beaker" attributes="height=14" >}}
