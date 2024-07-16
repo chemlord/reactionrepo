@@ -9,39 +9,25 @@ authors:
     image: /contact-us/avatar.jpg
 breadcrumbs: false
 ---
-<div style="text-align: left; margin-top: 0.5em;">
+<div style="text-align: left; margin-top: -0.3em; display: flex; flex-wrap: wrap; gap: 4px;">
 {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
-  <span>Oxidation</span>
-  {{< icon name="beaker" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
-  <span>Elias J. Corey</span>
-  {{< icon name="beaker" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
-  <span>Aldehyde</span>
-  {{< icon name="beaker" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
-  <span>Ketone</span>
-  {{< icon name="beaker" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
-  <span>Carboxylic Acid</span>
-  {{< icon name="beaker" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="/docs/oxidation-reactions/#mild" >}}
-  <span>Mild</span>
-  {{< icon name="beaker" attributes="height=14" >}}
+  <span>Education</span>
+  {{< icon name="academic-cap" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 </div>
+
+{{<figure-dynamic-toggle
+    dark-src="alcoholsdarkbox.png"
+    light-src="alcoholslightbox.png"
+    >}}
+
+## What's the Problem?
 
 {{<figure-dynamic-toggle
     dark-src="diene.jpg"
     light-src="diene.jpg"
     >}}
 
-## What's the Problem?
 
 In academic settings, particularly in organic chemistry, lecture notes are typically provided in light mode. This default setting may not suit all students, especially those who study at night and could benefit from a less glaring, dark mode option. However, professors <mark>often hestitate to offer</mark> such alternatives due to several challenges:
 

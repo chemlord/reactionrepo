@@ -1,29 +1,33 @@
 ---
-title: "Articles"
-width: full
-type: blog
+title: Blog
+description: "Open source projects powered by Hextra"
 toc: false
+layout: wide
 ---
-
-<div style="text-align: center; margin-top: 0.2em; display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-{{< hextra/hero-badge link="index.xml" >}}
-  <span>RSS Feed</span>
-  {{< icon name="rss" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="index.xml" >}}
-  <span>RSS Feed</span>
-  {{< icon name="rss" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="index.xml" >}}
-  <span>RSS Feed</span>
-  {{< icon name="rss" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-</div>
 
 <div class="hx-mt-4"></div>
 
-<p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
-Open source projects powered by Hextra
+<div style="text-align: center; margin-top: -0.4em; display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; align-items: center;">
+{{< hextra/hero-badge link="index.xml" >}}
+  <span>Education</span>
+  {{< icon name="academic-cap" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="index.xml" >}}
+  <span>Paper Review</span>
+  {{< icon name="document-search" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+{{< hextra/hero-badge link="index.xml" >}}
+  <span>Reactions</span>
+  {{< icon name="beaker" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+</div>
+
+<p class="hx-mb-4 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
+👋 Welcome to our Blog!
+</p>
+
+<p class="hx-mb-8 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
+We're excited to share our thoughts, insights, and stories with you. <br> Here we provide something for everyone whether its a good read or some inspiration. <br> Dive in, explore, enjoy!
 </p>
 
 <style>
@@ -206,15 +210,3 @@ a.card-link {
       </div>
     </div>
   </
-
-
-
-
-
-
-
-
-
-
-
-

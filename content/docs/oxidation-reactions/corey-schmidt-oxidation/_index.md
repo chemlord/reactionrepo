@@ -10,7 +10,7 @@ authors:
     image: /contact-us/avatar.jpg
 ---
 
-<div style="text-align: left; margin-top: 0.2em; display: flex; flex-wrap: wrap; gap: 5px;">
+<div style="text-align: left; margin-top: -0.2em; display: flex; flex-wrap: wrap; gap: 4px;">
 {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
   <span>Oxidation</span>
   {{< icon name="beaker" attributes="height=14" >}}
@@ -63,3 +63,19 @@ https://www.science.org/content/blog-post/don-t-know-don-t-care
 Felix Chau
 Fung Lam
 James Altom
+{{% steps %}}
+
+### Step 1
+
+This is the first step.
+
+### Step 2
+
+This is the second step.
+
+{{< cards >}}
+  {{< card link="../callout" title="Callout" icon="warning" >}}
+  {{< card link="/" title="No Icon" >}}
+{{< /cards >}}
+
+{{% /steps %}}
