@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Articles
 description: "Open source projects powered by Hextra"
 toc: false
 layout: wide
