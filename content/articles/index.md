@@ -60,7 +60,7 @@ We're excited to share our thoughts, insights, and stories with you. <br> Here w
   user-select: none;
   width: 100%;
   height: auto;
-  max-height: 300px; /* Increase image height */
+  min-height: 300px; /* Set a minimum height for the images */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 1rem; /* Add more space below the image */
 }
@@ -201,7 +201,7 @@ a.card-link {
           light-src="decal.jpg"
           title=""
           width="350"
-          height="200"
+          height="300"
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
@@ -220,7 +220,7 @@ a.card-link {
           light-src="decal.jpg"
           title=""
           width="350"
-          height="200"
+          height="300"
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
@@ -239,7 +239,7 @@ a.card-link {
           light-src="decal.jpg"
           title=""
           width="350"
-          height="200"
+          height="300"
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
@@ -258,7 +258,7 @@ a.card-link {
           light-src="decal.jpg"
           title=""
           width="350"
-          height="200"
+          height="300"
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
@@ -277,7 +277,7 @@ a.card-link {
           light-src="decal.jpg"
           title=""
           width="350"
-          height="200"
+          height="300"
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
@@ -296,13 +296,13 @@ a.card-link {
           light-src="decal.jpg"
           title=""
           width="350"
-          height="200"
+          height="300"
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
           <span class="card-tag">SYNTHESIS</span>
         </div>
-        <h2 class="card-title">Pinnick Oxidation</h3>
+        <h2 class="card-title">Pinnick Oxidation</h2>
         <h3 class="card-description">A brief overview of Pinnick Oxidation.</h3>
       </div>
     </div>
