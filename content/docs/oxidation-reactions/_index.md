@@ -2,7 +2,21 @@
 title: Oxidation Reactions
 date: 2024-07-07
 weight: 2
+type: docs
 ---
+
+<style>
+.hide-date span {
+  display: none;
+}
+.hide-date {
+  margin-top: -5px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+</style>
+
 {{<figure-dynamic-toggle
     dark-src="oxidationoverviewdark.png"
     light-src="oxidationoverviewlightt.png"

@@ -5,6 +5,7 @@ type: docs
 toc: true
 pager: true
 weight: 1
+sidebar_exclude_reactions: true
 ---
 
 Welcome to the **FAQs Catalog**. Here we provide support for **site-wide technical issues** and questions regarding the **chemistry content** such as referencing and formatting for curious users, educators and experts. For questions regarding **chemistry concepts** themselves, please refer to our detailed entries and the references at the **end of every entry**. If you need further assistance, feel free to contact us [directly](reactionrepo/contact-us/)

@@ -22,6 +22,20 @@
   </div>
   <div class="hextra-scrollbar hx-overflow-y-auto hx-overflow-x-hidden hx-p-4 hx-grow md:hx-h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
     <ul class="hx-flex hx-flex-col hx-gap-1 md:hx-hidden">
+      <!-- Reaction Catalog Section -->
+      {{ template "sidebar-reaction-catalog" (dict "context" $navRoot "page" $context "pageURL" $pageURL) }}
+      <!-- Separator with conditional label -->
+      <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
+        <span class="hx-cursor-default">
+          {{ if (hasPrefix $pageURL "/faqs") }}
+            Inquiry Topics
+          {{ else if (hasPrefix $pageURL "/additional-resources") }}
+            Other Sites
+          {{ else }}
+            Reactions
+          {{ end }}
+        </span>
+      </li>
       <!-- Nav -->
       {{ template "sidebar-main" (dict "context" site.Home "pageURL" $pageURL "page" $context "toc" true) -}}
       {{ template "sidebar-footer" }}
@@ -33,6 +47,20 @@
       {{ .context.Scratch.Set "enableFooterSwitches" true }}
     {{- else -}}
       <ul class="hx-flex hx-flex-col hx-gap-1 max-md:hx-hidden">
+        <!-- Reaction Catalog Section -->
+        {{ template "sidebar-reaction-catalog" (dict "context" $navRoot "page" $context "pageURL" $pageURL) }}
+        <!-- Separator with conditional label -->
+        <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
+          <span class="hx-cursor-default">
+            {{ if (hasPrefix $pageURL "/faqs") }}
+              Inquiry Topics
+            {{ else if (hasPrefix $pageURL "/additional-resources") }}
+              Other Sites
+            {{ else }}
+              Reactions
+            {{ end }}
+          </span>
+        </li>
         {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL) }}
         {{ template "sidebar-footer" }}
       </ul>
@@ -43,7 +71,7 @@
   {{ $displayThemeToggle := (site.Params.theme.displayToggle | default true) -}}
 
   {{ if or hugo.IsMultilingual $displayThemeToggle }}
-    <div class="{{ $switchesClass }} {{ with hugo.IsMultilingual }}hx-justify-end{{ end }} hx-sticky hx-bottom-0 hx-bg-white dark:hx-bg-dark hx-mx-4 hx-py-4 hx-shadow-[0_-12px_16px_#fff] hx-flex hx-items-center hx-gap-2 dark:hx-border-neutral-800 dark:hx-shadow-[0_-12px_16px_#111] contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-shadow-none hx-border-t" data-toggle-animation="show">
+    <div class="{{ $switchesClass }} {{ with hugo.IsMultilingual }}hx-justify-end{{ end }} hx-sticky hx-bottom-0 hx-bg-white dark:hx-bg-dark hx-mx-4 hx-py-4 hx-shadow-[0_-12px_16px_#fff] hx-flex hx-items-center hx-gap-2 dark:hx-border-neutral-800 dark:hx-shadow-[0_-12px_16px_#111] contrast-more:hx-border-neutral-400 contrast-more:hx-shadow-none contrast-more:dark:hx-shadow-none contrast-more:dark:hx-border-neutral-600" data-toggle-animation="show">
       {{- with hugo.IsMultilingual -}}
         {{- partial "language-switch" (dict "context" $context "grow" true) -}}
         {{- with $displayThemeToggle }}{{ partial "theme-toggle" (dict "hideLabel" true) }}{{ end -}}
@@ -58,6 +86,18 @@
 
 {{- define "sidebar-main" -}}
   {{ template "sidebar-tree" (dict "context" .context "level" 0 "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}
+{{- end -}}
+
+{{- define "sidebar-reaction-catalog" -}}
+  <!-- Reaction Catalog Section -->
+  {{- $reactionCatalog := .context.GetPage "/docs/reaction-catalog/" -}}
+  {{- if $reactionCatalog -}}
+    {{- $active := eq .pageURL $reactionCatalog.RelPermalink -}}
+    <li class="{{ if $active }}open{{ end }}">
+      {{- $linkTitle := partial "utils/title" $reactionCatalog -}}
+      {{- template "sidebar-item-link" dict "context" $reactionCatalog "active" $active "title" $linkTitle "link" $reactionCatalog.RelPermalink -}}
+    </li>
+  {{- end -}}
 {{- end -}}
 
 {{- define "sidebar-tree" -}}
@@ -76,36 +116,42 @@
     {{- if eq $level 0 -}}
       {{- range $items.ByWeight }}
         {{- if .Params.sidebar.separator -}}
-          <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
-            <span class="hx-cursor-default">{{ partial "utils/title" . }}</span>
-          </li>
+          {{- if not (eq .RelPermalink "/docs/reaction-catalog/") -}}
+            <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
+              <span class="hx-cursor-default">{{ partial "utils/title" . }}</span>
+            </li>
+          {{- end -}}
         {{- else -}}
-          {{- $active := eq $pageURL .RelPermalink -}}
-          {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
-          <li class="{{ if $shouldOpen }}open{{ end }}">
-            {{- $linkTitle := partial "utils/title" . -}}
-            {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
-            {{- if and $toc $active -}}
-              {{- template "sidebar-toc" dict "page" . -}}
-            {{- end -}}
-            {{- template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
-          </li>
+          {{- if not (eq .RelPermalink "/docs/reaction-catalog/") -}}
+            {{- $active := eq $pageURL .RelPermalink -}}
+            {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
+            <li class="{{ if $shouldOpen }}open{{ end }}">
+              {{- $linkTitle := partial "utils/title" . -}}
+              {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
+              {{- if and $toc $active -}}
+                {{- template "sidebar-toc" dict "page" . -}}
+              {{- end -}}
+              {{- template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
+            </li>
+          {{- end -}}
         {{- end -}}
       {{- end -}}
     {{- else -}}
       <div class="ltr:hx-pr-0 hx-overflow-hidden">
         <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'>
           {{- range $items.ByWeight }}
-            {{- $active := eq $pageURL .RelPermalink -}}
-            {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
-            {{- $linkTitle := partial "utils/title" . -}}
-            <li class="hx-flex hx-flex-col {{ if $shouldOpen }}open{{ end }}">
-              {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
-              {{- if and $toc $active -}}
-                {{ template "sidebar-toc" dict "page" . }}
-              {{- end }}
-              {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
-            </li>
+            {{- if not (eq .RelPermalink "/docs/reaction-catalog/") -}}
+              {{- $active := eq $pageURL .RelPermalink -}}
+              {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
+              {{- $linkTitle := partial "utils/title" . -}}
+              <li class="hx-flex hx-flex-col {{ if $shouldOpen }}open{{ end }}">
+                {{- template "sidebar-item-link" dict "context" . "active" $active "title" $linkTitle "link" .RelPermalink -}}
+                {{- if and $toc $active -}}
+                  {{ template "sidebar-toc" dict "page" . }}
+                {{- end }}
+                {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
+              </li>
+            {{- end -}}
           {{- end -}}
         </ul>
       </div>
@@ -123,7 +169,7 @@
             <li>
               <a
                 href="#{{ anchorize .ID }}"
-                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 contrast-more:dark:hover:hx-border-gray-50"
+                class="hx-flex hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [word-break:break-word] hx-cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] contrast-more:hx-border hx-gap-2 before:hx-opacity-25 before:hx-content-['#'] hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:hx-text-gray-900 contrast-more:dark:hx-text-gray-50 contrast-more:hx-border-transparent contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
               >
                 {{- .Title -}}
               </a>
@@ -145,7 +191,7 @@
     {{ else }}
       <li>{{ template "sidebar-item-link" dict "active" false "title" $name "link" (.URL | relLangURL) }}</li>
     {{ end }}
-  {{- end -}}
+  {{- end }}
 
   <!-- Custom Menu Links from Hugo Blox -->
   <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
@@ -169,14 +215,14 @@
     href="{{ .link }}"
     {{ if $external }}target="_blank" rel="noreferer"{{ end }}
   >
-    {{- .title -}}
+    {{- .title }}
     {{- with .context }}
       {{- if or .RegularPages .Sections }}
         <span class="hextra-sidebar-collapsible-button">
           {{- template "sidebar-collapsible-button" -}}
         </span>
       {{- end }}
-    {{ end -}}
+    {{ end }}
   </a>
 {{- end -}}
 

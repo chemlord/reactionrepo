@@ -1,186 +1,56 @@
 ---
-title: Reaction Catalog
-linkTitle: "Reaction Catalog"
+title: Documentation
+linkTitle: "Home"
+type: docs
+date: 2024-07-16
 ---
 
-<div class="hx-mb-12">
-{{< hextra/hero-subtitle >}}
-  Freely browse and select the type of Reaction you wish to study. 
-{{< /hextra/hero-subtitle >}}
-</div>
-
-## Search by Reaction Type
-
 <style>
-.hextra-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem; /* Add margin to create space between the header and the cards */
+.hide-date span {
+  display: none;
+}
+.hide-date {
+  margin-top: -15px;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.hextra-card {
-  position: relative;
-  border-radius: 15px;
-  overflow: hidden;
-  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
-  padding: 1rem;
-  text-align: center;
-  border: 1px solid #2c2c2c; /* Outline color */
-  background: transparent; /* Transparent background */
-  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
-}
-
-.hextra-card:hover {
-  transform: scale(1.03); /* Slightly reduced scale to avoid large shadows */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Less intense shadow */
-  background-color: rgba(0, 0, 0, 0.03); /* Subtle highlight effect for light mode */
-}
-
-.dark .hextra-card {
-  border-color: #4c4c4c; /* More visible outline color for dark mode */
-}
-
-.dark .hextra-card:hover {
-  background-color: rgba(255, 255, 255, 0.05); /* Subtle highlight effect for dark mode */
-  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15); /* Consistent shadow effect for dark mode */
-}
-
-.hextra-card img {
-  user-select: none;
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-bottom: 0.5rem; /* Adjust spacing below the image */
-}
-
-.hextra-card:hover img {
-  transform: scale(1.03); /* Consistent scale with card */
-  box-shadow: none; /* Remove shadow from the image */
-}
-
-.card-title {
-  margin: 0.5rem 0 0; /* Adjust spacing for the title */
-  transition: color 0.3s ease;
-  color: #000; /* Title color in light mode */
-}
-
-.dark .card-title {
-  color: #3498db; /* Title color in dark mode */
-}
-
-.card-body {
-  padding-top: 0; /* Remove top padding */
-}
-
-.dark .hextra-card svg {
-  color: #ffffff66;
-}
-
-.dark .hextra-card:hover svg {
-  color: currentColor;
-}
-
-a.card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
 </style>
 
-<div class="hextra-cards">
-  <a href="/reactionrepo/docs/oxidation-reactions/" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="oxidationoverviewdark.png"
-          light-src="oxidationoverviewlightt.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Oxidation Reactions</h5>
-      </div>
-    </div>
-  </a>
-  <a href="#" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="dark.png"
-          light-src="light.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Pericyclic Reactions</h5>
-      </div>
-    </div>
-  </a>
-  <a href="#" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="dark.png"
-          light-src="light.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Addition Reactions</h5>
-      </div>
-    </div>
-  </a>
-  <a href="#" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="dark.png"
-          light-src="light.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Elimination Reactions</h5>
-      </div>
-    </div>
-  </a>
-  <a href="#" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="dark.png"
-          light-src="light.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Substitution Reactions</h5>
-      </div>
-    </div>
-  </a>
-  <a href="#" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="dark.png"
-          light-src="light.png"
-          title=""
-          width="300"
-          height="150"
-        >}}
-        <h5 class="card-title">Redox Reactions</h5>
-      </div>
-    </div>
-  </a>
-</div>
+{{< hextra/hero-subtitle >}}
+  Here you can find everything you need including the links leading to Reaction Catalog, Additional Resources. FAQs to better navigate the site. 
+{{< /hextra/hero-subtitle >}}
 
-## Search by Products
+{{< cards >}}
+  {{< card link="/reactionrepo/docs/reaction-catalog" title="Browse Reactions" subtitle="View our Reaction Catalog and find the Reaction you're looking for." icon="book-open" >}}
+  {{< card link="../faqs/" title="Frequently Asked Questions" subtitle="Have any questions and/or Suggestions? Explore here." icon="question-mark-circle" >}}
+  {{< card link="/reactionrepo/additional-resources/" title="Additional Resources" subtitle="Can't find what you're looking for? Check out our site repository of other resources." icon="library" >}}
+{{< /cards >}}
 
+{{< hextra/hero-subtitle style="margin:20px 0">}}
+  See our step by step tutorials and curated material.
+{{< /hextra/hero-subtitle >}}
 
-## Search by Author/Reaction Name
+{{< feature-grid >}}
+  {{< feature-card
+    title="Find your Reaction"
+    subtitle="Use our step by step guides to help you understand."
+    link="/reactionrepo/docs/reaction-catalog/"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< feature-card
+    title="Read our Blog"
+    subtitle="See our vast collection of blog posts regarding papers and other topics"
+    link="/reactionrepo/articles"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(58, 56, 113, 0.15),hsla(0,0%,100%,0));"
+  >}}
+  {{< feature-card
+    title="Star us on Github"
+    subtitle="If you liked our content, feel free to star us on Github!"
+    link="https://github.com/chemlord/reactionrepo"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(165, 16, 80, 0.15),hsla(0,0%,100%,0));"
+  >}}
 
-### A
-
-### B
+{{< /feature-grid >}}
 
