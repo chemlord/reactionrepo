@@ -50,6 +50,8 @@ authors:
 This page is a directory containing Corey-Schmidt Variations, reagent details derived from publications and an author section dedicated Elias J. Corey, controversies surrounding him and tributes to some unfortunate members of his lab.
 {{< /callout >}}
 
+
+
 {{<figure-dynamic-toggle
     dark-src="logodark2.png"
     light-src="logodarkk.png"
