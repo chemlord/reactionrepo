@@ -28,7 +28,7 @@ date: 2024-07-16
   {{< card link="/reactionrepo/additional-resources/" title="Additional Resources" subtitle="Can't find what you're looking for? Check out our site repository of other resources." icon="library" >}}
 {{< /cards >}}
 
-## More Info
+## More Information
 
 {{< hextra/hero-subtitle style="margin:20px 0">}}
   See our step by step tutorials and curated material.
