@@ -61,7 +61,7 @@
             {{ end }}
           </span>
         </li>
-        {{ template "sidebar-main" (dict "context" $navRoot "page" $context "pageURL" $pageURL) }}
+        {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL) }}
         {{ template "sidebar-footer" }}
       </ul>
     {{ end -}}
@@ -151,13 +151,13 @@
                 {{- end }}
                 {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
               </li>
-            {{- end }}
-          {{- end }}
+            {{- end -}}
+          {{- end -}}
         </ul>
       </div>
     {{- end -}}
   {{- end }}
-{{- end }}
+{{- end -}}
 
 {{- define "sidebar-toc" -}}
   {{ $page := .page }}
@@ -179,7 +179,7 @@
       {{ end -}}
     </ul>
   {{ end }}
-{{- end }}
+{{- end -}}
 
 {{- define "sidebar-footer" -}}
   {{- range site.Menus.sidebar -}}
