@@ -95,10 +95,8 @@
     {{- $active := eq .pageURL $reactionCatalog.RelPermalink -}}
     <li class="{{ if $active }}open{{ end }}">
       {{- $linkTitle := partial "utils/title" $reactionCatalog -}}
-      <a href="{{ $reactionCatalog.RelPermalink }}">{{ $linkTitle }}</a>
+      {{- template "sidebar-item-link" dict "context" $reactionCatalog "active" $active "title" $linkTitle "link" $reactionCatalog.RelPermalink -}}
     </li>
-  {{- else -}}
-    <li>Reaction Catalog page not found: {{ "/reactionrepo/docs/reaction-catalog/" }}</li>
   {{- end -}}
 {{- end -}}
 
