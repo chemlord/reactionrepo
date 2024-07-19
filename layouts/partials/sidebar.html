@@ -27,9 +27,9 @@
       <!-- Separator with conditional label -->
       <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
         <span class="hx-cursor-default">
-          {{ if (hasPrefix $pageURL "/faqs") }}
+          {{ if (hasPrefix $pageURL "/reactionrepo/faqs") }}
             Inquiry Topics
-          {{ else if (hasPrefix $pageURL "/additional-resources") }}
+          {{ else if (hasPrefix $pageURL "/reactionrepo/additional-resources") }}
             Other Sites
           {{ else }}
             Reactions
@@ -52,9 +52,9 @@
         <!-- Separator with conditional label -->
         <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
           <span class="hx-cursor-default">
-            {{ if (hasPrefix $pageURL "/faqs") }}
+            {{ if (hasPrefix $pageURL "/reactionrepo/faqs") }}
               Inquiry Topics
-            {{ else if (hasPrefix $pageURL "/additional-resources") }}
+            {{ else if (hasPrefix $pageURL "/reactionrepo/additional-resources") }}
               Other Sites
             {{ else }}
               Reactions
@@ -90,7 +90,7 @@
 
 {{- define "sidebar-reaction-catalog" -}}
   <!-- Reaction Catalog Section -->
-  {{- $reactionCatalog := .context.GetPage "/docs/reaction-catalog/" -}}
+  {{- $reactionCatalog := .context.GetPage "/reactionrepo/docs/reaction-catalog/" -}}
   {{- if $reactionCatalog -}}
     {{- $active := eq .pageURL $reactionCatalog.RelPermalink -}}
     <li class="{{ if $active }}open{{ end }}">
@@ -116,13 +116,13 @@
     {{- if eq $level 0 -}}
       {{- range $items.ByWeight }}
         {{- if .Params.sidebar.separator -}}
-          {{- if not (eq .RelPermalink "/docs/reaction-catalog/") -}}
+          {{- if not (eq .RelPermalink "/reactionrepo/docs/reaction-catalog/") -}}
             <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
               <span class="hx-cursor-default">{{ partial "utils/title" . }}</span>
             </li>
           {{- end -}}
         {{- else -}}
-          {{- if not (eq .RelPermalink "/docs/reaction-catalog/") -}}
+          {{- if not (eq .RelPermalink "/reactionrepo/docs/reaction-catalog/") -}}
             {{- $active := eq $pageURL .RelPermalink -}}
             {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
             <li class="{{ if $shouldOpen }}open{{ end }}">
@@ -140,7 +140,7 @@
       <div class="ltr:hx-pr-0 hx-overflow-hidden">
         <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'>
           {{- range $items.ByWeight }}
-            {{- if not (eq .RelPermalink "/docs/reaction-catalog/") -}}
+            {{- if not (eq .RelPermalink "/reactionrepo/docs/reaction-catalog/") -}}
               {{- $active := eq $pageURL .RelPermalink -}}
               {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
               {{- $linkTitle := partial "utils/title" . -}}
@@ -157,7 +157,7 @@
       </div>
     {{- end -}}
   {{- end }}
-{{- end -}}
+{{- end }}
 
 {{- define "sidebar-toc" -}}
   {{ $page := .page }}
@@ -179,7 +179,7 @@
       {{ end -}}
     </ul>
   {{ end }}
-{{- end -}}
+{{- end }}
 
 {{- define "sidebar-footer" -}}
   {{- range site.Menus.sidebar -}}
