@@ -23,7 +23,7 @@ date: 2024-07-16
 {{< /hextra/hero-subtitle >}}
 
 {{< cards >}}
-  {{< card link="/reactionrepo/docs/reaction-catalog" title="Browse Reactions" subtitle="View our Reaction Catalog and find the Reaction you're looking for." icon="book-open" >}}
+  {{< card link="/reactionrepo/docs/reaction-catalog" title="Browse Reactions" subtitle="View the Reaction Catalog and find the Reaction you're looking for." icon="book-open" >}}
   {{< card link="../faqs/" title="Frequently Asked Questions" subtitle="Have any questions and/or Suggestions? Explore here." icon="question-mark-circle" >}}
   {{< card link="/reactionrepo/additional-resources/" title="Additional Resources" subtitle="Can't find what you're looking for? Check out our site repository of other resources." icon="library" >}}
 {{< /cards >}}
