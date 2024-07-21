@@ -8,7 +8,7 @@ weight: 2
 
 ## Light and Dark Mode
 
-{{% details title="How do I update the theme on Desktop/PC?" %}}
+{{% details title="How do I update the theme on Desktop/PC?" closed="true" %}}
 
 The steps to change your theme (Ver.1: Currently only support Light and Dark Mode) are performed in very simple steps:
 
@@ -30,7 +30,7 @@ Once you've done this, the theme will automatically switch. This should include 
 
 {{% /details %}}
 
-{{% details title="How do I update the theme on Mobile/Tablet?" %}}
+{{% details title="How do I update the theme on Mobile/Tablet?" closed="true" %}}
 
 The steps to change your theme (Light and Dark) are performed in very simple steps
 
@@ -54,7 +54,7 @@ There you have it, you should have a changed theme!
 
 ## Theme Additions
 
-{{% details title="Will more Themes be added?" %}}
+{{% details title="Will more Themes be added?" closed="true" %}}
 
 Yes, we plan to add more variations to our light and dark themes in the future. This will include variations in colours and accents of text, boxes, etc. However, it will take some time as we are currently focused on ensuring a high-quality user interface and comprehensive content for our site. We appreciate your patience and support as we work towards these enhancements.
 

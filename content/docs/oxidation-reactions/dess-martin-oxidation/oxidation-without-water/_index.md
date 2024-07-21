@@ -49,11 +49,11 @@ authors:
     caption="We must find out how the product was formed and the steps to form it."
     link="https://doi.org/10.1021/ja8071918">}}
 
-{{% details title="Where did this Reaction come from?" %}}
+{{% details title="Where did this Reaction come from?" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="cortinoboxdark.png"
-    light-src="cortinoboxlight.png"
+    dark-src="cortinoboxnewdark1.png"
+    light-src="cortinoboxnewlight1.png"
     title="Condensed Synthesis Overview of (+)-Cortistatin A from Hajos-Parrish Ketone."
     caption="The overall synthesis of (+)-Cortistatin A started with an enantiomerically pure Hajos-Parrish ketone undergoing key reactions such as diastereoselective hydrogenation, Rubottom oxidation, the Dess-Martin oxidation and other types of reactions to eventually form the target compound (+)-Cortistatin A. This occurs over a 26 step synthesis pathway."
     link="https://doi.org/10.1021/ja8071918">}}
@@ -162,7 +162,7 @@ Once you've identified the correct reaction and product, you can now proceed to 
 
 This step involves the alcohol group attacking the iodine center of the Dess-Martin Periodinane (DMP), resulting in a complex where the alcohol is temporarily bonded to the iodine. During this reaction, an OAc group is expelled from the compound. The expelled OAc group, initially part of the molecule as an acetoxy group, becomes a negatively charged acetate ion (CH₃COO⁻) once it leaves. This transition occurs because the OAc group acts as a good leaving group, taking an extra electron pair with it, thereby gaining a negative charge and stabilizing as an acetate ion.
 
-{{% details title="See the Shortform Version of this step." %}}
+{{% details title="See the Shortform Version of this step." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="primmd1.png"
@@ -182,7 +182,7 @@ This step involves the alcohol group attacking the iodine center of the Dess-Mar
 
 The stabilization of the intermediate occurs when the acetate ion interacts with the intermediate, ensuring the reaction progresses smoothly by stabilizing the charge.
 
-{{% details title="See the Shortform Version of this step." %}}
+{{% details title="See the Shortform Version of this step." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="primmd2.png"
@@ -202,7 +202,7 @@ The stabilization of the intermediate occurs when the acetate ion interacts with
 
 In the final steps, one mole of acetic acid is recovered. The intermediate then undergoes a proton transfer, initiated by another acetate ion, leading to the formation of the aldehyde product.
 
-{{% details title="See the Shortform Version of this step." %}}
+{{% details title="See the Shortform Version of this step." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="primmd3.png"
@@ -222,7 +222,7 @@ In the final steps, one mole of acetic acid is recovered. The intermediate then 
 
 The overall products of the Dess-Martin oxidation include the aldehyde formed from the primary alcohol, iodinane as a by-product, and the recovery of two moles of acetic acid.
 
-{{% details title="See the Shortform Products" %}}
+{{% details title="See the Shortform Products" closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="proddarkp.png"
@@ -252,11 +252,11 @@ This visual demonstrates the reconstruction process of the target intermediate, 
     caption="Oxidation of a secondary alcohol intermediate to an ketone. The groundwork to determine the product is similar to how a primary alcohol is converted."
     link="https://doi.org/10.1021/ja044123l">}}
 
-{{% details title="Where did this Reaction come from?" %}}
+{{% details title="Where did this Reaction come from?" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="Ingenolnoboxdark.png"
-    light-src="Ingenolnoboxlight.png"
+    dark-src="Ingenolnoboxnewdark.png"
+    light-src="Ingenolnoboxnewlight.png"
     title="Synthesis Overview of the Total Synthesis of Ingenol"
     caption="𝛽-ketoester (2) is subjected through a 32 steps synthesis path to form the target compound Ingenol (1)."
     link="https://doi.org/10.1021/ja044123l">}}
@@ -327,13 +327,13 @@ The molecule isn't taken apart during the reaction, but for understanding the pr
 
 1. **Identify Side Chains (R¹ and R²)**: Use parts of the molecule as placeholders (R¹ and R²), representing parts of the molecule flanking the alcohol group.
 
-{{% details title="For Dark Mode Users" %}}
+{{% details title="For Dark Mode Users" closed="true" %}}
 
 R¹ = Pink Side Chain; R² =  Yellow Side Chain for Dark Mode
 
 {{% /details %}}
 
-{{% details title="For Light Mode Users" %}}
+{{% details title="For Light Mode Users" closed="true" %}}
 
 R¹ = Dark Green/Blue Side Chain; R² =  Pink Side Chain for Dark Mode
 
@@ -362,7 +362,7 @@ R¹ = Dark Green/Blue Side Chain; R² =  Pink Side Chain for Dark Mode
 
 In this step, the secondary alcohol group (-OH) reacts with the Dess-Martin Periodinane (DMP), similar to the primary alcohol mechanism. The difference lies in the presence of an additional side chain (R²) attached to the carbon bearing the hydroxyl group.
 
-{{% details title="See the Shortform Version of this step." %}}
+{{% details title="See the Shortform Version of this step." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="darkshort1sec.png"
@@ -382,7 +382,7 @@ In this step, the secondary alcohol group (-OH) reacts with the Dess-Martin Peri
 
 After the initial reaction, the intermediate is stabilized by the expulsion of the acetoxy group (OAc). In the molecule, the OAc group is initially an acetoxy group (CH₃COO-). However, once it is expelled from the Dess-Martin Periodinane (DMP), it becomes an acetate ion (CH₃COO⁻). This occurs because the acetoxy group acts as a good leaving group, taking an extra electron pair with it and becoming a stable, negatively charged acetate ion.
 
-{{% details title="See the Shortform Version of this step." %}}
+{{% details title="See the Shortform Version of this step." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="darkshort2sec2.png"
@@ -402,7 +402,7 @@ After the initial reaction, the intermediate is stabilized by the expulsion of t
 
 In this step, one mole of acetic acid is recovered. The intermediate undergoes a proton transfer, initiated by another acetate ion, resulting in the formation of the ketone product and acetic acid as a by-product.
 
-{{% details title="See the Shortform Version of this step." %}}
+{{% details title="See the Shortform Version of this step." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="darkshort3sec2.png"
@@ -422,7 +422,7 @@ In this step, one mole of acetic acid is recovered. The intermediate undergoes a
 
 The final products of the Dess-Martin oxidation for secondary alcohols include the ketone formed from the secondary alcohol, iodinane as a by-product, and the recovery of two moles of acetic acid. 
 
-{{% details title="See the Shortform Products" %}}
+{{% details title="See the Shortform Products" closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="secprod1light.png"
@@ -461,7 +461,7 @@ You do not need to calculate yield for this question.
 {{% /callout %}}
 
 
-{{% details title="Reveal the Answer." %}}
+{{% details title="Reveal the Answer." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="DMPMechanismQ1Dark.png" 
@@ -480,7 +480,7 @@ The **83%** was reported in the [paper](https://doi.org/10.1038/ncomms7445) wher
 
 {{< /details >}}
 
-{{% details title="Where did this Reaction come from?" %}}
+{{% details title="Where did this Reaction come from?" closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="DMPSecondaryDarknoBox3.png" 
@@ -530,7 +530,7 @@ One main reagent used to form clostrubin was the thioester compound (4)
     link="https://doi.org/10.1021/ol000289p"
 >}}
 
-{{% details title="Reveal the Answer." %}}
+{{% details title="Reveal the Answer." closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="DMPMechanismQ1DarkHighlighted.png" 
@@ -555,7 +555,7 @@ This should form the expected Ketone product as a result of oxidation of the pri
 
 {{< /details >}}
 
-{{% details title="Where did this Reaction come from?" %}}
+{{% details title="Where did this Reaction come from?" closed="true" %}}
 
 {{<figure-dynamic-toggle
     dark-src="preu6to1dark4.png" 
@@ -653,8 +653,8 @@ Always remember to repeatedly practice your mechanisms and getting your reagents
 <div>
     <a id="fn2" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="cortiboxdark.png" 
-        light-src="cortiboxlight.png"
+        dark-src="cortiboxnewdark.png" 
+        light-src="cortiboxnewlight.png"
         link="https://doi.org/10.1021/ja8071918"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">2.</span> Lee, H. M.; Nieto-Oberhuber, C.; Shair, M. D. Enantioselective synthesis of (+)-cortistatin A, a potent and selective inhibitor of endothelial cell proliferation. <i>J. Am. Chem. Soc.</i> <b>2008</b>, <i>130</i> (50), 16864–16866. DOI: <a href="https://doi.org/10.1021/ja8071918">10.1021/ja8071918</a>. <a href="#ref2-anchor">↩</a></span></p>
@@ -670,8 +670,8 @@ Always remember to repeatedly practice your mechanisms and getting your reagents
 <div>
     <a id="fn3" class="anchor"></a>
     {{<figure-dynamic-toggle
-        dark-src="ingenolboxdark.png" 
-        light-src="ingenolboxlight.png"
+        dark-src="ingenolboxnewdark.png" 
+        light-src="ingenolboxnewlight.png"
         link="https://doi.org/10.1021/ja044123l"
     >}}
     <p class="hanging-indent"><span class="reference"><span class="bold-number">3.</span> Nickel, A.; Maruyama, T.; Tang, H.; Murphy, P. D.; Greene, B.; Yusuff, N.; Wood, J. L. Total synthesis of ingenol. <i>J. Am. Chem. Soc.</i> <b>2004</b>, <i>126</i> (50), 16300–16301. DOI: <a href="https://doi.org/10.1021/ja044123l">10.1021/ja044123l</a>. <a href="#ref3-anchor">↩</a></span></p>

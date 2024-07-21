@@ -193,45 +193,26 @@ a.card-link {
 </style>
 
 <div class="hextra-cards">
-  <a href="/reactionrepo/article-repository/light-dark-mode-learning/" class="card-link">
-    <div class="hextra-card">
-      <div class="card-body">
-        {{<figure-dynamic-toggle
-          dark-src="decal.jpg"
-          light-src="decal.jpg"
-          title=""
-          width="350"
-          height="300"
-        >}}
-        <div class="card-date-tag">
-          <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
-          <span class="card-tag">CHEMISTRY</span>
-        </div>
-        <h2 class="card-title">Light and Dark Mode Learning</h2>
-        <h3 class="card-description">Should existing resources cater to students? Light and Dark Mode may prove beneficial towards them.</h3>
-      </div>
-    </div>
-  </a>
   <a href="#" class="card-link">
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
-          dark-src="decal.jpg"
-          light-src="decal.jpg"
+          dark-src="jcmartin.png"
+          light-src="jcmartin.png"
           title=""
           width="350"
           height="300"
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
-          <span class="card-tag">ORGANIC</span>
+          <span class="card-tag">TRIBUTE</span>
         </div>
-        <h2 class="card-title">Corey-Suggs Oxidation</h2>
-        <h3 class="card-description">A brief overview of Corey-Suggs Oxidation.</h3>
+        <h2 class="card-title">Tribute to Dr. James Cullen Martin</h2>
+        <h3 class="card-description">A tribute to a great organic chemist and familyman.</h3>
       </div>
     </div>
   </a>
-  <a href="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
+ <a href="/reactionrepo/article-repository/light-dark-mode-learning/" class="card-link">
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
@@ -243,10 +224,10 @@ a.card-link {
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
-          <span class="card-tag">OXIDATION</span>
+          <span class="card-tag">EDUCATION</span>
         </div>
-        <h2 class="card-title">Dess Martin Oxidation</h2>
-        <h3 class="card-description">A brief overview of Dess Martin Oxidation.</h3>
+        <h2 class="card-title">Light and Dark Mode Learning</h2>
+        <h3 class="card-description">Should existing resources cater to students? Light and Dark Mode may prove beneficial towards them.</h3>
       </div>
     </div>
   </a>
