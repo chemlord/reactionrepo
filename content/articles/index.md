@@ -193,7 +193,7 @@ a.card-link {
 </style>
 
 <div class="hextra-cards">
-  <a href="#" class="card-link">
+  <a href="/reactionrepo/article-repository/tribute-to-jcmartin/" class="card-link">
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle

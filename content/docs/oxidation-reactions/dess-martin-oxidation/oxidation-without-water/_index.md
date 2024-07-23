@@ -619,7 +619,7 @@ For simplicity, this image summarizes the start and end products of the synthesi
 
 {{<figure-dynamic-toggle
     dark-src="DMPFullSecdark.png" 
-    light-src="DMPFullSecight.png"
+    light-src="DMPFullSeclight.png"
 >}}
 
 {{< /details >}}
