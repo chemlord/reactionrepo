@@ -618,8 +618,8 @@ For simplicity, this image summarizes the start and end products of the synthesi
 {{% details title="Full Secondary Mechanism" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="DMPFullSecDark.png" 
-    light-src="DMPFullSecLight.png"
+    dark-src="DMPFullSecdark.png" 
+    light-src="DMPFullSecight.png"
 >}}
 
 {{< /details >}}
