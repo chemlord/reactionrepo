@@ -245,16 +245,11 @@ Understanding the distinction between the acetate ion and the acetoxy group is c
     caption="Here are the essential distinctions to understand."
 >}}
 
-**Acetoxy Group (OAc)**:
-
-- **Definition**: The OAc group (acetoxy) is a familiar functional group consisting of an acetyl group (CH₃CO) bonded to an oxygen atom.
-- **Role in DMP**: In DMP, three acetoxy groups are bonded to the central iodine atom, making them part of the larger molecule.
-- **Example Notation**: R-OAc, where R represents the rest of the DMP molecule.
-
-**Acetate Ion (CH₃COO⁻)**:
-
-- **Definition**: The acetate ion is a charged particle with a negative electrical charge, formed when an acetoxy group is expelled and loses a hydrogen atom.
-- **Formation**: In reactions, when the OAc group is expelled from DMP, it becomes an acetate ion (CH₃COO⁻), carrying a negative charge as it takes an extra electron pair.
+|   | **Acetoxy Group (OAc)**   | **Acetate Ion (CH₃COO⁻)**  |
+|---|---|---|
+|  **Definition** | The OAc group (acetoxy) is a familiar functional group consisting of an acetyl group (CH₃CO) bonded to an oxygen atom. | The acetate ion is a charged particle with a negative electrical charge, formed when an acetoxy group is expelled and loses a hydrogen atom. |
+| **Role in DMP**  | In DMP, three acetoxy groups are bonded to the central iodine atom, making them part of the larger molecule. | Has no role in DMP itself. |
+|  **Formation & Notation** | R-OAc, where R represents the rest of the DMP molecule. | In reactions, when the OAc group is expelled from DMP, it becomes an acetate ion (CH₃COO⁻), carrying a negative charge as it takes an extra electron pair. |
 
 ### Reagent Preparation
 

@@ -93,8 +93,8 @@ If you missed the [**Reagent Variations section**](/reactionrepo/docs/oxidation-
 #### Alcohol Type
 
 {{<figure-dynamic-toggle
-    dark-src="alcoholsdark.png"
-    light-src="alcoholslight.png"
+    dark-src="AlcoholsNewR3Dark.png"
+    light-src="AlcoholsNewR3Light.png"
 >}}
 
 These are the 3 main types of alcohols: **Primary**, **Secondary** and **Tertiary**.
@@ -296,8 +296,8 @@ If you missed the [**Reagent Variations section**](/reactionrepo/docs/oxidation-
 #### Alcohol Type
 
 {{<figure-dynamic-toggle
-    dark-src="alcoholsdark.png"
-    light-src="alcoholslight.png"
+    dark-src="AlcoholsNewR3Dark.png"
+    light-src="AlcoholsNewR3Light.png"
 >}}
 
 These are the 3 main types of alcohols: Primary, Secondary and Tertiary.
@@ -587,15 +587,42 @@ For simplicity, this image summarizes the start and end products of the synthesi
 
 ## Summary
 
+### General Scheme
+
+{{<figure-dynamic-toggle
+        dark-src="summarydark1.png" 
+        light-src="summarylight1.png"
+    >}}
+
 - 1° Alcohols (Primary) get oxidized to **Aldehydes**.
 - 2° Alcohols (Secondary) get oxidized to **Ketones**.
 - 3° Alcohols (Tertiary) **do not** get oxidized at all.
+
+### General Mechanism
 
 **Quick steps to finding the product for any alcohol**
 1. Identify the reagents.
 2. Assign side chains (non alcohol part).
 3. Selectively convert Alcohol to correct product based on alcohol type. Nothing else.
 4. Keep the side chains (non alcohol part) the same and piece together the full molecule together again.
+
+{{% details title="Full Primary Mechanism" closed="true" %}}
+
+{{<figure-dynamic-toggle
+    dark-src="primsdfull.png" 
+    light-src="fullprimmechl.png"
+>}}
+
+{{< /details >}}
+
+{{% details title="Full Secondary Mechanism" closed="true" %}}
+
+{{<figure-dynamic-toggle
+    dark-src="DMPFullSecDark.png" 
+    light-src="DMPFullSecLight.png"
+>}}
+
+{{< /details >}}
 
 {{% callout type="info" %}}
 Always remember to repeatedly practice your mechanisms and getting your reagents correct. Take advantage of our materials and/or keep practicing on a whiteboard or paper until you get it right every single time.
