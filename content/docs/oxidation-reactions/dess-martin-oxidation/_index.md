@@ -170,27 +170,13 @@ This was performed without the usage of water which was reported to accelerate t
       <div class="hextra-card">
         <div class="card-body">
           {{<figure-dynamic-toggle
-            dark-src="primsdfull.png"
-            light-src="fullprimmechl.png"
+            dark-src="DMPOverviewDarkFix.png"
+            light-src="DMPOverviewLightFix.png"
             title=""
             width="300"
             height="150"
           >}}
           <h5 class="card-title">Oxidation without Water</h5>
-        </div>
-      </div>
-    </a>
-    <a href="/docs" class="card-link">
-      <div class="hextra-card">
-        <div class="card-body">
-          {{<figure-dynamic-toggle
-            dark-src="primsdfull.png"
-            light-src="fullprimmechl.png"
-            title=""
-            width="300"
-            height="150"
-          >}}
-          <h5 class="card-title">Oxidation w/ Water or wet DCM</h5>
         </div>
       </div>
     </a>
@@ -253,12 +239,6 @@ Understanding the distinction between the acetate ion and the acetoxy group is c
 
 ### Reagent Preparation
 
-The preparation of Dess-Martin Periodinane (DMP) involves two key steps:
-
-<p>First, 2-iodobenzoic acid is treated with potassium bromate (KBrO<sub>3</sub>) in sulfuric acid (H<sub>2</sub>SO<sub>4</sub>), maintaining the temperature below 55°C during the addition of KBrO<sub>3</sub>. The mixture is then warmed to 65°C and stirred for 3.6 hours, producing the cyclic tautomer of 2-iodoxybenzoic acid with a 93% yield.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
-
-<p>In the second step, a stirred slurry of 2-iodoxybenzoic acid in acetic anhydride and acetic acid is heated to 100°C until the solid dissolves. The solvent is then removed under vacuum at room temperature, resulting in a thick slurry, which is filtered in an inert atmosphere and washed with ether, yielding Periodinane 2 with an 87% overall yield from the iodobenzoic acid.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
-
 {{<figure-dynamic-toggle
     dark-src="dmpcreatedark.png"
     light-src="dmpcreatelight.png"
@@ -266,6 +246,20 @@ The preparation of Dess-Martin Periodinane (DMP) involves two key steps:
     caption="Note: Dess-Martin Periodinane is written in with in it's shortform."
     link="https://doi.org/10.1021/jo00103a067"
     >}}
+
+The preparation of Dess-Martin Periodinane (DMP) involves **two key steps**:
+
+{{% steps %}}
+
+### Initial Treatment
+
+<p>First, 2-iodobenzoic acid is treated with potassium bromate (KBrO<sub>3</sub>) in sulfuric acid (H<sub>2</sub>SO<sub>4</sub>), maintaining the temperature below 55°C during the addition of KBrO<sub>3</sub>. The mixture is then warmed to 65°C and stirred for 3.6 hours, producing the cyclic tautomer of 2-iodoxybenzoic acid with a 93% yield.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+
+### Product Formation
+
+Next, a stirred slurry of 2-iodoxybenzoic acid in acetic anhydride and acetic acid is heated to 100°C until the solid dissolves. The solvent is then removed under vacuum at room temperature, resulting in a thick slurry, which is filtered in an inert atmosphere and washed with ether, yielding Periodinane 2 with an 87% overall yield from the iodobenzoic acid.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+
+{{% /steps %}}
 
 ### Reagent Facts
 
@@ -500,7 +494,7 @@ Rest in Peace,<br>
 **Dr. J.C. Martin**
 
 {{< callout type="info">}}
-If you would like to read more on Dr. James Cullen Martin and his personal life, please check out this [article](/reactionrepo/article-repository/tribute-to-JCMartin)
+If you would like to read more on Dr. James Cullen Martin and his personal life, please check out this [article](/reactionrepo/article-repository/tribute-to-jcmartin)
 {{< /callout >}}
 
 ## Related Articles
@@ -589,7 +583,7 @@ If you would like to read more on Dr. James Cullen Martin and his personal life,
 
 <div class="hextra-container">
   <div class="hextra-cards">
-    <a href="/reactionrepo/article-repository/tribute-to-JCMartin" class="card-link">
+    <a href="/reactionrepo/article-repository/tribute-to-jcmartin" class="card-link">
       <div class="hextra-card">
         <div class="card-body">
           {{<figure-dynamic-toggle

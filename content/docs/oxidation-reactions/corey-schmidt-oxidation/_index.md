@@ -67,18 +67,36 @@ This page is a directory containing Corey-Schmidt Oxidation Variations, reagent 
 {{< /tab >}}
 
 {{< tab >}}
-  
+
  {{<figure-dynamic-toggle
     dark-src="PDCReagentOverviewFixDMFD.png"
     light-src="PDCReagentOverviewFixDMFL.png"
-    title="General Scheme of Corey-Schmidt Oxidation when DMF is used as a solvent"
+    title="General Scheme of Corey-Schmidt Oxidation when DMF is used as a solvent for Primary and Secondary Alcohols"
+    link="">}}
+
+PDC with DMF as a solvent can selectively oxidize a multitude of different functional groups and compounds. Here are a brief list of what it can oxidize: PDCacrossDMFD
+
+### Primary and Secondary Alcohols
+
+{{<figure-dynamic-toggle
+    dark-src="PDCacrossDMFD.png"
+    light-src="PDCacrossDMFL.png"
+    title="DMF is used as a solvent for Primary and Secondary Alcohols in order to oxidize them into Carboxylic Acids and Ketones"
     link="">}}
 
 <p>In the original paper "Useful procedures for the oxidation of alcohols involving pyridinium dichromate in aprotic media." by Corey & Schmidt (1979) reported that PDC/DMF can be used to readily oxidize non-conjugated primary alcohols to carboxylic acids at 25°C.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
-<p>Additionally, Corey & Schmidt reported that PDC/DMF can be used to oxidize secondary alcohols to Ketones<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p>Additionally, Corey & Schmidt reported that PDC/DMF can be used to oxidize secondary alcohols to Ketones.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+
+### Aldehydes to Carboxylic Acids
 
 <p>There are also more additional uses for this reagent combination such as allowing for Aldehydes to be converted to Carboxylic Acids. Lactols can also be converted to Lactones under mild conditions.<a href="#fn2" id="ref2-anchor" class="superscript">2</a> <a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
+
+### Lactols (Acetals) to Lactones
+
+### Tertiary allylic alcohols to enones
+
+### Allylic positions in alkenes to enones
 
 <p>Lastly, PDC in DMF can oxidize tertiary allylic alcohols to enones and allylic positions in alkenes to enones.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p>
 

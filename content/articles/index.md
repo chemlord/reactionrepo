@@ -231,7 +231,7 @@ a.card-link {
       </div>
     </div>
   </a>
-  <a href="/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
+  <a href="/reactionrepo/docs/oxidation-reactions/corey-schmidt-oxidation/#primary-and-secondary-alcohols" class="card-link">
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
@@ -243,9 +243,9 @@ a.card-link {
         >}}
         <div class="card-date-tag">
           <time class="card-date" datetime="2024-07-05">Jul 5, 2024</time>
-          <span class="card-tag">ORGANIC</span>
+          <span class="card-tag">TAB</span>
         </div>
-        <h2 class="card-title">Swern Oxidation</h2>
+        <h2 class="card-title">Bug Testing Link</h2>
         <h3 class="card-description">A brief overview of Swern Oxidation.</h3>
       </div>
     </div>
