@@ -32,8 +32,6 @@ shuffle_answers: true
 
 **This reaction is part of a 25 step synthesis pathway to create (+-)Cortistatin by [Lee et al. (2008)](https://pubs.acs.org/doi/10.1021/ja8071918).** **The alcohol intermediate (14e) was oxidized to create an intermediate (14f) to be further used in this pathway.** *See Reference 1*
 
-> Primary Alcohols selectively are oxidized to Aldehydes.
-
 - [ ] ![](cardtest.png)
 - [ ] ![](a2.png)
 - [ ] ![](a3.png)
