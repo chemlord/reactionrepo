@@ -134,7 +134,7 @@ quizdown: true
         <img src="q1front.png" alt="Front Image">
       </div>
       <div class="flashcard-side back">
-        <img src="q1test5.png" alt="Back Image">
+        <img src="q1new.png" alt="Back Image">
       </div>
     </div>
   </div>
