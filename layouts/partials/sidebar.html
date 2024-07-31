@@ -1,3 +1,19 @@
+{{- define "sidebar-reaction-catalog" -}}
+  <!-- Reaction Catalog Section -->
+  <li>Debug: Inside Reaction Catalog Section</li>
+  {{- $reactionCatalog := site.GetPage "/reactionrepo/docs/reaction-catalog/" -}}
+  {{- if $reactionCatalog -}}
+    <li>Debug: Reaction Catalog Found</li>
+    {{- $active := eq .pageURL $reactionCatalog.RelPermalink -}}
+    <li class="{{ if $active }}open{{ end }}">
+      {{- $linkTitle := partial "utils/title" $reactionCatalog -}}
+      {{- template "sidebar-item-link" dict "context" $reactionCatalog "active" $active "title" $linkTitle "link" $reactionCatalog.RelPermalink -}}
+    </li>
+  {{- else -}}
+    <li>Debug: Reaction Catalog Not Found</li>
+  {{- end -}}
+{{- end -}}
+
 {{- $context := .context -}}
 {{- $disableSidebar := .disableSidebar | default false -}}
 {{- $displayPlaceholder := .displayPlaceholder | default false -}}
@@ -11,7 +27,7 @@
   {{- $displayPlaceholder = true -}}
 {{- end -}}
 
-<div class="mobile-menu-overlay [transition:background-color_1.5s_ease] hx-fixed hx-inset-0 hx-inset-0 hx-z-10 hx-bg-black/80 dark:hx-bg-black/60 hx-hidden"></div>
+<div class="mobile-menu-overlay [transition:background-color_1.5s_ease] hx-fixed hx-inset-0 hx-z-10 hx-bg-black/80 dark:hx-bg-black/60 hx-hidden"></div>
 <aside class="sidebar-container hx-flex hx-flex-col print:hx-hidden md:hx-top-16 md:hx-shrink-0 md:hx-w-64 md:hx-self-start max-md:[transform:translate3d(0,-100%,0)] {{ $sidebarClass }}">
   <!-- Search bar on small screen -->
   <div class="hx-px-4 hx-pt-4 md:hx-hidden">
@@ -85,21 +101,6 @@
 
 {{- define "sidebar-main" -}}
   {{ template "sidebar-tree" (dict "context" .context "level" 0 "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}
-{{- end -}}
-
-{{- define "sidebar-reaction-catalog" -}}
-  <!-- Reaction Catalog Section -->
-  <li>Debug: Inside Reaction Catalog Section</li>
-  {{- $reactionCatalog := .context.GetPage "/reactionrepo/docs/reaction-catalog/" -}}
-  {{- if $reactionCatalog -}}
-    {{- $active := eq .pageURL $reactionCatalog.RelPermalink -}}
-    <li class="{{ if $active }}open{{ end }}">
-      {{- $linkTitle := partial "utils/title" $reactionCatalog -}}
-      {{- template "sidebar-item-link" dict "context" $reactionCatalog "active" $active "title" $linkTitle "link" $reactionCatalog.RelPermalink -}}
-    </li>
-  {{- else -}}
-    <li>Debug: Reaction Catalog Not Found</li>
-  {{- end -}}
 {{- end -}}
 
 {{- define "sidebar-tree" -}}
