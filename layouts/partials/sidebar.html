@@ -1,19 +1,3 @@
-{{- define "sidebar-reaction-catalog" -}}
-  <!-- Reaction Catalog Section -->
-  <li>Debug: Inside Reaction Catalog Section</li>
-  {{- $reactionCatalog := site.GetPage "/reactionrepo/docs/reaction-catalog/" -}}
-  {{- if $reactionCatalog -}}
-    <li>Debug: Reaction Catalog Found</li>
-    {{- $active := eq .pageURL $reactionCatalog.RelPermalink -}}
-    <li class="{{ if $active }}open{{ end }}">
-      {{- $linkTitle := partial "utils/title" $reactionCatalog -}}
-      {{- template "sidebar-item-link" dict "context" $reactionCatalog "active" $active "title" $linkTitle "link" $reactionCatalog.RelPermalink -}}
-    </li>
-  {{- else -}}
-    <li>Debug: Reaction Catalog Not Found</li>
-  {{- end -}}
-{{- end -}}
-
 {{- $context := .context -}}
 {{- $disableSidebar := .disableSidebar | default false -}}
 {{- $displayPlaceholder := .displayPlaceholder | default false -}}
@@ -36,7 +20,6 @@
   <div class="hextra-scrollbar hx-overflow-y-auto hx-overflow-x-hidden hx-p-4 hx-grow md:hx-h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
     <ul class="hx-flex hx-flex-col hx-gap-1 md:hx-hidden">
       <!-- Reaction Catalog Section -->
-      <li>Debug: Reaction Catalog Section</li>
       {{ template "sidebar-reaction-catalog" (dict "context" $navRoot "page" $context "pageURL" $pageURL) }}
       <!-- Separator with conditional label -->
       <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
@@ -62,7 +45,6 @@
     {{- else -}}
       <ul class="hx-flex hx-flex-col hx-gap-1 max-md:hx-hidden">
         <!-- Reaction Catalog Section -->
-        <li>Debug: Reaction Catalog Section</li>
         {{ template "sidebar-reaction-catalog" (dict "context" $navRoot "page" $context "pageURL" $pageURL) }}
         <!-- Separator with conditional label -->
         <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
@@ -101,6 +83,18 @@
 
 {{- define "sidebar-main" -}}
   {{ template "sidebar-tree" (dict "context" .context "level" 0 "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}
+{{- end -}}
+
+{{- define "sidebar-reaction-catalog" -}}
+  <!-- Reaction Catalog Section -->
+  {{- $reactionCatalog := site.GetPage "/reactionrepo/docs/reaction-catalog/" -}}
+  {{- if $reactionCatalog -}}
+    {{- $active := eq .pageURL $reactionCatalog.RelPermalink -}}
+    <li class="{{ if $active }}open{{ end }}">
+      {{- $linkTitle := partial "utils/title" $reactionCatalog -}}
+      {{- template "sidebar-item-link" dict "context" $reactionCatalog "active" $active "title" $linkTitle "link" $reactionCatalog.RelPermalink -}}
+    </li>
+  {{- end -}}
 {{- end -}}
 
 {{- define "sidebar-tree" -}}
