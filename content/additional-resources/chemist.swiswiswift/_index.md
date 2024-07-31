@@ -16,23 +16,12 @@ weight: 2
 
 ## Overview
 
-Chemist.swiswiswift was a reaction repository riginally created in Japanese and was recently translated into English for international usage. It has become an invaluable tool for chemistry students and professionals. The site features detailed mechanisms of hundreds of organic chemistry reactions, mirroring content from a mobile database app with over 500 downloads. This site fascinated me, as seemingly, no one had claimed credit nor provided any information as to where or who procured the information for content this rich and detailed.
+Chemist.swiswiswift is Japanese reaction database and was translated into English for international usage. It has become a good tool for chemistry students and professionals. The site features detailed mechanisms of hundreds of organic chemistry reactions, mirroring content from a mobile database app with over 500 downloads. This site fascinated me, as seemingly, no one had claimed credit nor provided any information as to where or who procured the information for content this rich and detailed.
 
 ## Website Content and Features
 
 - **Extensive Reaction Database**: The site includes hundreds of organic chemistry reactions, each with detailed mechanisms.
 - **Practice Questions**: While not abundant, some reactions are accompanied by practice questions to enhance learning.
-- **Hugo Theme Inkblotty**: The site employs a minimalist layout, providing a clean and straightforward presentation of chemical reactions.
-
-**Links**
-
-Incase any of the viewers wish to create a site using this theme. This theme is no longer officially listed in the Hugo Theme directory.
-
-{{< cards >}}
-  {{< card link="https://github.com/tosi29/inkblotty" title="Inkblotty Theme (EN)" icon="github" >}}
-  {{< card link="github.com/takoikatakotako/swiswiswift.com" title="Inkblotty Theme (JP)" icon="github" >}}
-{{< /cards >}}
-
 - **Recent Updates**: Although the site was created in 2016, most updates occurred in 2021 according to the Wayback Machine. The latest updates indicate ongoing maintenance and content addition.
 
 ### Mobile App

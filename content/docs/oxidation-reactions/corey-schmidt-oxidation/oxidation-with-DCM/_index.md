@@ -450,8 +450,8 @@ Focus on creating the compound in the box.
 {{% details title="Reveal the Answer." closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="exampleeduhighlighteddark.png" 
-    light-src="exampleeduhighlightedlight.png"
+    dark-src="secproblemdark.png" 
+    light-src="secproblemlight.png"
     title="Start by identifying the non-alcohol portion of the molecule and determine the product"
     caption="Colored side chains in these diagrams represent constant R groups. Focus on the central alcohol, which transforms into a ketone or aldehyde. Use the colored chains to track and restore these groups post-reaction, highlighting the selective oxidation process. Once you have done this proceed to the mechanism."
 >}}
@@ -463,10 +463,9 @@ Focus on creating the compound in the box.
 
 **Form the Overall Product**
 
-{{<figure-dynamic-toggle
-    dark-src="dmpmechdark.gif" 
-    light-src="dmpmechlight.gif"
->}}
+{{% callout type="warning" %}}
+This animation is currently being worked on.
+{{% /callout %}}
 
 This should form the expected Ketone product as a result of oxidation of the secondary alcohol on this compound.
 
