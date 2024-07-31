@@ -742,7 +742,7 @@ Always remember to repeatedly practice your mechanisms and getting your reagents
 
 <div class="hextra-container">
   <div class="hextra-cards">
-    <a href="/reactionrepo/article-repository/tribute-to-jcmartin" class="card-link">
+    <a href="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/oxidation-without-water/dess-martin-practice-problems-no-water/practice-flashcards" class="card-link">
       <div class="hextra-card">
         <div class="card-body">
           {{<figure-dynamic-toggle

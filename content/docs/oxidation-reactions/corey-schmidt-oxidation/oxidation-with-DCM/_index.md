@@ -656,12 +656,12 @@ Always remember to repeatedly practice your mechanisms and getting your reagents
 
 <div class="hextra-container">
   <div class="hextra-cards">
-    <a href="/reactionrepo/article-repository/tribute-to-jcmartin" class="card-link">
+    <a href="/reactionrepo/docs/oxidation-reactions/corey-schmidt-oxidation/oxidation-with-dcm/corey-schmidt-ox-w-dcm-flashcards/" class="card-link">
       <div class="hextra-card">
         <div class="card-body">
           {{<figure-dynamic-toggle
-            dark-src="q2c.png"
-            light-src="q2c.png"
+            dark-src="q1.png"
+            light-src="q1.png"
             title=""
             width="300"
             height="150"
