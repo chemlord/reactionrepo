@@ -31,9 +31,17 @@ We're excited to share our thoughts, insights, and stories with you. <br> Here w
 </p>
 
 <style>
+body {
+  background-image: url('https://chemlord.github.io/reactionrepo/image-test/hexagonlight2.svg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: to make the background fixed */
+  background-repeat: no-repeat;
+}
+
 .hextra-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust width to make cards smaller */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust width to make cards smaller */
   gap: 1rem; /* Decrease gap between cards */
   margin-top: 1.5rem; /* Add margin to create space between the header and the cards */
   padding: 0 1rem; /* Add padding to the sides */
@@ -60,7 +68,7 @@ We're excited to share our thoughts, insights, and stories with you. <br> Here w
   user-select: none;
   width: 100%;
   height: auto;
-  min-height: 300px; /* Set a minimum height for the images */
+  min-height: 200px; /* Reduce the minimum height for the images on mobile */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 1rem; /* Add more space below the image */
 }
@@ -197,8 +205,8 @@ a.card-link {
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
-          dark-src="jcmartin.png"
-          light-src="jcmartin.png"
+          dark-src="test2.png"
+          light-src="test2.png"
           title=""
           width="350"
           height="300"

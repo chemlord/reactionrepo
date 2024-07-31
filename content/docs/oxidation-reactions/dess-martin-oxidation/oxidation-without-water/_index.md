@@ -1,8 +1,7 @@
 ---
 title: Oxidation without Water
 linkTitle: Oxidation without Water
-prev: /docs/oxidation-reactions/dess-martin-oxidation
-date: 2024-07-05
+date: 2024-07-27
 authors:
   - name: Devraj Bagchi
     link: https://chemlord.github.io/devthechemistt/
@@ -40,7 +39,12 @@ authors:
 
 <p>The Dess-Martin oxidation is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using the Dess-Martin periodinane (DMP).<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
-## Finding the Product for a 1° Alcohol (Primary) using an Example
+## Finding the Product for a 1° Alcohol
+{{< hextra/hero-subtitle >}}
+  This section is a brief overview on how to find the product for a 1° Alcohol (Primary) using a example from a real scientific research paper.
+{{< /hextra/hero-subtitle >}}
+
+<br>
 
 {{<figure-dynamic-toggle
     dark-src="DMPPrimaryExampleQ1Dark.png"
@@ -147,7 +151,10 @@ Once you've identified the correct reaction and product, you can now proceed to 
 
 {{% /steps %}}
 
-## Mechanism for 1° Alcohol (Primary) using the Example
+## Mechanism for 1° Alcohol
+{{< hextra/hero-subtitle >}}
+  This section is a brief overview on how to perform the mechanism for a 1° Alcohol (Primary) using the example from above.
+{{< /hextra/hero-subtitle >}}
 
 {{% steps %}}
 
@@ -243,7 +250,12 @@ This visual demonstrates the reconstruction process of the target intermediate, 
 
 {{% /steps %}}
 
-## Finding the Product for a 2° Alcohol (Secondary) using an Example
+## Finding the Product for a 2° Alcohol
+{{< hextra/hero-subtitle >}}
+  This section is a brief overview on how to find the product for a 2° Alcohol (Secondary) using a example from a real scientific research paper.
+{{< /hextra/hero-subtitle >}}
+
+<br>
 
 {{<figure-dynamic-toggle
     dark-src="DMPSecondaryQ1Dark.png"
@@ -347,7 +359,10 @@ R¹ = Dark Green/Blue Side Chain; R² =  Pink Side Chain for Dark Mode
 
 {{% /steps %}}
 
-## Mechanism for 2° Alcohol (Secondary)
+## Mechanism for 2° Alcohol
+{{< hextra/hero-subtitle >}}
+  This section is a brief overview on how to perform the mechanism for a 2° Alcohol (Secondary) using the example from above.
+{{< /hextra/hero-subtitle >}}
 
 {{% steps %}}
 
@@ -446,13 +461,20 @@ This visual demonstrates the reconstruction process of the target intermediate, 
 {{% /steps %}}
 
 ## Sample Problems
+{{< hextra/hero-subtitle >}}
+  Test your Knowledge.
+{{< /hextra/hero-subtitle >}}
 
-### Predict the Product
+### Question 1
+{{< hextra/hero-subtitle >}}
+  Predict the product.
+{{< /hextra/hero-subtitle >}}
+
+<br>
 
 {{<figure-dynamic-toggle
-    dark-src="DMPSecondaryQ2DarkQuestion.png" 
-    light-src="DMPSecondaryQ2LightQuestion.png"
-    title="Guess the Product"
+    dark-src="DMPSecondaryQ2DarkGuess.png" 
+    light-src="DMPSecondaryQ2LightGuess.png"
     link="https://doi.org/10.1038/ncomms7445"
 >}}
 
@@ -517,16 +539,14 @@ One main reagent used to form clostrubin was the thioester compound (4)
 
 {{< /details >}}
 
-{{< cards >}}
-  {{< card url="/chemdatabase/dmp-mechanisms-1/" title="Want more problems? Click here!" icon="academic-cap" >}}
-{{< /cards >}}
-
-### Sample Mechanism Problem
+### Question 2
+{{< hextra/hero-subtitle >}}
+  Propose a Mechanism for this Reaction.
+{{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
     dark-src="DMPRealMechanismQ1Dark.png" 
     light-src="DMPMechanismQ1Light.png"
-    title="Propose a Mechanism for this Reaction."
     link="https://doi.org/10.1021/ol000289p"
 >}}
 
@@ -581,13 +601,15 @@ For simplicity, this image summarizes the start and end products of the synthesi
 
 {{< /details >}}
 
-{{< cards >}}
-  {{< card url="/chemdatabase/dmp-mechanisms-1/" title="Want more Mechanisms? Click here!" icon="academic-cap" >}}
-{{< /cards >}}
-
 ## Summary
+{{< hextra/hero-subtitle >}}
+  The reaction entry summary. Find the general scheme and full summarized mechanisms here.
+{{< /hextra/hero-subtitle >}}
 
 ### General Scheme
+{{< hextra/hero-subtitle >}}
+  This section briefly summarizes what can and cannot undergo reactions.
+{{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
         dark-src="summarydark1.png" 
@@ -599,6 +621,9 @@ For simplicity, this image summarizes the start and end products of the synthesi
 - 3° Alcohols (Tertiary) **do not** get oxidized at all.
 
 ### General Mechanism
+{{< hextra/hero-subtitle >}}
+  This section briefly summarizes steps to find the product and perform the mechanisms.
+{{< /hextra/hero-subtitle >}}
 
 **Quick steps to finding the product for any alcohol**
 1. Identify the reagents.
@@ -627,6 +652,127 @@ For simplicity, this image summarizes the start and end products of the synthesi
 {{% callout type="info" %}}
 Always remember to repeatedly practice your mechanisms and getting your reagents correct. Take advantage of our materials and/or keep practicing on a whiteboard or paper until you get it right every single time.
 {{% /callout %}}
+
+## Links and Related Articles
+{{< hextra/hero-subtitle >}}
+  Want to Practice your knowledge or need more help? Browse related articles.
+{{< /hextra/hero-subtitle >}}
+
+<style>
+.hextra-container .hextra-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem; /* Add margin to create space between the header and the cards */
+}
+
+.hextra-container .hextra-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #2c2c2c; /* Outline color */
+  background: transparent; /* Transparent background */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}
+
+.hextra-container .hextra-card:hover {
+  transform: scale(1.03); /* Slightly reduced scale to avoid large shadows */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Less intense shadow */
+  background-color: rgba(0, 0, 0, 0.03); /* Subtle highlight effect for light mode */
+}
+
+.dark .hextra-container .hextra-card {
+  border-color: #4c4c4c; /* More visible outline color for dark mode */
+}
+
+.dark .hextra-container .hextra-card:hover {
+  background-color: rgba(255, 255, 255, 0.05); /* Subtle highlight effect for dark mode */
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15); /* Consistent shadow effect for dark mode */
+}
+
+.hextra-container .hextra-card img {
+  user-select: none;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 0.5rem; /* Adjust spacing below the image */
+}
+
+.hextra-container .hextra-card:hover img {
+  transform: scale(1.03); /* Consistent scale with card */
+  box-shadow: none; /* Remove shadow from the image */
+}
+
+.hextra-container .card-title {
+  margin: 0.5rem 0 0; /* Adjust spacing for the title */
+  transition: color 0.3s ease;
+  color: #000; /* Title color in light mode */
+}
+
+.dark .hextra-container .card-title {
+  color: #fff; /* Title color in dark mode */
+}
+
+.hextra-container .card-body {
+  padding-top: 0; /* Remove top padding */
+  color: #000; /* Body text color in light mode */
+}
+
+.dark .hextra-container .card-body {
+  color: #fff; /* Body text color in dark mode */
+}
+
+.dark .hextra-container .hextra-card svg {
+  color: #ffffff66;
+}
+
+.dark .hextra-container .hextra-card:hover svg {
+  color: currentColor;
+}
+
+.hextra-container a.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+</style>
+
+<div class="hextra-container">
+  <div class="hextra-cards">
+    <a href="/reactionrepo/article-repository/tribute-to-jcmartin" class="card-link">
+      <div class="hextra-card">
+        <div class="card-body">
+          {{<figure-dynamic-toggle
+            dark-src="q2c.png"
+            light-src="q2c.png"
+            title=""
+            width="300"
+            height="150"
+          >}}
+          <h5 class="card-title">Practice Flashcards</h5>
+        </div>
+      </div>
+    </a>
+    <!-- New Card -->
+    <a href="/reactionrepo/docs/oxidation-reactions/dess-martin-oxidation/" class="card-link">
+      <div class="hextra-card">
+        <div class="card-body">
+          {{<figure-dynamic-toggle
+            dark-src="DMPOverviewDarkFix.png"
+            light-src="DMPOverviewLightFix.png"
+            title=""
+            width="300"
+            height="150"
+          >}}
+          <h5 class="card-title">Dess Martin Oxidation</h5>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
 
 ## References
 

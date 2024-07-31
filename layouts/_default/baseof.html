@@ -2,19 +2,24 @@
 <html lang="{{ .Site.Language.Lang }}">
   {{- partial "head.html" . -}}
   <body dir="{{ .Site.Language.LanguageDirection | default `ltr` }}">
-    {{- partial "navbar.html" . -}}
 
     {{ if .IsHome }}
     <!-- Announcement bar -->
     <div class="announcement-bar" id="announcement-bar">
-        <div class="announcements" id="announcements">
-            <div class="announcement">☀️ Happy July Everyone!</div>
-            <div class="announcement">⚠️ Refresh your page if: text or themes does not load.</div>
-            <div class="announcement">🌐 Scheduled update on July 8th, 2024: Corey Schmidt Oxidation.</div>
-            <div class="announcement">📱 Any suggestions? Contact Us!</div>
+        <div class="announcement-content">
+            {{- with "beaker" -}}
+              <span class="hero-icon">
+                {{- partial "utils/icon.html" (dict "name" . "attributes" "height=1.5rem width=1.5rem") -}}
+              </span>
+            {{- end -}}
+            <div class="announcement-text">Welcome to Reaction Repo! Please refresh your theme if text or pictures do not load.</div>
         </div>
         <button onclick="closeAnnouncementBar()">×</button>
     </div>
+    {{- partial "navbar.html" . -}}
+    {{ else }}
+    <!-- Navbar for non-home pages -->
+    {{- partial "navbar.html" . -}}
     {{ end }}
 
     {{- block "main" . }}{{ end -}}
@@ -28,40 +33,36 @@
 
     <!-- Announcement bar styles and script -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
 
         .announcement-bar {
-            background-color: #262626;
+            background-color: #1a1a1a; /* Dark background color */
             color: #fff;
-            padding: 10px;
+            padding: 10px 20px;
             text-align: center;
-            position: relative;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
             overflow: hidden;
-            height: 50px; /* Adjust height to ensure full visibility */
-        }
-
-        .announcement-bar .announcements {
-            position: relative;
-            height: 100%;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .announcement-bar .announcement {
+            height: auto; /* Adjust height to ensure full visibility */
             font-family: 'Arimo', sans-serif;
-            font-weight: bold;
-            position: absolute;
-            opacity: 0;
-            transition: opacity 1s ease-in-out;
+            position: relative;
         }
 
-        .announcement-bar .announcement.show {
-            opacity: 1;
+        .announcement-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        .announcement-text {
+            font-weight: 700; /* Make text bold */
+            font-size: 0.875rem; /* Make text smaller */
+            margin: 0;
+            text-align: center;
         }
 
         .announcement-bar button {
@@ -73,33 +74,25 @@
             top: 50%;
             transform: translateY(-50%);
             cursor: pointer;
+            color: #fff;
+        }
+
+        .hero-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .announcement-bar {
+                display: none;
+            }
         }
     </style>
 
     <script>
-        let currentAnnouncementIndex = 0;
-        const announcements = document.querySelectorAll('.announcement');
-
-        function showAnnouncement(index) {
-            announcements.forEach((announcement, i) => {
-                announcement.classList.toggle('show', i === index);
-            });
-        }
-
-        function nextAnnouncement() {
-            currentAnnouncementIndex = (currentAnnouncementIndex + 1) % announcements.length;
-            showAnnouncement(currentAnnouncementIndex);
-        }
-
         function closeAnnouncementBar() {
             document.getElementById('announcement-bar').style.display = 'none';
         }
-
-        // Initial call to show the first announcement
-        showAnnouncement(currentAnnouncementIndex);
-
-        // Change announcement every 5 seconds
-        setInterval(nextAnnouncement, 5000);
     </script>
   </body>
 </html>

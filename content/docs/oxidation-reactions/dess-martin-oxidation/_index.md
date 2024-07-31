@@ -1,7 +1,7 @@
 ---
 title: Dess-Martin Oxidation
 weight: 3
-date: 2024-07-05
+date: 2024-07-27
 prev: /docs/corey-schmidt-oxidation
 next: /docs/guide/shortcodes/callout
 authors:
@@ -40,7 +40,10 @@ authors:
 This page is a directory containing Dess-Martin Oxidation Variations, reagent details derived from publications and a tribute to the principal investigator Dr. J.C. Martin.
 {{< /callout >}}
 
-## Dess Martin Oxidation Variation Overviews
+## Oxidation Variations
+{{< hextra/hero-subtitle >}}
+  Here you can find the various types of Oxidation conditions and reagent combinations that utilize Dess Martin Oxidation.
+{{< /hextra/hero-subtitle >}}
 
 {{< tabs items="Without Water, With Water or Wet DCM, With IBX in DMSO/Other Solvents" defaultindex="1" >}}
 
@@ -86,6 +89,9 @@ This was performed without the usage of water which was reported to accelerate t
 {{< /tabs >}}
 
 ### Full Articles on the Variations
+{{< hextra/hero-subtitle >}}
+  Use these to explore detailed articles on the variations.
+{{< /hextra/hero-subtitle >}}
 
 <style>
 .hextra-container .hextra-cards {
@@ -188,6 +194,9 @@ This was performed without the usage of water which was reported to accelerate t
 {{< /callout >}}
 
 ## Dess-Martin Periodinane
+{{< hextra/hero-subtitle >}}
+  This section briefly goes over Dess-Martin Periodinane in detail ranging from definition to preparation.
+{{< /hextra/hero-subtitle >}}
 
 <p>Periodinane 2, also known as Dess-Martin Periodinane (DMP), was originally derived from 2-iodobenzoic acid and exhibited remarkable efficiency and selectivity. It was reported that DMP was soluble in other solvents such as in hexane or ether were deemed sparingly soluble. Additionally, it was deemed very soluble in dichloromethane, chloroform and acetonitrile. Dichloromethane (DCM) was reported as the primary solvent used as stated by Dess & Martin (1983).<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
@@ -199,6 +208,9 @@ This was performed without the usage of water which was reported to accelerate t
     link="https://pubs.acs.org/doi/10.1021/jo00170a070">}}
 
 ### Reagent Variations
+{{< hextra/hero-subtitle >}}
+  This section briefly goes variations of Dess Martin Periodinane.
+{{< /hextra/hero-subtitle >}}
 
 You may see different variations on how DMP is written out. The OAc group (Acetoxy) is a functional group you've seen before. The two Dess-Martin Periodinane structures depicted here are the same compound, shown in different notations and with varying ring structures.
 
@@ -217,12 +229,11 @@ You may see different variations on how DMP is written out. The OAc group (Aceto
     >}}
 
 #### Acetoxy Group vs Acetate Ion
-
-##### Why Compare Acetate Ion vs. Acetoxy Group?
+{{< hextra/hero-subtitle >}}
+  This section briefly goes over the difference between a Acetoxy group vs Acetate ion.
+{{< /hextra/hero-subtitle >}}
 
 Understanding the distinction between the acetate ion and the acetoxy group is crucial in grasping the chemical behavior and reactivity of molecules like DMP. While the acetoxy group is part of the structure of DMP, it becomes an acetate ion upon leaving the molecule during the oxidation reaction, playing the as role as a good leaving group to become a stable, negatively charged ion.
-
-##### Comparison
 
 {{<figure-dynamic-toggle
     dark-src="PURP2.png"
@@ -237,7 +248,10 @@ Understanding the distinction between the acetate ion and the acetoxy group is c
 | **Role in DMP**  | In DMP, three acetoxy groups are bonded to the central iodine atom, making them part of the larger molecule. | Has no role in DMP itself. |
 |  **Formation & Notation** | R-OAc, where R represents the rest of the DMP molecule. | In reactions, when the OAc group is expelled from DMP, it becomes an acetate ion (CH₃COO⁻), carrying a negative charge as it takes an extra electron pair. |
 
-### Reagent Preparation
+## Reagent Preparation
+{{< hextra/hero-subtitle >}}
+  This section briefly explains how to prepare Dess Martin Periodinane.
+{{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
     dark-src="dmpcreatedark.png"
@@ -262,10 +276,16 @@ Next, a stirred slurry of 2-iodoxybenzoic acid in acetic anhydride and acetic ac
 {{% /steps %}}
 
 ### Reagent Facts
+{{< hextra/hero-subtitle >}}
+  This section goes over some universally known facts retrieved from the original paper by Dess & Martin (1983). 
+{{< /hextra/hero-subtitle >}}
 
 <p>DMP is easy to prepare, remains stable under proper storage conditions and is environmentally friendly, producing benign by-products compared to toxic chromium-based oxidizers which often required time-consuming filitration procedures.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 #### Reagent Resources
+{{< hextra/hero-subtitle >}}
+  This section displays different databases that host more information on Dess Martin Periodinane.
+{{< /hextra/hero-subtitle >}}
 
 {{< callout type="info" >}}
   Due to the variations in data such as molecular weight, melting point, etc., reported on the Dess-Martin Periodinane across various accredited databases, here are some reagent resources you can use to find more reagent data from specialized sources.
@@ -478,6 +498,9 @@ Next, a stirred slurry of 2-iodoxybenzoic acid in acetic anhydride and acetic ac
 </div>
 
 ## Tribute to Dr. James Cullen Martin
+{{< hextra/hero-subtitle >}}
+  This section is a tribute to the late Dr. James Cullen Martin (1928-1999).
+{{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
     dark-src="image3.png"
@@ -498,6 +521,9 @@ If you would like to read more on Dr. James Cullen Martin and his personal life,
 {{< /callout >}}
 
 ## Related Articles
+{{< hextra/hero-subtitle >}}
+  Browse all related Articles.
+{{< /hextra/hero-subtitle >}}
 
 <style>
 .hextra-container .hextra-cards {

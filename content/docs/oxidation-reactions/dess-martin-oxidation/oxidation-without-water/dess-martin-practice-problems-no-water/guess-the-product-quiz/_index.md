@@ -1,6 +1,6 @@
 ---
-title: Dess-Martin Oxidation without Water Practice Problems
-linkTitle: Practice Flashcards
+title: Practice Flashcards and Problems
+linkTitle: Dess Martin Oxidation without Water Practice Problems
 prev:
 quizdown: true
 ---
@@ -8,6 +8,13 @@ quizdown: true
 {{< hextra/hero-subtitle >}}
   Here you can test your knowledge on product guessing for the Dess Martin Oxidation without the usage of water.
 {{< /hextra/hero-subtitle >}}
+
+<div style="text-align: left; margin-top: 0.4em; display: flex; flex-wrap: wrap; gap: 4px;">
+{{< hextra/hero-badge >}}
+  <span>Education</span>
+  {{< icon name="academic-cap" attributes="height=14" >}}
+{{< /hextra/hero-badge >}}
+</div>
 
 {{< callout type="info" >}}
   Hi Everyone! This section is currently a work in progress, however, we have some sample questions we would love for you to try.

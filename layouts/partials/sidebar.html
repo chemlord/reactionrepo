@@ -1,10 +1,7 @@
 {{- $context := .context -}}
-
 {{- $disableSidebar := .disableSidebar | default false -}}
 {{- $displayPlaceholder := .displayPlaceholder | default false -}}
-
 {{- $sidebarClass := cond $disableSidebar (cond $displayPlaceholder "md:hx-hidden xl:hx-block" "md:hx-hidden") "md:hx-sticky" -}}
-
 {{- $navRoot := cond (eq site.Home.Type "docs") site.Home $context.FirstSection -}}
 {{- $pageURL := $context.RelPermalink -}}
 
@@ -151,7 +148,7 @@
                 {{- end }}
                 {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
               </li>
-            {{- end -}}
+            {{- end }}
           {{- end }}
         </ul>
       </div>

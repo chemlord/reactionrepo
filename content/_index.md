@@ -54,19 +54,18 @@ width: normal
 
 <div class="hx-mt-6 hx-mb-4">
 {{< hextra/hero-headline >}}
-  Confused with Reactions? <br> We got you.
+  Confused with Reactions? <br> We can help.
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx-mb-6">
 {{< hextra/hero-subtitle >}}
-  Your Organic Chemistry Companion.&nbsp;<br class="sm:hx-block hx-hidden" />Discover ⌕. Learn ✎. Master 🕮.
+  Chemistry Documentation and guides,&nbsp;<br class="sm:hx-block hx-hidden" />to learn and master chemical reactions.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mb-12">
-{{< hextra/hero-button text="Browse Reactions" link="https://chemlord.github.io/reactionrepo/docs" linkTitle="Apply for a new LEI" >}}
-    <span style="padding-left: 10px">{{< hextra/hero-button text="Browse our Blog" link="https://chemlord.github.io/reactionrepo/articles" style="background-color: inherit; color: currentColor; border: 1px solid grey" linkTitle="Browse our Site" >}}</span>
+<div class="hx-mb-6">
+{{< hextra/hero-button text="Browse Reactions" link="docs" >}}
 </div>
 
 {{< hextra/feature-grid >}}
@@ -75,7 +74,7 @@ width: normal
     title="Detailed Entries"
     subtitle="In-depth entries with mechanisms and conditions."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/ref2.png"
+    image="/images/homepage1.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     link="/reactionrepo/docs/"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.15),hsla(0,0%,100%,0));"
@@ -84,35 +83,19 @@ width: normal
     title="Meticulous Referencing"
     subtitle="Entries are thoroughly referenced to ensure accuracy."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/references.png"
+    image="/images/homepage2.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     link="/reactionrepo/docs/"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Practice Problems and Quizzes"
-    subtitle="Over 600+ practice problems to test your knowledge."
+    title="Practice Flashcards"
+    subtitle="Plenty of Flashcards to test your knowledge."
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/ref3.png"
+    image="/images/homepage3.png"
     imageClass="hx-top-[20%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
     link="/reactionrepo/docs/"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
-  {{< feature-card
-    title="Steps by Steps Guides" icon="search"
-    subtitle="Detailed tutorials to master complex reactions with ease. Comprehensive summaries of essential organic reactions. Sorted and Curated Meticulously for Users."
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(203, 28, 66, 0.15),hsla(0,0%,100%,0));"
-  >}}
-
-  {{< feature-card
-    title="Open Source and Free" icon="book-open"
-    subtitle="Access a plethora of free resources and quizzes to solidify your learning."
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(45,175,233,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< feature-card
-    title="Interactive Visuals" icon="cursor-click"
-    subtitle="Resources to help you visualize and understand reactions better."
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-  >}}
-  
 {{< /hextra/feature-grid >}}
+
