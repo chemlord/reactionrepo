@@ -19,8 +19,12 @@
   </div>
   <div class="hextra-scrollbar hx-overflow-y-auto hx-overflow-x-hidden hx-p-4 hx-grow md:hx-h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
     <ul class="hx-flex hx-flex-col hx-gap-1 md:hx-hidden">
-      <!-- Reaction Catalog Section -->
-      {{ template "sidebar-reaction-catalog" (dict "context" $navRoot "page" $context "pageURL" $pageURL) }}
+      <!-- Custom Reaction Catalog Link -->
+      <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
+        <span class="hx-cursor-default">Directories</span>
+      </li>
+      <li>{{ template "sidebar-item-link" dict "active" false "title" "Reaction Catalog" "link" "/reactionrepo/docs/reaction-catalog/" }}</li>
+      
       <!-- Separator with conditional label -->
       <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
         <span class="hx-cursor-default">
@@ -44,8 +48,12 @@
       {{ .context.Scratch.Set "enableFooterSwitches" true }}
     {{- else -}}
       <ul class="hx-flex hx-flex-col hx-gap-1 max-md:hx-hidden">
-        <!-- Reaction Catalog Section -->
-        {{ template "sidebar-reaction-catalog" (dict "context" $navRoot "page" $context "pageURL" $pageURL) }}
+        <!-- Custom Reaction Catalog Link -->
+        <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
+          <span class="hx-cursor-default">Reaction Catalog</span>
+        </li>
+        <li>{{ template "sidebar-item-link" dict "active" false "title" "Reaction Catalog" "link" "/reactionrepo/docs/reaction-catalog/" }}</li>
+        
         <!-- Separator with conditional label -->
         <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
           <span class="hx-cursor-default">
