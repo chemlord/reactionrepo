@@ -223,9 +223,9 @@ This page is a directory containing Swern Oxidation Variations, reagent details 
 | **Formation** | DMS is produced as a by-product post oxidation. |
 | **Toxicity**  | DMS is flammable and poses health hazards including irritation of the eyes, skin, and respiratory system. Prolonged exposure can lead to more severe health effects such as headaches, dizziness, and nausea. |
 | **Odor**      | <p>DMS is known for its strong, unpleasant odor, which can be a **significant issue** in laboratory settings.To effectively manage the strong, unpleasant odor of DMS (dimethyl sulfide), several methods have been documented.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p><br>{{<figure-dynamic-toggle
-    dark-src="newbleachoxd.png"
-    light-src="newbleachoxl.png"
-    link="https://doi.org/10.1016/S0040-4039(01)93515-4">}} <p>Chemical oxidation is one method which is commonly employed, where bleach oxidation through the usage of sodium hypochlorite pentahydrate (NaOCl·5H2O) can oxidize DMS into less odorous compounds such as dimethyl sulfoxide and dimethyl sulfone.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p> <p>Another solution is using activated carbon to absorb DMS from vent streams, providing a straightforward scrubbing solution.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p> <p>Additionally, Atkins et al. (2006) describe using potassium persulfate (Oxone) for similar oxidation processes, further reducing the presence of DMS <a href="#fn2" id="ref2-anchor" class="superscript">2</a></p> |
+    dark-src="bleachdark.png"
+    light-src="bleachlight.png"
+    link="https://doi.org/10.1055/s-0035-1560482">}} <p>Chemical oxidation is one method which is commonly employed, where bleach oxidation through the usage of sodium hypochlorite pentahydrate (NaOCl·5H2O) can oxidize DMS into less odorous compounds such as dimethyl sulfoxide and dimethyl sulfone.<a href="#fn3" id="ref3-anchor" class="superscript">3</a></p> <p>Another solution is using activated carbon to absorb DMS from vent streams, providing a straightforward scrubbing solution.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p> <p>Additionally, Atkins et al. (2006) describe using potassium persulfate (Oxone) for similar oxidation processes, further reducing the presence of DMS <a href="#fn2" id="ref2-anchor" class="superscript">2</a></p> |
 
 #### Database Info
 
@@ -713,14 +713,14 @@ This page is a directory containing Swern Oxidation Variations, reagent details 
 {{<figure-dynamic-toggle
     dark-src="image.png"
     light-src="image.png"
-    link="https://doi.org/10.1016/S0040-4039(01)93515-4">}}
+    >}}
 
 <p>Dr. Daniel A. Swern (1916–1982) was a distinguished chemist known for his works on flexible plastics and advancements in lipid chemistry. During World War II, his work with the USDA led to breakthroughs in transforming polyvinyl chlorides into more versatile plastics.<a href="#fn11" id="ref11-anchor" class="superscript">11</a></p>
 
 <p>Later, as a professor at Temple University, he published over 280 research papers and received numerous awards, including the AOCS Bailey Award and Temple University Faculty Award for Research and Creative Achievements. Dr. Swern sadly passed away aged 66, leaving behind a lasting impact on chemists and materials scientists.<a href="#fn12" id="ref12-anchor" class="superscript">12</a></p>
 
 Rest in Peace,<br>
-**Dr. Daniel Swern**
+**Dr. Daniel A. Swern**
 
 {{< callout type="info">}}
 If you would like to read more on Dr. Daniel A. Swern and his personal life, please check out this [article](). Please note that the article is still a work in progress.

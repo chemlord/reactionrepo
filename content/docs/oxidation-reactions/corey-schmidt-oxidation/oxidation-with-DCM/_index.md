@@ -202,7 +202,7 @@ Following protonation, the intermediate undergoes atom rearrangement, leading to
     caption="Proton transfer and subsequent cleavage of hydrated chromium (IV) oxide yielded the desired aldehyde product"
 >}}
 
-The overall products of the Corey Schmidt oxidation include the Aldehyde formed from the secondary alcohol and Chromic Acid as a by-product.
+The overall products of the Corey Schmidt oxidation include the Aldehyde formed from the secondary alcohol and Chromous acid as a by-product.
 
 ### Reconstructing the Target Intermediate
 
@@ -365,7 +365,7 @@ Following protonation, the intermediate undergoes atom rearrangement, leading to
     caption="Proton transfer and subsequent cleavage of hydrated chromium (IV) oxide yielded the desired Ketone product"
 >}}
 
-The overall products of the Corey Schmidt oxidation include the Ketone formed from the secondary alcohol and Chromic Acid as a by-product.
+The overall products of the Corey Schmidt oxidation include the Ketone formed from the secondary alcohol and Chromous acid as a by-product.
 
 ### Reconstructing the Final Overall Product
 
