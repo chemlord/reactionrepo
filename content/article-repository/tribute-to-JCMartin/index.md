@@ -16,6 +16,11 @@ breadcrumbs: false
 {{< /hextra/hero-badge >}}
 </div>
 
+{{<figure-dynamic-toggle
+    dark-src="image.png"
+    light-src="image.png"
+    >}}
+
 ## Who is James Cullen Martin?
 
 {{<figure-dynamic-toggle

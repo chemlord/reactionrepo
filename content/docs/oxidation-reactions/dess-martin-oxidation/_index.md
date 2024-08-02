@@ -503,10 +503,8 @@ Next, a stirred slurry of 2-iodoxybenzoic acid in acetic anhydride and acetic ac
 {{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
-    dark-src="image3.png"
-    light-src="image3.png"
-    title="Photo taken at the author’s office in Hiroshima and that of J.C. Martin Symposium at Vanderbilt reported in C & EN News."
-    caption="Courtesy of Akiba (2006)"
+    dark-src="image.png"
+    light-src="image.png"
     >}}
 
 <p>James Cullen Martin (1928-1999), a prominent figure in organic chemistry community known for his work on hypervalent compounds, passed away on April 20, 1999. Martin's most notable contribution is the invention of the Dess-Martin Periodinane (DMP) in 1983, developed with his doctoral student Daniel Benjamin Dess.<a href="#fn4" id="ref4-anchor" class="superscript">4</a></p>
@@ -613,8 +611,8 @@ If you would like to read more on Dr. James Cullen Martin and his personal life,
       <div class="hextra-card">
         <div class="card-body">
           {{<figure-dynamic-toggle
-            dark-src="jcmartin.png"
-            light-src="jcmartin.png"
+            dark-src="nail3.png"
+            light-src="nail3.png"
             title=""
             width="300"
             height="150"

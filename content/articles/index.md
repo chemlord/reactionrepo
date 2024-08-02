@@ -205,8 +205,8 @@ a.card-link {
     <div class="hextra-card">
       <div class="card-body">
         {{<figure-dynamic-toggle
-          dark-src="test2.png"
-          light-src="test2.png"
+          dark-src="coverjcmartin.png"
+          light-src="coverjcmartin.png"
           title=""
           width="350"
           height="300"
