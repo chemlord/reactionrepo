@@ -29,6 +29,11 @@ authors:
 {{< /hextra/hero-badge >}}
 </div>
 
+{{<figure-dynamic-toggle
+    dark-src="swern.png"
+    light-src="swern.png"
+>}}
+
 <p>The Swern oxidation, developed by Kanji Omura and Daniel Swern in 1978, is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using activated dimethyl sulfoxide (DMSO), oxalyl chloride, triethylamine (TEA) and dichloromethane (DCM).<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 {{< callout type="info">}}
@@ -191,13 +196,13 @@ This page is a directory containing Swern Oxidation Variations, reagent details 
   Oxalyl chloride is most preferred. But why?
 {{< /hextra/hero-subtitle >}}
 
-<p>Among various DMSO activation methods, **oxalyl chloride** stands out as the most effective, consistently yielding over 95% across a wide range of alcohols, mainly primary and secondary alcohols. Its high efficiency and minimal side reactions make it the **preferred choice** for alcohol oxidation.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p>Among various DMSO activation methods, oxalyl chloride stands out as the most effective, consistently yielding over 95% across a wide range of alcohols, mainly primary and secondary alcohols. Its high efficiency and minimal side reactions make it the **preferred choice** for alcohol oxidation.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
-<p>**Thionyl chloride** also produces good yields but is slightly less effective than oxalyl chloride. **TFAA** is effective but its *high cost and toxicity*, lower it's desirability despite good results. <a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p>Thionyl chloride also produces good yields but is slightly less effective than oxalyl chloride. TFAA is effective but its *high cost and toxicity*, lower it's desirability despite good results. <a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
-<p>**Acetic anhydride** results in lower yields and significant by-products, making it less favorable. **Cyanuric chloride** and **methanesulfonyl chloride** are useful in specific cases, particularly with hindered alcohols, yielding up to 95% when used with certain bases like DIPEA. <a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p>Acetic anhydride results in lower yields and significant by-products, making it less favorable. Cyanuric chloride and methanesulfonyl chloride are useful in specific cases, particularly with hindered alcohols, yielding up to 95% when used with certain bases like DIPEA. <a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
-<p>Overall, **oxalyl chloride is the most optimal DMSO activator and oxidizing agent** due to its high yield and broad applicability in alcohol oxidation. <a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p>Overall, oxalyl chloride is the most optimal DMSO activator and oxidizing agent due to its high yield and broad applicability in alcohol oxidation. <a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 ## By-Product Concerns
 {{< hextra/hero-subtitle >}}

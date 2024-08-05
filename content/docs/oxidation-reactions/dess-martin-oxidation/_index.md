@@ -33,6 +33,10 @@ authors:
 {{< /hextra/hero-badge >}}
 </div>
 
+{{<figure-dynamic-toggle
+    dark-src="dmp1.png"
+    light-src="dmp1.png"
+>}}
 
 <p>The Dess-Martin oxidation, developed by Dr. J.C Martin and his doctoral student Daniel Benjamin Dess, is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using the Dess-Martin periodinane (DMP), a hypervalent iodine compound. This reagent is known for its mild conditions, high selectivity, and efficiency, making it a valuable tool in organic synthesis.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 

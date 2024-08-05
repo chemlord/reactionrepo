@@ -37,6 +37,11 @@ authors:
 {{< /hextra/hero-badge >}}
 </div>
 
+{{<figure-dynamic-toggle
+    dark-src="cs1.png"
+    light-src="cs1.png"
+>}}
+
 <p>The Corey-Schmidt oxidation, developed by E.J Corey and Greg Schmidt, is a method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones using pyridinium dichromate (PDC), also known as the Cornforth reagent.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 {{< callout type="info">}}
