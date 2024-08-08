@@ -138,10 +138,10 @@ quizdown: true
   <div class="flashcard-container" id="flashcardContainer3">
     <div class="flashcard">
       <div class="flashcard-side front">
-        <img src="q2p.png" alt="Front Image">
+        <img src="q2pp.png" alt="Front Image">
       </div>
       <div class="flashcard-side back">
-        <img src="q2ans.png" alt="Back Image">
+        <img src="a2p.png" alt="Back Image">
       </div>
     </div>
   </div>

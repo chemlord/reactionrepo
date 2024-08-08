@@ -249,11 +249,11 @@ This animation in this section is still a work in progress.
 <br>
 
 {{<figure-dynamic-toggle
-    dark-src="secondaryqdark.png"
-    light-src="secondaryqlight.png"
+    dark-src="MechD1.png"
+    light-src="MechL1.png"
     title="Propose a Mechanism for this Reaction"
     caption="Oxidation of a secondary alcohol intermediate to an ketone. The groundwork to determine the product is similar to how a primary alcohol is converted."
-    link="https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O">}}
+    link="https://doi.org/10.1021/ja044123l">}}
 
 {{% details title="Where did this Reaction come from?" closed="true" %}}
 
@@ -331,10 +331,10 @@ By identifying the Alcohol Type, you now know the **product** to expect.
 <br>
 
 {{<figure-dynamic-toggle
-    dark-src="secondaryqdhigh.png" 
-    light-src="secondaryqlighthigh.png"
+    dark-src="MechD1H.png" 
+    light-src="MechL1H.png"
     title="Tracking Side Chains and Alcohol Conversion in Swern Oxidation"
-    caption="Be careful when assigning side chain placeholders. If you do not see a side chain visible that is not denoted by H or another group. Assume its a Methyl group. In the example, it was not shown, however for group tracking we have shown it in red."
+    caption="Firstly, find the alcohol structure and highlight it. Next, assign side chains (R groups) that are on the opposite sides of the alcohol group."
 >}}
 
 When oxidizing secondary alcohols, the colored side chains represent unchanged R groups. The alcohol is selectively oxidized to form a ketone. For educational purposes, use R¹ and R² as placeholders for parts of the molecule, excluding the secondary alcohol and first side chain. This helps visualize the reaction and reconstruct the molecule post-oxidation.
@@ -440,15 +440,15 @@ This animation in this section is still a work in progress.
 {{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
-    dark-src="guesswhatprimdark.png"
-    light-src="guesswhatprimlight.png"
+    dark-src="CoreyGuessDark.png"
+    light-src="CoreyGuessLight.png"
     link="https://pubs.acs.org/doi/10.1021/acs.orglett.5b00345">}}
 
 {{% details title="Reveal the Answer." closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="guesswhatprimdarkans.png"
-    light-src="guesswhatprimlightans.png"
+    dark-src="mechansl.png"
+    light-src="mechansd.png"
     link="https://pubs.acs.org/doi/10.1021/acs.orglett.5b00345">}}
 
 This should form the expected aldehyde product as a result of oxidation of the primary alcohol on this compound.
@@ -458,32 +458,22 @@ This should form the expected aldehyde product as a result of oxidation of the p
 {{% details title="Where did this Reaction come from?" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="fittestdark.png"
-    light-src="fittestlight.png"
-    title="Overall Reaction used to form Mycalol (Proposed Structure) from Fragment A (6) and Fragment B (11)"
-    caption="The synthesis of Mycalol involved Fragments A and B (6 and 11) undergoing several other reactions to form the proposed structure of Mycalol. The proposed structure was revised based on detailed NMR analysis, changing the position of the acetate group and the stereochemistry of the glycerol unit."
-    link="https://doi.org/10.1021/acs.orglett.5b00345">}}
+    dark-src="COREYFULL1NBD.png"
+    light-src="COREYFULL1NBL.png"
+    title="Overall Synthesis of (+)-Pentacycloanammoxic Acid from the starting material cyclooctatetraene"
+    caption="Cyclooctatetraene underwent a 15 step synthesis pathway to form the end product:(+)-Pentacycloanammoxic Acid."
+    link="https://doi.org/10.1021/ja044089a">}}
 
 {{% callout type="info" %}}
-For simplicity, this image summarizes the reactions and the main compounds used to complete the synthesis in the original paper by [Seetharamsingh et al. (2015)](https://doi.org/10.1021/acs.orglett.5b00345), highlighting the reaction conditions and compounds. The full pathway is not shown to maintain clarity and focus on building towards when Corey Schmidt oxidation is used.
+For simplicity, this image summarizes total number of steps in the original paper by [Mascitti & Corey (2004)](https://doi.org/10.1021/ja044089a) to form the desired product (1). The full pathway is not shown to maintain clarity and focus on building towards when Swern oxidation is used.
 {{% /callout %}}
 
 {{<figure-dynamic-toggle
-    dark-src="pdcprimnoboxdark1.png"
-    light-src="pdcprimnoboxlight1.png"
-    link="https://pubs.acs.org/doi/10.1021/acs.orglett.5b00345">}}
+    dark-src="coreycitenewd.png"
+    light-src="coreycitenewl.png"
+    link="https://doi.org/10.1021/ja044089a">}}
 
-This reaction showing the Corey Schmidt oxidation of this alcohol intermediate (3) was part of the proposed synthesis pathway of the formation of Mycalol, a potent anticancer agent, which was synthesized through a series of steps, notably PDC oxidation. These steps resulted in the formation of the desired aldehyde intermediate (3a), which underwent further reactions to complete the synthesis. 
-
-{{<figure-dynamic-toggle
-        dark-src="fragmentAdark.png" 
-        light-src="fragmentAlight.png"
-        link="https://pubs.acs.org/doi/10.1021/acs.orglett.5b00345"
-    >}}
-
-One main reagent used in the synthesis of Mycalol was Fragment A. Fragment A (6) was formed from the conversion process of compound 2 to compound 6 (Fragment A) over a four step synthesis pathway.
-
-<p>A crucial step in this multi-step process was the oxidation of a primary alcohol intermediate (3a) to an aldehyde intermediate using Pyridinium dichromate (PDC) in dichloromethane (DCM) for 4 hours. The resulting aldehyde intermediate (3a) was then further utilized in subsequent steps towards the proposed synthesis of Mycalol.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+The starting material, Cyclooctatetraene underwent 10 steps until it reached the formation of compound 7. Compound 7 underwent subsequent reactions, including reduction from DIBAL-H and oxidation via Swern Oxidation to form compound 8.
 
 {{< /details >}}
 
@@ -492,79 +482,87 @@ One main reagent used in the synthesis of Mycalol was Fragment A. Fragment A (6)
   Propose a Mechanism for this Reaction.
 {{< /hextra/hero-subtitle >}}
 
-{{<figure-dynamic-toggle
-    dark-src="PDCcitefulldarknoboxver2.png"
-    light-src="PDCcitefulllightnoboxver2.png"
-    link="https://doi.org/10.1021/ja044123l">}}
+<br>
 
-{{% callout type="info" %}}
-Focus on creating the compound in the box.
+{{<figure-dynamic-toggle
+    dark-src="secondaryqdark.png"
+    light-src="secondaryqlight.png"
+    link="https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O">}}
+
+{{% callout type="warning" %}}
+**Hint**: Do not confuse this with the [first example](/reactionrepo/docs/oxidation-reactions/swern-oxidation/oxidation-with-oxalyl-chloride/#finding-the-product-for-a-1-alcohol)!
 {{% /callout %}}
 
 {{% details title="Reveal the Answer." closed="true" %}}
 
-{{<figure-dynamic-toggle
-    dark-src="secproblemdark.png" 
-    light-src="secproblemlight.png"
-    title="Start by identifying the non-alcohol portion of the molecule and determine the product"
-    caption="Colored side chains in these diagrams represent constant R groups. Focus on the central alcohol, which transforms into a ketone or aldehyde. Use the colored chains to track and restore these groups post-reaction, highlighting the selective oxidation process. Once you have done this proceed to the mechanism."
->}}
+{{% steps %}}
+
+### Determine Side Chains and Alcohol Conversion
 
 {{<figure-dynamic-toggle
-    dark-src="darknonumberssec.png" 
-    light-src="lightnonumberssec.png"
+    dark-src="secondaryqdhigh.png" 
+    light-src="secondaryqlighthigh.png"
+    title="Tracking Side Chains and Alcohol Conversion in Swern Oxidation"
+    caption="Be careful when assigning side chain placeholders. If you do not see a side chain visible that is not denoted by H or another group. Assume its a Methyl group. In the example, it was not shown, however for group tracking we have shown it in red."
 >}}
 
-**Form the Overall Product**
+When oxidizing secondary alcohols, the colored side chains represent unchanged R groups. The alcohol is selectively oxidized to form a ketone. For educational purposes, use R¹ and R² as placeholders for parts of the molecule, excluding the secondary alcohol and first side chain. This helps visualize the reaction and reconstruct the molecule post-oxidation.
 
 {{% callout type="warning" %}}
-This animation is currently being worked on.
+The molecule isn't taken apart during the reaction, but for understanding the process, we conceptually take it apart to visualize the changes. Additionally for the sake of visual aid, we've slightly moved the yellow side chain group.
 {{% /callout %}}
 
-This should form the expected Ketone product as a result of oxidation of the secondary alcohol on this compound.
+### Perform the Mechanism
+
+{{<figure-dynamic-toggle
+    dark-src="NewMechSecD.png" 
+    light-src="NewMechSecL.png"
+>}}
+
+### Reconstruct the final molecule
+
+{{% callout type="warning" %}}
+The animation is still under progress.
+{{% /callout %}}
+
+{{% /steps %}}
 
 {{< /details >}}
 
 {{% details title="Where did this Reaction come from?" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="PDCcitefulldarknobox.png"
-    light-src="PDCcitefulllightnobox.png"
-    title="Completion of the Enantioselective total synthesis of (-)-epoxyquinols A and B"
-    caption="The diastereomeric (E)-dienone (-)-19 and (Z)-dienone (-)-20 were readily separated and fully characterized to form the desired product (-)-epoxyquinols A and B."
-    link="https://doi.org/10.1016/j.tetlet.2004.03.057">}}
+        dark-src="TaxolCitationNoBoxL.png" 
+        light-src="TaxolCitationNoBox.png"
+        title="Condensed Synthesis Overview of the Asymmetric Total Synthesis of Taxol by Mukaiyama et al. (1990)"
+        caption="This 61 step linear synthesis features Swern Oxidation for a total of 4 steps out of 61 steps."
+        link="https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O"
+    >}}
 
 {{% callout type="info" %}}
-For simplicity, this image summarizes the reagents and products of the synthesis in the original paper by [Mehta & Islam (2004)](https://doi.org/10.1016/j.tetlet.2004.03.057), showing the formation of the products. The full pathway is not shown. This is to effectively summarize the article's main reaction to form the desired product.
-{{% /callout %}}
-
-<p>This reaction showing the Corey-Schmidt Oxidation of the alcohol intermediate (18d or 18e) to an (E)-dienone (-)-19 and (Z)-dienone (-)-20 with a selectively oxidized aldehyde group was part of the synthesis pathway of the formation of (-)-epoxyquinols A and B. (-)-epoxyquinols A and B are anti-podes of the angiogenesis inhibiting natural products which contain various biological activity profiles. These epoxyquinone natural products and their associated biological profiles, according to the authors, have sparked interest in the synthetic community.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
-
-{{% callout type="info" %}}
-The paper was not officially specific as to which number the compound undergoing the PDC oxidation was. It is suggested that it is 18d or 18e. However since the pathway diverges multiple times it is unsure it's exact number.  **However the placement of the compound in the pathway are correct.**
+For simplicity, this image summarizes the total steps displayed in the original paper by [Mukaiyama et al. (1999)](https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O), showing that synthesis of the Taxol underwent a 61 step linear synthesis. The full pathway is not shown in our example. This is to maintain clarity and focus on building towards when Swern Oxidation is used.
 {{% /callout %}}
 
 {{<figure-dynamic-toggle
-    dark-src="mehtadark2.png"
-    light-src="mehtalight2.png"
-    link="https://doi.org/10.1016/j.tetlet.2004.03.057"
->}}
+        dark-src="RETROSYNDark.png" 
+        light-src="RETROSYNLight.png"
+        link="https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O"
+    >}}
 
-<p>Mehta and Islam (2004), in this non-linear synthetic pathway, describe the successful yielding process of a epoxyquinone building block (5) derived from a Diels-Alder Adduct of cyclopentadiene and p-benzoquinone. This building block is split into two smaller pathways where they are converted to Compounds (+)-7 and (-)-7. The first pathway consisting of one step (a) Lipase PS 30 (Amano), vinyl acetate, t-butylmethylether, 0°C, 6 h, 82%; and the second pathway which consisted of two steps.
+The Mukaiyama Asymmetric Total Synthesis of Taxol was published in 1999 by Mukaiyama et al (1999). Taxol, a well known and difficult complex organic molecule, underwent retrosynthetic analysis. This revealed a optically active ketone intermediate (3) which could be further broken down into another basic unit (4)
 
-{{<figure-dynamic-toggle
-    dark-src="mehtadark3.png"
-    light-src="mehtalight3.png"
-    link="https://doi.org/10.1016/j.tetlet.2004.03.057">}}
-
-<p>Compounds (+)-7 is subjected to a 9 step pathway which eventually yielded the (E)-dienone (-)-19 and (Z)-dienone (-)-20. They were readily separated and fully characterized to form the desired product (-)-epoxyquinols A and B.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
+{{% callout icon="question-mark-circle" %}}
+Retrosynthetic analysis is a technique in organic chemistry that breaks down complex molecules into simpler components by working backward, helping chemists plan a synthesis pathway. It identifies key bonds to disconnect, guiding the creation of a forward directing synthetic route.
+{{% /callout %}}
 
 {{<figure-dynamic-toggle
-    dark-src="PDCsecdarkbox.png"
-    light-src="PDCseclightbox.png"
-    link="https://doi.org/10.1016/j.tetlet.2004.03.057">}}
+    dark-src="secsourced.png"
+    light-src="secsourcel.png"
+    link="https://doi.org/10.3390/molecules25102377">}}
 
-<p>One key step was the oxidation of the secondary alcohol group on Compound 18d or 18e. PDC in DCM was officially used which successfully yielded the dieones needed to synthetize the epoxyquinone products.<a href="#fn5" id="ref5-anchor" class="superscript">5</a></p>
+<p>As seen in Scheme 5 of the paper, the synthesis of an optically active ketone (3) involved a single step process using two sets of reagent combinations. First, the alkylation (Grignard reaction) of compound 22 using Methyl Magnesium Bromide (MeMgBr) This yielded an alcohol intermediate.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
+
+<p>Next, this secondary alcohol intermediate was oxidized to a ketone (3) using Swern Oxidation (Oxidation with Oxalyl chloride).<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
 
 {{< /details >}}
 
@@ -786,4 +784,14 @@ Always remember to repeatedly practice your mechanisms and getting your reagents
     >}}
     <a id="fn2" class="anchor"></a>
     <p class="hanging-indent"><span class="reference"><span class="bold-number">2.</span> Mukaiyama, T.; Shiina, I.; Iwadare, H.; Saitoh, M.; Nishimura, T.; Ohkawa, N.; Sakoh, H.; Nishimura, K.; Tani, Y.-i.; Hasegawa, M.; Yamada, K.; Saitoh, K. Asymmetric Total Synthesis of Taxol. <i>Chem. Eur. J.</i> <b>1999</b>, <i>5</i> (1), 121–161. DOI: <a href="https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1<121::AID-CHEM121>3.0.CO;2-O">10.1002/(SICI)1521-3765(19990104)5:1&lt;121::AID-CHEM121&gt;3.0.CO;2-O</a>. <a href="#ref2-anchor">↩</a></span></p>
+</div>
+
+<div>
+    {{<figure-dynamic-toggle
+        dark-src="COREYFULL2.png" 
+        light-src="COREYFULL1.png"
+        link="https://doi.org/10.1021/ja044089a"
+    >}}
+    <a id="fn3" class="anchor"></a>
+    <p class="hanging-indent"><span class="reference"><span class="bold-number">3.</span> Mascitti, V.; Corey, E. J. Total Synthesis of (±)-Pentacycloanammoxic Acid. <i>J. Am. Chem. Soc.</i> <b>2004</b>, <i>126</i> (48), 15664–15665. DOI: <a href="https://doi.org/10.1021/ja044089a">10.1021/ja044089a</a>. <a href="#ref3-anchor">↩</a></span></p>
 </div>
