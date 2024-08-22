@@ -200,6 +200,20 @@ a.card-link {
 </style>
 
 <div class="hextra-cards">
+<a href="/reactionrepo/docs/oxidation-reactions/corey-kim-oxidation/" class="card-link">
+    <div class="hextra-card">
+      <div class="card-body">
+        {{<figure-dynamic-toggle
+          dark-src="ckoverviewdark.png"
+          light-src="ckoverviewlight.png"
+          title=""
+          width="300"
+          height="150"
+        >}}
+        <h5 class="card-title">Corey-Kim Oxidation</h5>
+      </div>
+    </div>
+  </a>
   <a href="/reactionrepo/docs/oxidation-reactions/corey-schmidt-oxidation" class="card-link">
     <div class="hextra-card">
       <div class="card-body">

@@ -58,13 +58,13 @@ width: normal
 {{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx-mb-6">
+<div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
   Chemistry Documentation and guides,&nbsp;<br class="sm:hx-block hx-hidden" />to learn and master chemical reactions.
 {{< /hextra/hero-subtitle >}}
 </div>
 
-<div class="hx-mb-6">
+<div class="hx-mb-12">
 {{< hextra/hero-button text="Browse Reactions" link="docs" >}}
 </div>
 
