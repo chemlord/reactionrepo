@@ -1,12 +1,12 @@
 ---
 title: Swern Oxidation
-date: 2024-08-01
+date: 2024-08-26
 weight: 3
 prev: 
 next: 
 authors:
   - name: Devraj Bagchi
-    link: https://chemlord.github.io/devthechemistt/
+    link: https://www.devthechemist.com/
     image: /contact-us/avatar.jpg
 ---
 
@@ -45,7 +45,7 @@ This page is a directory containing Swern Oxidation Variations, reagent details 
   Here you can find the various types of Oxidation conditions and reagent combinations that utilize Swern Oxidation.
 {{< /hextra/hero-subtitle >}}
 
-{{< tabs items="Oxidation with DMSO Activation using Oxalyl Chloride, Oxidation with Other Methods of DMSO Activation" defaultindex="1" >}}
+{{< tabs items="Oxidation with DMSO Activation using Oxalyl Chloride, Oxidation with TFAA and Other Activators" defaultindex="1" >}}
 
   {{< tab >}}
   
@@ -63,13 +63,20 @@ This page is a directory containing Swern Oxidation Variations, reagent details 
 {{< tab >}}
 
  {{<figure-dynamic-toggle
+    dark-src="tfaadark.png"
+    light-src="tfaalight.png"
+    title="General Scheme of Swern Oxidation using TFAA"
+    caption="TFAA was reported as an effective and early Swern Oxidation method from the original paper by Omura & Swern (1978)."
+    link="https://www.sciencedirect.com/science/article/abs/pii/0040402078801975?via%3Dihub">}}
+
+As reported by Omura & Swern (1978), Trifluoroacetic anhydride (TFAA) can be used as effective activator of DMSO at -50°C, however, this is quite costly and is usually overshadowed in efficacy by oxalyl chloride. Other activators can be used, however, thier usage is situational and/or are outperformed by other activators.
+
+{{<figure-dynamic-toggle
     dark-src="DMSOActivationFullBoxDark.png"
     light-src="DMSOActivationFullBoxLight.png"
     title="List of other DMSO Activators"
     caption="This list of chemicals were compiled from the Omura & Swern (1978)."
     link="https://www.sciencedirect.com/science/article/abs/pii/0040402078801975?via%3Dihub">}}
-
-### Comparative Effectiveness of DMSO Activators
 
 | Activator                          | Effectiveness                                        | Specific Cases and Notes                                                                |
 |------------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------------------|
@@ -184,6 +191,21 @@ This page is a directory containing Swern Oxidation Variations, reagent details 
             height="150"
           >}}
           <h5 class="card-title">Oxidation with Oxalyl chloride</h5>
+        </div>
+      </div>
+    </a>
+    <!-- New Card -->
+    <a href="#" class="card-link">
+      <div class="hextra-card">
+        <div class="card-body">
+          {{<figure-dynamic-toggle
+            dark-src="tfaadark.png"
+            light-src="tfaalight.png"
+            title=""
+            width="300"
+            height="150"
+          >}}
+          <h5 class="card-title">Swern Oxidation with TFAA</h5>
         </div>
       </div>
     </a>

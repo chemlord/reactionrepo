@@ -1,7 +1,7 @@
 ---
-title: Corey-Kim Oxidation Tutorial
-linkTitle: Corey-Kim Oxidation
-date: 2024-08-07
+title: Oxidation with TFAA
+linkTitle: Oxidation with TFAA
+date: 2024-08-26
 authors:
   - name: Devraj Bagchi
     link: https://chemlord.github.io/devthechemistt/
@@ -28,12 +28,12 @@ authors:
 </div>
 
 {{<figure-dynamic-toggle
-    dark-src="overviewdark.png"
-    light-src="overviewlight.png"
-    title="General Scheme of Corey-Kim Oxidation"
+    dark-src="tfaadark.png"
+    light-src="tfaalight.png"
+    title="General Scheme of Swern Oxidation using TFAA"
     link="#">}}
 
-<p>The Corey-Kim Oxidation, a reaction related to the Swern Oxidation, is a mild oxidation method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p> Swern Oxidation, a mild oxidation method used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones is able to use TFAA as an activator of DMSO. This method is costly and less effective than Oxalyl chloride but was a effective activator prior to the usage of oxalyl chloride.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 ## Summary
 {{< hextra/hero-subtitle >}}
@@ -46,8 +46,8 @@ authors:
 {{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
-        dark-src="summarydark2.png" 
-        light-src="summarylight2.png"
+        dark-src="TFAASumdark.png" 
+        light-src="tfaasumlight.png"
     >}}
 
 - 1° Alcohols (Primary) get oxidized to **Aldehydes**.
@@ -68,8 +68,8 @@ authors:
 {{% details title="Full Primary Alcohol to Aldehyde Mechanism" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="fixdark.png" 
-    light-src="2light.png"   
+    dark-src="TFAAdarkmechsecondarynonumbersprimary3.png" 
+    light-src="TFAAlighttmechsecondarynonumbersprimary.png"   
 >}}
 
 {{< /details >}}
@@ -77,8 +77,8 @@ authors:
 {{% details title="Full Secondary Alcohol to Ketone Mechanism" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="secdark.png" 
-    light-src="seclight.png"   
+    dark-src="TFAAdarkmechsecondarynonumbers2.png" 
+    light-src="TFAAlightmechsecondarynonumbers2.png"   
 >}}
 
 {{< /details >}}
@@ -86,3 +86,38 @@ authors:
 {{% callout type="info" %}}
 Always remember to repeatedly practice your mechanisms and getting your reagents correct. Take advantage of our materials and/or keep practicing on a whiteboard or paper until you get it right every single time.
 {{% /callout %}}
+
+## References
+
+<style>
+  .hanging-indent {
+    margin-left: 2em; /* Adjust as needed */
+    text-indent: -2em; /* Matches the margin-left */
+  }
+  .reference {
+    font-size: 1em; /* Normal sized number */
+  }
+  .superscript {
+    font-size: 0.8em; /* Superscripted number */
+    vertical-align: super;
+  }
+  .bold-number {
+    font-weight: bold;
+  }
+  .anchor {
+    display: block;
+    height: 50px; /* Adjust the height to position the anchor correctly */
+    margin-top: -50px; /* Adjust the margin to match the height */
+    visibility: hidden;
+  }
+</style>
+
+<div>
+    <a id="fn1" class="anchor"></a>
+    {{<figure-dynamic-toggle
+        dark-src="citationdark1978.png" 
+        light-src="citationlight1978.png"
+        link="https://doi.org/10.1016/0040-4020(78)80197-5"
+    >}}
+    <p class="hanging-indent"><span class="reference"><span class="bold-number">1.</span> Omura, K.; Swern, D. Oxidation of Alcohols by “Activated” Dimethyl Sulfoxide. A Preparative, Steric and Mechanistic Study. <i>Tetrahedron</i> <b>1978</b>, <i>34</i> (11), 1651–1660. DOI: <a href="https://doi.org/10.1016/0040-4020(78)80197-5">10.1016/0040-4020(78)80197-5</a>. <a href="#ref1-anchor">↩</a></span></p>
+</div>

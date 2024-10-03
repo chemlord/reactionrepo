@@ -32,12 +32,13 @@ authors:
 </div>
 
 {{<figure-dynamic-toggle
-    dark-src="JonesOverview2Dark.png"
-    light-src="JonesOverview2Light.png"
-    title="General Scheme of Jones Oxidation"
+    dark-src="overviewpindark.png"
+    light-src="overviewpinlight.png"
+    title="General Scheme of the Pinnick Oxidation"
     link="#">}}
 
-<p>The Jones Oxidation is a harsh oxidation method used to oxidize primary alcohols and aldehydes to carboxylic acids. Additionally, this method can be used to oxidize secondary alcohols to ketones.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p>The Pinnick Oxidation is an economical and gentle method to oxidize aldehydes to carboxylic
+acids.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 ## Summary
 {{< hextra/hero-subtitle >}}
@@ -50,48 +51,29 @@ authors:
 {{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
-        dark-src="SummaryDark.png" 
-        light-src="SummaryLight.png"
+        dark-src="overviewpindark.png"
+        light-src="overviewpinlight.png"
     >}}
 
-- 1° Alcohols (Primary) get oxidized to **Carboxylic Acids**.
-- 2° Alcohols (Secondary) get oxidized to **Ketones**.
-- 3° Alcohols (Tertiary) **do not** get oxidized at all.
 - Aldehydes are oxidized to **Carboxylic Acids**.
+- The hypochlorous acid by-product is **scavenged**.
 
 ### General Mechanism
 {{< hextra/hero-subtitle >}}
   This section briefly summarizes steps to find the product and perform the mechanisms.
 {{< /hextra/hero-subtitle >}}
 
-**Quick steps to finding the product for any alcohol**
+**Quick steps to finding the product**
 1. Identify the reagents.
-2. Assign side chains (non alcohol part).
-3. Selectively convert Alcohol to correct product based on alcohol type. Nothing else.
-4. Keep the side chains (non alcohol part) the same and piece together the full molecule together again.
-
-{{% details title="Full Secondary Alcohol to Ketone Mechanism" closed="true" %}}
-
-{{<figure-dynamic-toggle
-    dark-src="primtocardark.png" 
-    light-src="primtocarblight.png"   
->}}
-
-{{< /details >}}
+2. Identify the product which needs to be formed.
+3. Form the HO-Cl reagent needed to form the Carboxylic Acid.
+4. React the Aldehyde with HO-Cl and form the Carboxylic Acid product.
+5. Scavenge the HO-Cl by-product.
 
 {{% details title="Full Aldehyde to Carboxylic Acid Mechanism" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="AldehydetoCarbD2.png" 
-    light-src="AldehydetoCarbL2.png"   
->}}
-
-{{< /details >}}
-
-{{% details title="Full Primary Alcohol to Carboxylic Acid Mechanism" closed="true" %}}
-
-{{<figure-dynamic-toggle
-    dark-src="fulldarkk.png" 
+    dark-src="fulldark.png" 
     light-src="fulllight.png"   
 >}}
 

@@ -257,38 +257,9 @@ This animation in this section is still a work in progress.
 
 {{% details title="Where did this Reaction come from?" closed="true" %}}
 
-{{<figure-dynamic-toggle
-        dark-src="TaxolCitationNoBoxL.png" 
-        light-src="TaxolCitationNoBox.png"
-        title="Condensed Synthesis Overview of the Asymmetric Total Synthesis of Taxol by Mukaiyama et al. (1990)"
-        caption="This 61 step linear synthesis features Swern Oxidation for a total of 4 steps out of 61 steps."
-        link="https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O"
-    >}}
-
 {{% callout type="info" %}}
-For simplicity, this image summarizes the total steps displayed in the original paper by [Mukaiyama et al. (1999)](https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O), showing that synthesis of the Taxol underwent a 61 step linear synthesis. The full pathway is not shown in our example. This is to maintain clarity and focus on building towards when Swern Oxidation is used.
+This section is a work in progress!
 {{% /callout %}}
-
-{{<figure-dynamic-toggle
-        dark-src="RETROSYNDark.png" 
-        light-src="RETROSYNLight.png"
-        link="https://doi.org/10.1002/(SICI)1521-3765(19990104)5:1%3C121::AID-CHEM121%3E3.0.CO;2-O"
-    >}}
-
-The Mukaiyama Asymmetric Total Synthesis of Taxol was published in 1999 by Mukaiyama et al (1999). Taxol, a well known and difficult complex organic molecule, underwent retrosynthetic analysis. This revealed a optically active ketone intermediate (3) which could be further broken down into another basic unit (4)
-
-{{% callout icon="question-mark-circle" %}}
-Retrosynthetic analysis is a technique in organic chemistry that breaks down complex molecules into simpler components by working backward, helping chemists plan a synthesis pathway. It identifies key bonds to disconnect, guiding the creation of a forward directing synthetic route.
-{{% /callout %}}
-
-{{<figure-dynamic-toggle
-    dark-src="secsourced.png"
-    light-src="secsourcel.png"
-    link="https://doi.org/10.3390/molecules25102377">}}
-
-<p>As seen in Scheme 5 of the paper, the synthesis of an optically active ketone (3) involved a single step process using two sets of reagent combinations. First, the alkylation (Grignard reaction) of compound 22 using Methyl Magnesium Bromide (MeMgBr) This yielded an alcohol intermediate.<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
-
-<p>Next, this secondary alcohol intermediate was oxidized to a ketone (3) using Swern Oxidation (Oxidation with Oxalyl chloride).<a href="#fn2" id="ref2-anchor" class="superscript">2</a></p>
 
 {{< /details >}}
 

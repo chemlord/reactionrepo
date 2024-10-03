@@ -1,10 +1,10 @@
 ---
-title: Oxidation Tutorial
-linkTitle: Oxidation Tutorial
-date: 2024-08-07
+title: Oxidation with DCM
+linkTitle: Oxidation with DCM
+date: 2024-08-30
 authors:
   - name: Devraj Bagchi
-    link: https://chemlord.github.io/devthechemistt/
+    link: https://www.devthechemist.com/
     image: /contact-us/avatar.jpg
 ---
 
@@ -13,12 +13,8 @@ authors:
   <span>Oxidation</span>
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
-{{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/" >}}
-  <span>Oxidation Reaction</span>
-  {{< icon name="beaker" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
 {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
-  <span>Carboxylic Acid</span>
+  <span>Aldehyde</span>
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 {{< hextra/hero-badge link="/reactionrepo/docs/oxidation-reactions/#aldehyde" >}}
@@ -26,18 +22,18 @@ authors:
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 {{< hextra/hero-badge link="/docs/oxidation-reactions/#mild" >}}
-  <span>Harsh</span>
+  <span>Mild</span>
   {{< icon name="beaker" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 </div>
 
 {{<figure-dynamic-toggle
-    dark-src="JonesOverview2Dark.png"
-    light-src="JonesOverview2Light.png"
-    title="General Scheme of Jones Oxidation"
+    dark-src="PCCReagentOverviewD.png"
+    light-src="PCCReagentOverviewL.png"
+    title="General Scheme of the Corey-Suggs Oxidation"
     link="#">}}
 
-<p>The Jones Oxidation is a harsh oxidation method used to oxidize primary alcohols and aldehydes to carboxylic acids. Additionally, this method can be used to oxidize secondary alcohols to ketones.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
+<p>PCC is a mild oxidizing agent which can be used to oxidize primary alcohols to aldehydes and secondary alcohols to ketones.<a href="#fn1" id="ref1-anchor" class="superscript">1</a></p>
 
 ## Summary
 {{< hextra/hero-subtitle >}}
@@ -50,14 +46,13 @@ authors:
 {{< /hextra/hero-subtitle >}}
 
 {{<figure-dynamic-toggle
-        dark-src="SummaryDark.png" 
-        light-src="SummaryLight.png"
+        dark-src="PCCSumD.png" 
+        light-src="PCCSumL.png"
     >}}
 
-- 1° Alcohols (Primary) get oxidized to **Carboxylic Acids**.
+- 1° Alcohols (Primary) get oxidized to **Aldehydes**.
 - 2° Alcohols (Secondary) get oxidized to **Ketones**.
 - 3° Alcohols (Tertiary) **do not** get oxidized at all.
-- Aldehydes are oxidized to **Carboxylic Acids**.
 
 ### General Mechanism
 {{< hextra/hero-subtitle >}}
@@ -70,29 +65,20 @@ authors:
 3. Selectively convert Alcohol to correct product based on alcohol type. Nothing else.
 4. Keep the side chains (non alcohol part) the same and piece together the full molecule together again.
 
+{{% details title="Full Primary Alcohol to Aldehyde Mechanism" closed="true" %}}
+
+{{<figure-dynamic-toggle
+    dark-src="PCCPrimD.png" 
+    light-src="PCCPrimL.png"   
+>}}
+
+{{< /details >}}
+
 {{% details title="Full Secondary Alcohol to Ketone Mechanism" closed="true" %}}
 
 {{<figure-dynamic-toggle
-    dark-src="primtocardark.png" 
-    light-src="primtocarblight.png"   
->}}
-
-{{< /details >}}
-
-{{% details title="Full Aldehyde to Carboxylic Acid Mechanism" closed="true" %}}
-
-{{<figure-dynamic-toggle
-    dark-src="AldehydetoCarbD2.png" 
-    light-src="AldehydetoCarbL2.png"   
->}}
-
-{{< /details >}}
-
-{{% details title="Full Primary Alcohol to Carboxylic Acid Mechanism" closed="true" %}}
-
-{{<figure-dynamic-toggle
-    dark-src="fulldarkk.png" 
-    light-src="fulllight.png"   
+    dark-src="PCCSecD.png" 
+    light-src="PCCSecL.png"   
 >}}
 
 {{< /details >}}
@@ -100,7 +86,3 @@ authors:
 {{% callout type="info" %}}
 Always remember to repeatedly practice your mechanisms and getting your reagents correct. Take advantage of our materials and/or keep practicing on a whiteboard or paper until you get it right every single time.
 {{% /callout %}}
-
-
-
-
