@@ -29,7 +29,7 @@ authors:
 
 {{<figure-dynamic-toggle
     dark-src="DCCReagentOverviewFixD.png"
-    light-src="DCCReagentOverviewFixD.png"
+    light-src="DCCReagentOverviewFixL.png"
     title="General Scheme of the Moffat-Pfitzner Oxidation"
     link="#">}}
 

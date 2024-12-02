@@ -90,3 +90,8 @@ authors:
 {{% callout type="info" %}}
 Always remember to repeatedly practice your mechanisms and getting your reagents correct. Take advantage of our materials and/or keep practicing on a whiteboard or paper until you get it right every single time.
 {{% /callout %}}
+
+{{<figure-dynamic-toggle
+    dark-src="overview1.png" 
+    light-src="overview.png"   
+>}}
