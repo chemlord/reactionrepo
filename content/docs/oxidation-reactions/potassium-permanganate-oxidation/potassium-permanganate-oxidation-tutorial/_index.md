@@ -92,6 +92,6 @@ Always remember to repeatedly practice your mechanisms and getting your reagents
 {{% /callout %}}
 
 {{<figure-dynamic-toggle
-    dark-src="pic2.png" 
+    dark-src="testing.png" 
     light-src="pic1.png"   
 >}}
