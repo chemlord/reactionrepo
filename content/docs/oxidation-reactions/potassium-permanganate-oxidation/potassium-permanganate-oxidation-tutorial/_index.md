@@ -95,3 +95,8 @@ Always remember to repeatedly practice your mechanisms and getting your reagents
     dark-src="testing.png" 
     light-src="pic1.png"   
 >}}
+
+{{<figure-dynamic-toggle
+    dark-src="cardd.png" 
+    light-src="cardl.png"   
+>}}
